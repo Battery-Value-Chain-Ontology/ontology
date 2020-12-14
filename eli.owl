@@ -1,0 +1,670 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stier/ontologies/2020/10/eli#"
+     xml:base="http://www.semanticweb.org/stier/ontologies/2020/10/eli"
+     xmlns:isq="http://emmo.info/emmo/middle/isq#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:annotations="http://emmo.info/emmo/top/annotations#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli">
+        <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-alpha2"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_12c2e4d9_611d_4d63_80c7_f97fa1c9629e -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_12c2e4d9_611d_4d63_80c7_f97fa1c9629e">
+        <rdfs:label xml:lang="de">hasInput</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1ba672bb_0226_4ec7_8089_964b4dc5cc97 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1ba672bb_0226_4ec7_8089_964b4dc5cc97">
+        <rdfs:label xml:lang="de">hasProduct</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_caf2f80a_77b5_48b7_a6a7_c6638d944655"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3aa0945b_1d36_413a_8a6e_4c20c3f426d2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3aa0945b_1d36_413a_8a6e_4c20c3f426d2">
+        <rdfs:label xml:lang="de">hasPredecessor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_40a3de30_619d_4719_9cc3_3d5680350b50 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_40a3de30_619d_4719_9cc3_3d5680350b50">
+        <rdfs:label xml:lang="de">hasSuccessor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c64201e5_b023_4c90_af9d_47cef490289a -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c64201e5_b023_4c90_af9d_47cef490289a">
+        <rdfs:label xml:lang="en">has feed</rdfs:label>
+        <rdfs:label xml:lang="de">hasEduct</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_12c2e4d9_611d_4d63_80c7_f97fa1c9629e"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_caf2f80a_77b5_48b7_a6a7_c6638d944655 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_caf2f80a_77b5_48b7_a6a7_c6638d944655">
+        <rdfs:label xml:lang="de">hasOutput</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f8d225a3_99d6_4a3c_a55c_6f2e227f70c4 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f8d225a3_99d6_4a3c_a55c_6f2e227f70c4">
+        <rdfs:label xml:lang="de">isA</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_389686f5_86d8_4e97_ba71_0537bedf0f38 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_389686f5_86d8_4e97_ba71_0537bedf0f38">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_517dfaf9_4970_41ac_81ee_d031627d2c7c"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d52245e5_8dca_4a0f_bed8_0c7665da4560"/>
+        <rdfs:domain rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:range rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:label xml:lang="de">hasPredecessor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_703ec528_ea40_486e_9924_b911782b1a75 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_703ec528_ea40_486e_9924_b911782b1a75">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+        <rdfs:domain rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:range rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"/>
+        <rdfs:label xml:lang="de">hasInput</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8c869b47_a258_43b9_9c75_4285a80a1dfb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8c869b47_a258_43b9_9c75_4285a80a1dfb">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+        <rdfs:domain rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:range rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"/>
+        <rdfs:label xml:lang="de">hasOutput</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d52245e5_8dca_4a0f_bed8_0c7665da4560 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d52245e5_8dca_4a0f_bed8_0c7665da4560">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_517dfaf9_4970_41ac_81ee_d031627d2c7c"/>
+        <rdfs:domain rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:range rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:label xml:lang="de">hasSuccessor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://emmo.info/emmo/middle/manufacturing#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b -->
+
+    <rdf:Description rdf:about="http://emmo.info/emmo/middle/manufacturing#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_01cd2578_8730_4ac9_a555_9112728ea939"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://emmo.info/emmo/middle/perceptual#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c -->
+
+    <rdf:Description rdf:about="http://emmo.info/emmo/middle/perceptual#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a7003b69_ce78_48fe_a717_e04e1266c6cd"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_01cd2578_8730_4ac9_a555_9112728ea939 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_01cd2578_8730_4ac9_a555_9112728ea939">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_01cd2578_8730_4ac9_a555_9112728ea939"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/physicalistic#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a7003b69_ce78_48fe_a717_e04e1266c6cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/physicalistic#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a matter transformation process, e. g. chemical synthesis</rdfs:comment>
+        <rdfs:label xml:lang="de">PhysicalProcess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="de">Anode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_0effce43_6179_49f6_903f_b3e27091b6d0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_0effce43_6179_49f6_903f_b3e27091b6d0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_dcd25690_db51_4280_a94d_49737ab415b7"/>
+        <rdfs:label xml:lang="de">LithiumConversationAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_14f7394f_0474_44fe_96eb_426e9b94a279 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_14f7394f_0474_44fe_96eb_426e9b94a279">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+        <rdfs:label xml:lang="de">Graphite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_17c60644_b415_4fad_b4da_ef68137e4766 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_17c60644_b415_4fad_b4da_ef68137e4766">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a4495da3_5a64_47d3_9979_d7beda4500cd"/>
+        <rdfs:label xml:lang="de">NMCCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1880a2e6_0c9f_425a_9615_d4bdf121215f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1880a2e6_0c9f_425a_9615_d4bdf121215f">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/physicalistic#EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2"/>
+        <rdfs:comment xml:lang="en">Energy as physical concept</rdfs:comment>
+        <rdfs:label xml:lang="de">Energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f4d6016_890f_4e51_a2d0_1a2d0978f689 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f4d6016_890f_4e51_a2d0_1a2d0978f689">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:label xml:lang="de">CurrentCollector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:label xml:lang="de">Electrolyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/manufacturing#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/manufacturing#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">EngineeredPart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:label xml:lang="de">Electrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3ac84fa4_50f2_4e5d_8a11_cd627c39cbff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3ac84fa4_50f2_4e5d_8a11_cd627c39cbff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6"/>
+        <rdfs:label xml:lang="de">LithiumAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3dd86b1f_2c1d_4267_9d48_12d868497179 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3dd86b1f_2c1d_4267_9d48_12d868497179">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d8492642_3761_4d84_b4d9_cb34ad7d368f"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:label xml:lang="de">NMC333Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3f79367b_9fb5_4d39_887d_7a99667547bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_3f79367b_9fb5_4d39_887d_7a99667547bb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0"/>
+        <rdfs:label xml:lang="de">LithiumMetalAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_460ffa05_c39d_4059_98b6_babf112f152b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_460ffa05_c39d_4059_98b6_babf112f152b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_4d1fb581_9d54_4014_891f_9f10d8a24475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">NMC611Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_4d1fb581_9d54_4014_891f_9f10d8a24475 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_4d1fb581_9d54_4014_891f_9f10d8a24475">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <rdfs:label xml:lang="de">NMC611</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+        <rdfs:label xml:lang="de">NMC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_5c7a41ee_0947_4210_9994_17fc9695b3d1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_5c7a41ee_0947_4210_9994_17fc9695b3d1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_b8a4a9ea_b171_468d_8c91_fdd865610c09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Battery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_60bee84b_4501_4c3e_ad19_692f52080a46 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_60bee84b_4501_4c3e_ad19_692f52080a46">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f519aa12_2f6d_4d70_86ec_fb769f2a31e3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">NMC622Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_68d629c8_6da0_4ac3_b5b5_bffb827ec8ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_68d629c8_6da0_4ac3_b5b5_bffb827ec8ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a4495da3_5a64_47d3_9979_d7beda4500cd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">LiFePO4Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_72f3c7f8_0747_46d8_a694_f9a757a12c18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_72f3c7f8_0747_46d8_a694_f9a757a12c18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d8dbd8a5_cb8e_455a_ad78_720dd9713303"/>
+        <rdfs:label xml:lang="de">SecondaryGalvanicCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f4d6016_890f_4e51_a2d0_1a2d0978f689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">GalvanicCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8f81a6c8_532d_459d_ba5a_969d02face9c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8f81a6c8_532d_459d_ba5a_969d02face9c">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+        <rdfs:label xml:lang="de">LiquidElectrolyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_925d92f8_5a11_4434_a9ab_a2541ca34d53 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_925d92f8_5a11_4434_a9ab_a2541ca34d53">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:label xml:lang="de">Enclosure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_9d2ab44d_d3b5_4481_8eee_3097150e1cb4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_9d2ab44d_d3b5_4481_8eee_3097150e1cb4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="de">Cathode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a2b509d5_32a0_404b_80b6_3f5ec39b851f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a2b509d5_32a0_404b_80b6_3f5ec39b851f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:label xml:lang="de">Separator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a4495da3_5a64_47d3_9979_d7beda4500cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a4495da3_5a64_47d3_9979_d7beda4500cd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+        <rdfs:label xml:lang="de">LithiumCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a7003b69_ce78_48fe_a717_e04e1266c6cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a7003b69_ce78_48fe_a717_e04e1266c6cd">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_057e7d57_aff0_49de_911a_8861d85cef40"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/semiotics#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d"/>
+        <rdfs:label xml:lang="de">Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+        <rdfs:label xml:lang="de">LiFePO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_b8a4a9ea_b171_468d_8c91_fdd865610c09 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_b8a4a9ea_b171_468d_8c91_fdd865610c09">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:label xml:lang="de">BatteryManagementSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c0688b2e_bc3d_4a4b_bf54_3779204f4c37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c0688b2e_bc3d_4a4b_bf54_3779204f4c37">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_dcd25690_db51_4280_a94d_49737ab415b7"/>
+        <rdfs:label xml:lang="de">LithiumConversationAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6"/>
+        <rdfs:label xml:lang="de">LithiumAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d69137ff_e9b5_4d75_8949_26a7e0a854cf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d69137ff_e9b5_4d75_8949_26a7e0a854cf">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_df812b11_dac3_4483_a288_0ad49ad56a34"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <rdfs:label xml:lang="de">NMC333</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d8492642_3761_4d84_b4d9_cb34ad7d368f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d8492642_3761_4d84_b4d9_cb34ad7d368f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_df812b11_dac3_4483_a288_0ad49ad56a34"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">NMC111Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d8dbd8a5_cb8e_455a_ad78_720dd9713303 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_d8dbd8a5_cb8e_455a_ad78_720dd9713303">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+        <rdfs:label xml:lang="de">PrimaryGalvanicCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_dcd25690_db51_4280_a94d_49737ab415b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_dcd25690_db51_4280_a94d_49737ab415b7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0"/>
+        <rdfs:label xml:lang="de">LithiumIonAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_df812b11_dac3_4483_a288_0ad49ad56a34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_df812b11_dac3_4483_a288_0ad49ad56a34">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <rdfs:label xml:lang="de">NMC111</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+        <rdfs:label xml:lang="de">SolidElectrolyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_ee8c37fd_9f2c_4047_b25d_4149894bd7c0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_ee8c37fd_9f2c_4047_b25d_4149894bd7c0">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a7003b69_ce78_48fe_a717_e04e1266c6cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_a7003b69_ce78_48fe_a717_e04e1266c6cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a information transformation process, e. g. converting file formats, calculation of a mathematical expression</rdfs:comment>
+        <rdfs:label xml:lang="de">InformationalProcess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d"/>
+        <rdfs:comment xml:lang="en">active material of a battery electrode (e. g. NMC, LFP, Graphit)</rdfs:comment>
+        <rdfs:label xml:lang="de">ActiveMaterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f519aa12_2f6d_4d70_86ec_fb769f2a31e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_f519aa12_2f6d_4d70_86ec_fb769f2a31e3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stier/ontologies/2020/10/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <rdfs:label xml:lang="de">NMC622</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
