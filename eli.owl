@@ -144,6 +144,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_0597e385_8c91_4e7f_aa25_c75b5b9b80b6 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_0597e385_8c91_4e7f_aa25_c75b5b9b80b6">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_bab79a61_029b_4d5f_9cb1_fe583bc17381"/>
+        <rdfs:label xml:lang="de">PricePerUnit</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6">
@@ -157,7 +166,17 @@
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_0effce43_6179_49f6_903f_b3e27091b6d0">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_dcd25690_db51_4280_a94d_49737ab415b7"/>
-        <rdfs:label xml:lang="de">LithiumConversationAnode</rdfs:label>
+        <rdfs:label xml:lang="de">LithiumConversionAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_14953156_bec6_4935_a6c5_36920348d903 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_14953156_bec6_4935_a6c5_36920348d903">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_01cd2578_8730_4ac9_a555_9112728ea939"/>
+        <rdfs:comment>Process that transforms but does not necessarily assemble matter</rdfs:comment>
+        <rdfs:label xml:lang="de">TransformationProcess</rdfs:label>
     </owl:Class>
     
 
@@ -190,6 +209,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_19430518_1a88_4ad0_916a_c903fe807520 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_19430518_1a88_4ad0_916a_c903fe807520">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_bab79a61_029b_4d5f_9cb1_fe583bc17381"/>
+        <rdfs:label xml:lang="de">PricePerWeight</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_1f4d6016_890f_4e51_a2d0_1a2d0978f689 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_1f4d6016_890f_4e51_a2d0_1a2d0978f689">
@@ -204,6 +232,15 @@
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
         <rdfs:label xml:lang="de">Electrolyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_2189e451_0054_4e25_8679_001ec2cdad7f -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_2189e451_0054_4e25_8679_001ec2cdad7f">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_fb793a58_4083_42ad_a03c_27f594793b16"/>
+        <rdfs:label xml:lang="de">PressureTreatment</rdfs:label>
     </owl:Class>
     
 
@@ -225,6 +262,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">EngineeredPart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_318b082b_658a_457c_88c2_b23d780febeb -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_318b082b_658a_457c_88c2_b23d780febeb">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_d24a9939_582b_40e7_8f8e_0d64cb54bc42"/>
+        <rdfs:label xml:lang="de">Smelting</rdfs:label>
     </owl:Class>
     
 
@@ -266,6 +312,16 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_45b3677d_f436_4cfd_aa55_3ae5eab2e232 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_45b3677d_f436_4cfd_aa55_3ae5eab2e232">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/manufacturing#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a"/>
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_14953156_bec6_4935_a6c5_36920348d903"/>
+        <rdfs:label xml:lang="de">Mixing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_460ffa05_c39d_4059_98b6_babf112f152b -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_460ffa05_c39d_4059_98b6_babf112f152b">
@@ -277,6 +333,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">NMC611Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_4690b12c_ad7a_4272_b9fd_aa6732ec91d4">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_14953156_bec6_4935_a6c5_36920348d903"/>
+        <rdfs:label xml:lang="de">Sorting</rdfs:label>
     </owl:Class>
     
 
@@ -295,6 +360,15 @@
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
         <rdfs:label xml:lang="de">NMC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_5c298112_0e26_42fe_9984_dadfcee54007 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_5c298112_0e26_42fe_9984_dadfcee54007">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_45b3677d_f436_4cfd_aa55_3ae5eab2e232"/>
+        <rdfs:label xml:lang="de">RotaryMixing</rdfs:label>
     </owl:Class>
     
 
@@ -357,12 +431,39 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_6dff3494_5026_41ed_8247_cd1ce7e56b62 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_6dff3494_5026_41ed_8247_cd1ce7e56b62">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_8adf61b4_30a7_4beb_9af3_4859cee9f00f"/>
+        <rdfs:label xml:lang="de">AirFlowSorting</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_72f3c7f8_0747_46d8_a694_f9a757a12c18 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_72f3c7f8_0747_46d8_a694_f9a757a12c18">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
         <owl:disjointWith rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_d8dbd8a5_cb8e_455a_ad78_720dd9713303"/>
         <rdfs:label xml:lang="de">SecondaryGalvanicCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_d24a9939_582b_40e7_8f8e_0d64cb54bc42"/>
+        <rdfs:label xml:lang="de">Sintering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_8adf61b4_30a7_4beb_9af3_4859cee9f00f -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_8adf61b4_30a7_4beb_9af3_4859cee9f00f">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_4690b12c_ad7a_4272_b9fd_aa6732ec91d4"/>
+        <rdfs:label xml:lang="de">DensitySorting</rdfs:label>
     </owl:Class>
     
 
@@ -419,6 +520,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_939ec66f_883f_41eb_aa9f_8fb5a27db546 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_939ec66f_883f_41eb_aa9f_8fb5a27db546">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_14953156_bec6_4935_a6c5_36920348d903"/>
+        <rdfs:label xml:lang="de">Disintegration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_9d2ab44d_d3b5_4481_8eee_3097150e1cb4 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_9d2ab44d_d3b5_4481_8eee_3097150e1cb4">
@@ -428,11 +538,29 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a1c93821_6eec_44f1_9323_acc7eb737650 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a1c93821_6eec_44f1_9323_acc7eb737650">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_8adf61b4_30a7_4beb_9af3_4859cee9f00f"/>
+        <rdfs:label xml:lang="de">Centrifuging</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a2b509d5_32a0_404b_80b6_3f5ec39b851f -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a2b509d5_32a0_404b_80b6_3f5ec39b851f">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
         <rdfs:label xml:lang="de">Separator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a414dc9c_54bf_4263_9748_5ccbf52f262b -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a414dc9c_54bf_4263_9748_5ccbf52f262b">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_4690b12c_ad7a_4272_b9fd_aa6732ec91d4"/>
+        <rdfs:label xml:lang="de">SizeSorting</rdfs:label>
     </owl:Class>
     
 
@@ -456,11 +584,30 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_ac60cfc4_1500_41a4_9cf0_b5045155830e -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_ac60cfc4_1500_41a4_9cf0_b5045155830e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7"/>
+        <rdfs:label xml:lang="de">MonetaryValue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
         <rdfs:label xml:lang="de">LiFePO4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_b28dc33d_0d96_4441_9686_7327becdcbc1 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_b28dc33d_0d96_4441_9686_7327becdcbc1">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_fb793a58_4083_42ad_a03c_27f594793b16"/>
+        <rdfs:comment>Polarization, e.g. for piezoelectric materials</rdfs:comment>
+        <rdfs:label xml:lang="de">ElectricFieldTreatment</rdfs:label>
     </owl:Class>
     
 
@@ -474,11 +621,20 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_bab79a61_029b_4d5f_9cb1_fe583bc17381 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_bab79a61_029b_4d5f_9cb1_fe583bc17381">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_ac60cfc4_1500_41a4_9cf0_b5045155830e"/>
+        <rdfs:label xml:lang="de">SpecificMonetaryValue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c0688b2e_bc3d_4a4b_bf54_3779204f4c37 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c0688b2e_bc3d_4a4b_bf54_3779204f4c37">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_dcd25690_db51_4280_a94d_49737ab415b7"/>
-        <rdfs:label xml:lang="de">LithiumConversationAnode</rdfs:label>
+        <rdfs:label xml:lang="de">LithiumIntercalationAnode</rdfs:label>
     </owl:Class>
     
 
@@ -488,6 +644,34 @@
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6"/>
         <rdfs:label xml:lang="de">LithiumAnode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c578a5f4_43d3_40a7_ad60_ceccc0697172 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c578a5f4_43d3_40a7_ad60_ceccc0697172">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_fb793a58_4083_42ad_a03c_27f594793b16"/>
+        <rdfs:comment>Polarization, e.g. for magnetic materials</rdfs:comment>
+        <rdfs:label xml:lang="de">MagneticFieldTreatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c879a010_1232_4d80_99f4_c53b7cbc6f4c -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_c879a010_1232_4d80_99f4_c53b7cbc6f4c">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a414dc9c_54bf_4263_9748_5ccbf52f262b"/>
+        <rdfs:label xml:lang="de">Sieving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_d24a9939_582b_40e7_8f8e_0d64cb54bc42 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_d24a9939_582b_40e7_8f8e_0d64cb54bc42">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_fb793a58_4083_42ad_a03c_27f594793b16"/>
+        <rdfs:label xml:lang="de">HeatTreatment</rdfs:label>
     </owl:Class>
     
 
@@ -544,6 +728,25 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_939ec66f_883f_41eb_aa9f_8fb5a27db546"/>
+        <rdfs:label xml:lang="de">Milling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_e32ea22e_6cc5_48e7_a168_faad8e657ff5 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_e32ea22e_6cc5_48e7_a168_faad8e657ff5">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/manufacturing#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"/>
+        <rdfs:comment>e.g. vacuum, Argon atmosphere</rdfs:comment>
+        <rdfs:label xml:lang="de">ProcessEnvironment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e">
@@ -586,11 +789,47 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f352a440_5fbd_42c6_bff1_e70f0e652043 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f352a440_5fbd_42c6_bff1_e70f0e652043">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_bab79a61_029b_4d5f_9cb1_fe583bc17381"/>
+        <rdfs:label xml:lang="de">PricePerVolume</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f519aa12_2f6d_4d70_86ec_fb769f2a31e3 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f519aa12_2f6d_4d70_86ec_fb769f2a31e3">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
         <rdfs:label xml:lang="de">NMC622</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f535f871_95e7_46e2_8d62_f77bf9402987 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f535f871_95e7_46e2_8d62_f77bf9402987">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_939ec66f_883f_41eb_aa9f_8fb5a27db546"/>
+        <rdfs:label xml:lang="de">Crushing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f716e88d_310c_492f_b6b1_0f358677b65e -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_f716e88d_310c_492f_b6b1_0f358677b65e">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_a414dc9c_54bf_4263_9748_5ccbf52f262b"/>
+        <rdfs:label xml:lang="de">Filtering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_fb793a58_4083_42ad_a03c_27f594793b16 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_fb793a58_4083_42ad_a03c_27f594793b16">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/eli#eLi_14953156_bec6_4935_a6c5_36920348d903"/>
+        <rdfs:label xml:lang="de">FieldTreatment</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
