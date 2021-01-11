@@ -1,0 +1,631 @@
+@prefix : <https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#> .
+@prefix isq: <http://emmo.info/emmo/middle/isq#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix emmo: <http://emmo.info/emmo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix annotations: <http://emmo.info/emmo/top/annotations#> .
+@base <https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO> .
+
+<https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO> rdf:type owl:Ontology ;
+                                                                     owl:imports <http://emmo.info/emmo-inferred/1.0.0-beta> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
+emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f rdf:type owl:ObjectProperty .
+
+
+###  http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d
+emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d rdf:type owl:ObjectProperty .
+
+
+###  http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a
+emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_389686f5_86d8_4e97_ba71_0537bedf0f38
+:BVCO_389686f5_86d8_4e97_ba71_0537bedf0f38 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
+                                          owl:inverseOf :BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 ;
+                                          rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                          rdfs:range emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                          rdfs:label "hasPredecessor"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_703ec528_ea40_486e_9924_b911782b1a75
+:BVCO_703ec528_ea40_486e_9924_b911782b1a75 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                          rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                          rdfs:range emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d ;
+                                          rdfs:label "hasInput"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb
+:BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                          rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                          rdfs:range emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d ;
+                                          rdfs:label "hasOutput"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560
+:BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
+                                          rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                          rdfs:range emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                          rdfs:label "hasSuccessor"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40
+emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
+emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
+emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d
+emmo:EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
+emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d
+emmo:EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2
+emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
+emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba
+emmo:EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
+emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c
+emmo:EMMO_89a0c87c_0804_4013_937a_6fe234d9499c rdf:type owl:Class ;
+                                               owl:equivalentClass :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd .
+
+
+###  http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1
+emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
+emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b rdf:type owl:Class ;
+                                               owl:equivalentClass :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 .
+
+
+###  http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d
+emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7
+emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
+
+
+###  http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
+emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_01cd2578_8730_4ac9_a555_9112728ea939
+:BVCO_01cd2578_8730_4ac9_a555_9112728ea939 rdf:type owl:Class ;
+                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_01cd2578_8730_4ac9_a555_9112728ea939
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                            owl:someValuesFrom emmo:EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                            owl:someValuesFrom emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
+                                                          ] ;
+                                          rdfs:comment "a matter transformation process, e. g. chemical synthesis"@en ;
+                                          rdfs:label "PhysicalProcess"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6
+:BVCO_0597e385_8c91_4e7f_aa25_c75b5b9b80b6 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
+                                          rdfs:label "PricePerUnit"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6
+:BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
+                                          rdfs:label "Anode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0effce43_6179_49f6_903f_b3e27091b6d0
+:BVCO_0effce43_6179_49f6_903f_b3e27091b6d0 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_dcd25690_db51_4280_a94d_49737ab415b7 ;
+                                          rdfs:label "LithiumConversionAnode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_14953156_bec6_4935_a6c5_36920348d903
+:BVCO_14953156_bec6_4935_a6c5_36920348d903 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_01cd2578_8730_4ac9_a555_9112728ea939 ;
+                                          rdfs:comment "Process that transforms but does not necessarily assemble matter" ;
+                                          rdfs:label "TransformationProcess"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_14f7394f_0474_44fe_96eb_426e9b94a279
+:BVCO_14f7394f_0474_44fe_96eb_426e9b94a279 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e ;
+                                          rdfs:label "Graphite"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_17c60644_b415_4fad_b4da_ef68137e4766
+:BVCO_17c60644_b415_4fad_b4da_ef68137e4766 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd ;
+                                          rdfs:label "NMCCell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1880a2e6_0c9f_425a_9615_d4bdf121215f
+:BVCO_1880a2e6_0c9f_425a_9615_d4bdf121215f rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 ;
+                                          rdfs:comment "Energy as physical concept"@en ;
+                                          rdfs:label "Energy"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_19430518_1a88_4ad0_916a_c903fe807520
+:BVCO_19430518_1a88_4ad0_916a_c903fe807520 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
+                                          rdfs:label "PricePerWeight"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689
+:BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
+                                          rdfs:label "CurrentCollector"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
+:BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
+                                          rdfs:label "Electrolyte"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_2189e451_0054_4e25_8679_001ec2cdad7f
+:BVCO_2189e451_0054_4e25_8679_001ec2cdad7f rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+                                          rdfs:label "PressureTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8
+:BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8
+                                                          ] ;
+                                          rdfs:label "EngineeredPart"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_318b082b_658a_457c_88c2_b23d780febeb
+:BVCO_318b082b_658a_457c_88c2_b23d780febeb rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
+                                          rdfs:label "Smelting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
+:BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
+                                          rdfs:label "Electrode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_3ac84fa4_50f2_4e5d_8a11_cd627c39cbff
+:BVCO_3ac84fa4_50f2_4e5d_8a11_cd627c39cbff rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 ;
+                                          rdfs:label "LithiumAnode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179
+:BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179 rdf:type owl:Class ;
+                                          owl:equivalentClass :BVCO_d8492642_3761_4d84_b4d9_cb34ad7d368f ;
+                                          rdfs:subClassOf :BVCO_17c60644_b415_4fad_b4da_ef68137e4766 ;
+                                          rdfs:label "NMC333Cell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb
+:BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0 ;
+                                          rdfs:label "LithiumMetalAnode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_45b3677d_f436_4cfd_aa55_3ae5eab2e232
+:BVCO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a ,
+                                                          :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                          rdfs:label "Mixing"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_460ffa05_c39d_4059_98b6_babf112f152b
+:BVCO_460ffa05_c39d_4059_98b6_babf112f152b rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_17c60644_b415_4fad_b4da_ef68137e4766 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_4d1fb581_9d54_4014_891f_9f10d8a24475
+                                                          ] ;
+                                          rdfs:label "NMC611Cell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4
+:BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                          rdfs:label "Sorting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_4d1fb581_9d54_4014_891f_9f10d8a24475
+:BVCO_4d1fb581_9d54_4014_891f_9f10d8a24475 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 ;
+                                          rdfs:label "NMC611"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49
+:BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e ;
+                                          rdfs:label "NMC"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_5c298112_0e26_42fe_9984_dadfcee54007
+:BVCO_5c298112_0e26_42fe_9984_dadfcee54007 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ;
+                                          rdfs:label "RotaryMixing"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_5c7a41ee_0947_4210_9994_17fc9695b3d1
+:BVCO_5c7a41ee_0947_4210_9994_17fc9695b3d1 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                            owl:onClass :BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0
+                                                          ] ;
+                                          rdfs:label "Battery"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_60bee84b_4501_4c3e_ad19_692f52080a46
+:BVCO_60bee84b_4501_4c3e_ad19_692f52080a46 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_17c60644_b415_4fad_b4da_ef68137e4766 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3
+                                                          ] ;
+                                          rdfs:label "NMC622Cell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_68d629c8_6da0_4ac3_b5b5_bffb827ec8ae
+:BVCO_68d629c8_6da0_4ac3_b5b5_bffb827ec8ae rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d
+                                                          ] ;
+                                          rdfs:label "LiFePO4Cell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_6dff3494_5026_41ed_8247_cd1ce7e56b62
+:BVCO_6dff3494_5026_41ed_8247_cd1ce7e56b62 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
+                                          rdfs:label "AirFlowSorting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18
+:BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 ;
+                                          owl:disjointWith :BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303 ;
+                                          rdfs:label "SecondaryGalvanicCell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1
+:BVCO_83520e30_a41d_4a81_8dbf_9ff9d9ba05f1 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 ;
+                                          rdfs:label "Sintering"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f
+:BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
+                                          rdfs:label "DensitySorting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0
+:BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f
+                                                          ] ;
+                                          rdfs:label "GalvanicCell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c
+:BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba ,
+                                                          :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe ;
+                                          rdfs:label "LiquidElectrolyte"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53
+:BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
+                                          rdfs:label "Enclosure"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546
+:BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                          rdfs:label "Disintegration"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_9d2ab44d_d3b5_4481_8eee_3097150e1cb4
+:BVCO_9d2ab44d_d3b5_4481_8eee_3097150e1cb4 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
+                                          rdfs:label "Cathode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a1c93821_6eec_44f1_9323_acc7eb737650
+:BVCO_a1c93821_6eec_44f1_9323_acc7eb737650 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_8adf61b4_30a7_4beb_9af3_4859cee9f00f ;
+                                          rdfs:label "Centrifuging"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f
+:BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
+                                          rdfs:label "Separator"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b
+:BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_4690b12c_ad7a_4272_b9fd_aa6732ec91d4 ;
+                                          rdfs:label "SizeSorting"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd
+:BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 ;
+                                          rdfs:label "LithiumCell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+:BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 ,
+                                                          emmo:EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d ;
+                                          rdfs:label "Information"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_ac60cfc4_1500_41a4_9cf0_b5045155830e
+:BVCO_ac60cfc4_1500_41a4_9cf0_b5045155830e rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 ;
+                                          rdfs:label "MonetaryValue"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d
+:BVCO_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e ;
+                                          rdfs:label "LiFePO4"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_b28dc33d_0d96_4441_9686_7327becdcbc1
+:BVCO_b28dc33d_0d96_4441_9686_7327becdcbc1 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+                                          rdfs:comment "Polarization, e.g. for piezoelectric materials" ;
+                                          rdfs:label "ElectricFieldTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09
+:BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 ;
+                                          rdfs:label "BatteryManagementSystem"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_bab79a61_029b_4d5f_9cb1_fe583bc17381
+:BVCO_bab79a61_029b_4d5f_9cb1_fe583bc17381 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_ac60cfc4_1500_41a4_9cf0_b5045155830e ;
+                                          rdfs:label "SpecificMonetaryValue"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37
+:BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_dcd25690_db51_4280_a94d_49737ab415b7 ;
+                                          rdfs:label "LithiumIntercalationAnode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0
+:BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 ;
+                                          rdfs:label "LithiumAnode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c578a5f4_43d3_40a7_ad60_ceccc0697172
+:BVCO_c578a5f4_43d3_40a7_ad60_ceccc0697172 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+                                          rdfs:comment "Polarization, e.g. for magnetic materials" ;
+                                          rdfs:label "MagneticFieldTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c879a010_1232_4d80_99f4_c53b7cbc6f4c
+:BVCO_c879a010_1232_4d80_99f4_c53b7cbc6f4c rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
+                                          rdfs:label "Sieving"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
+:BVCO_d24a9939_582b_40e7_8f8e_0d64cb54bc42 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_fb793a58_4083_42ad_a03c_27f594793b16 ;
+                                          rdfs:label "HeatTreatment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d69137ff_e9b5_4d75_8949_26a7e0a854cf
+:BVCO_d69137ff_e9b5_4d75_8949_26a7e0a854cf rdf:type owl:Class ;
+                                          owl:equivalentClass :BVCO_df812b11_dac3_4483_a288_0ad49ad56a34 ;
+                                          rdfs:subClassOf :BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 ;
+                                          rdfs:label "NMC333"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d8492642_3761_4d84_b4d9_cb34ad7d368f
+:BVCO_d8492642_3761_4d84_b4d9_cb34ad7d368f rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_17c60644_b415_4fad_b4da_ef68137e4766 ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                            owl:someValuesFrom :BVCO_df812b11_dac3_4483_a288_0ad49ad56a34
+                                                          ] ;
+                                          rdfs:label "NMC111Cell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303
+:BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 ;
+                                          rdfs:label "PrimaryGalvanicCell"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_dcd25690_db51_4280_a94d_49737ab415b7
+:BVCO_dcd25690_db51_4280_a94d_49737ab415b7 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0 ;
+                                          rdfs:label "LithiumIonAnode"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_df812b11_dac3_4483_a288_0ad49ad56a34
+:BVCO_df812b11_dac3_4483_a288_0ad49ad56a34 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 ;
+                                          rdfs:label "NMC111"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266
+:BVCO_e2b9e8d7_7af0_47c1_aefe_7b1bc77f1266 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+                                          rdfs:label "Milling"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e32ea22e_6cc5_48e7_a168_faad8e657ff5
+:BVCO_e32ea22e_6cc5_48e7_a168_faad8e657ff5 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad ;
+                                          rdfs:comment "e.g. vacuum, Argon atmosphere" ;
+                                          rdfs:label "ProcessEnvironment"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e
+:BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 ,
+                                                          :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe ;
+                                          rdfs:label "SolidElectrolyte"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0
+:BVCO_ee8c37fd_9f2c_4047_b25d_4149894bd7c0 rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                            owl:someValuesFrom :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+                                                          ] ,
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty :BVCO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                            owl:someValuesFrom :BVCO_a7003b69_ce78_48fe_a717_e04e1266c6cd
+                                                          ] ;
+                                          rdfs:comment "a information transformation process, e. g. converting file formats, calculation of a mathematical expression"@en ;
+                                          rdfs:label "InformationalProcess"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e
+:BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e rdf:type owl:Class ;
+                                          rdfs:subClassOf emmo:EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d ;
+                                          rdfs:comment "active material of a battery electrode (e. g. NMC, LFP, Graphit)"@en ;
+                                          rdfs:label "ActiveMaterial"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f352a440_5fbd_42c6_bff1_e70f0e652043
+:BVCO_f352a440_5fbd_42c6_bff1_e70f0e652043 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_bab79a61_029b_4d5f_9cb1_fe583bc17381 ;
+                                          rdfs:label "PricePerVolume"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3
+:BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 ;
+                                          rdfs:label "NMC622"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f535f871_95e7_46e2_8d62_f77bf9402987
+:BVCO_f535f871_95e7_46e2_8d62_f77bf9402987 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_939ec66f_883f_41eb_aa9f_8fb5a27db546 ;
+                                          rdfs:label "Crushing"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f716e88d_310c_492f_b6b1_0f358677b65e
+:BVCO_f716e88d_310c_492f_b6b1_0f358677b65e rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b ;
+                                          rdfs:label "Filtering"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_fb793a58_4083_42ad_a03c_27f594793b16
+:BVCO_fb793a58_4083_42ad_a03c_27f594793b16 rdf:type owl:Class ;
+                                          rdfs:subClassOf :BVCO_14953156_bec6_4935_a6c5_36920348d903 ;
+                                          rdfs:label "FieldTreatment"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
