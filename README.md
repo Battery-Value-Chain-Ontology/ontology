@@ -8,7 +8,7 @@ and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installin
 
 Basically, this ontology aims to model processes along the Battery value chain. Processes are holistic perspective elements that transform inputs/educts (matter, energy, information) into output/products (matter, energy, information) with the help of tools (devices, algorithms). They can be decomposed into sub-processes and have predecessor and successor processes. 
 
-[](docs/overview.png?raw=true "Overview Graph")
+![Overview Graph](docs/overview.png)
 
 With regard to EMMO, the following questions arise:
 Classes:
