@@ -1,4 +1,4 @@
-Ontology for the eLi / eLi-PLUS project 
+Ontology for the Battery Value Chain (BVC), e. g. for the the eLi / eLi-PLUS project 
 see https://database.lithium-institute.eu
 and https://www.lithium-institute.eu/
 
@@ -6,8 +6,11 @@ Based on EMMO: https://github.com/emmo-repo/EMMO
 using Protégé: https://github.com/emmo-repo/EMMO/blob/master/doc/protege-setup.md
 and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installing_factplusplus.md
 
-Basically, this ontology aims to model processes along the Battery value chain. Processes are holistic perspective elements that transform inputs/educts (matter, energy, information) into output/products (matter, energy, information) with the help of tools (devices, algorithms). They can be decomposed into sub-processes and have predecessor and successor processes. With regard to EMMO, the following questions arise:
+Basically, this ontology aims to model processes along the Battery value chain. Processes are holistic perspective elements that transform inputs/educts (matter, energy, information) into output/products (matter, energy, information) with the help of tools (devices, algorithms). They can be decomposed into sub-processes and have predecessor and successor processes. 
 
+[](docs/overview.png?raw=true "Overview Graph")
+
+With regard to EMMO, the following questions arise:
 Classes:
 - There seems to be no concept of energy. Could it be a subclass of Physicalistic/Field?
 - Participant/Engineered contains Material and Device, but nothing like EngineeredParts, consisting of sub parts and finaly material. should EngineeredParts be added as Participant?
