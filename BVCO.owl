@@ -46,6 +46,17 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305 -->
+
+    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo#EMMO_2337e25c_3c60_43fc_a8f9_b11a3f974291"/>
+        <rdfs:domain rdf:resource="http://emmo.info/emmo#EMMO_98ada9d8_f1c8_4f13_99b5_d890f5354152"/>
+        <rdfs:range rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_995475ba_f196_4b19_a7c7_38d032c59270"/>
+        <rdfs:label xml:lang="en">fulfillsRole</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_389686f5_86d8_4e97_ba71_0537bedf0f38 -->
 
     <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_389686f5_86d8_4e97_ba71_0537bedf0f38">
@@ -76,6 +87,33 @@
         <rdfs:domain rdf:resource="http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
         <rdfs:range rdf:resource="http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"/>
         <rdfs:label xml:lang="en">hasOutput</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6 -->
+
+    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6">
+        <rdfs:subPropertyOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87"/>
+        <rdfs:label xml:lang="en">hasPositiveElectrode</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_cdc65ff3_07e6_4995_911d_e945d8945f15 -->
+
+    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_cdc65ff3_07e6_4995_911d_e945d8945f15">
+        <rdfs:subPropertyOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87"/>
+        <rdfs:label xml:lang="en">hasNegativeElectrode</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87 -->
+
+    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+        <rdfs:label xml:lang="en">hasFunctionalPart</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -260,9 +298,9 @@
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6">
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960"/>
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_6adf6955_529b_4ac4_889d_e2aaf56a49a1"/>
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_f68030be_94b8_4c61_a161_886468558054"/>
@@ -277,8 +315,9 @@
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0effce43_6179_49f6_903f_b3e27091b6d0 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0effce43_6179_49f6_903f_b3e27091b6d0">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53"/>
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_dcd25690_db51_4280_a94d_49737ab415b7"/>
-        <rdfs:label xml:lang="en">LithiumConversionAnode</rdfs:label>
+        <rdfs:label xml:lang="en">LithiumConversionElectrode</rdfs:label>
     </owl:Class>
     
 
@@ -348,6 +387,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">ConversionElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689">
@@ -382,7 +430,7 @@
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
-        <rdfs:label xml:lang="en">Electrolyte</rdfs:label>
+        <rdfs:label xml:lang="en">ElectrolytePart</rdfs:label>
     </owl:Class>
     
 
@@ -445,6 +493,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_330f8958_ad34_41e7_b119_25d03b1e0761 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_330f8958_ad34_41e7_b119_25d03b1e0761">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">IntercalationElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c">
@@ -455,7 +512,13 @@
                 <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Electrode</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ElectrodePart</rdfs:label>
     </owl:Class>
     
 
@@ -686,11 +749,34 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_7551b995_40e6_42e7_8da5_83d18ab41453 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_7551b995_40e6_42e7_8da5_83d18ab41453">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_14f7394f_0474_44fe_96eb_426e9b94a279"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">GraphiteElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c53b0482_0153_4695_9cf4_741fe1685933"/>
+        <rdfs:label xml:lang="en">ElectrolyteRole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_83388326_362e_407a_92db_3235b35844f1 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_83388326_362e_407a_92db_3235b35844f1">
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_995475ba_f196_4b19_a7c7_38d032c59270"/>
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
         <rdfs:label xml:lang="en">Cathode</rdfs:label>
     </owl:Class>
     
@@ -795,7 +881,7 @@
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_9d2ab44d_d3b5_4481_8eee_3097150e1cb4">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_1a46d865_0eae_45e9_bc45_379c0aec5af6"/>
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_2ba21032_cd96_4cb1_9b7e_c009532ccd37"/>
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_f68030be_94b8_4c61_a161_886468558054"/>
@@ -856,8 +942,7 @@
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a7741503_f235_459e_954b_2c8317567bd4 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a7741503_f235_459e_954b_2c8317567bd4">
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_995475ba_f196_4b19_a7c7_38d032c59270"/>
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
         <rdfs:label xml:lang="en">Anode</rdfs:label>
     </owl:Class>
     
@@ -949,8 +1034,42 @@
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_330f8958_ad34_41e7_b119_25d03b1e0761"/>
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_dcd25690_db51_4280_a94d_49737ab415b7"/>
-        <rdfs:label xml:lang="en">LithiumIntercalationAnode</rdfs:label>
+        <rdfs:label xml:lang="en">LithiumIntercalationElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c109aceb_4104_41ab_b2bc_8a8438f9dbd9 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c109aceb_4104_41ab_b2bc_8a8438f9dbd9">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_7551b995_40e6_42e7_8da5_83d18ab41453"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_cdc65ff3_07e6_4995_911d_e945d8945f15"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_7551b995_40e6_42e7_8da5_83d18ab41453"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">NMCGraphiteCell</rdfs:label>
     </owl:Class>
     
 
@@ -958,7 +1077,7 @@
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0">
-        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6"/>
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
         <rdfs:label xml:lang="en">LithiumElectrode</rdfs:label>
     </owl:Class>
     
@@ -969,6 +1088,15 @@
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c4ea428e_6e37_485f_8ec5_ca13c4b59e09">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2"/>
         <rdfs:label xml:lang="en">Assembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c53b0482_0153_4695_9cf4_741fe1685933 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c53b0482_0153_4695_9cf4_741fe1685933">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_995475ba_f196_4b19_a7c7_38d032c59270"/>
+        <rdfs:label xml:lang="en">ElectroChemistryRole</rdfs:label>
     </owl:Class>
     
 
@@ -1081,6 +1209,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e549077e_68db_4da3_9c2d_3875efaa8291 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e549077e_68db_4da3_9c2d_3875efaa8291">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c53b0482_0153_4695_9cf4_741fe1685933"/>
+        <rdfs:label xml:lang="en">SeparatorRole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e">
@@ -1166,6 +1303,15 @@
     
 
 
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16 -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c53b0482_0153_4695_9cf4_741fe1685933"/>
+        <rdfs:label xml:lang="en">ElectrodeRole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3 -->
 
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3">
@@ -1189,6 +1335,15 @@
     <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f716e88d_310c_492f_b6b1_0f358677b65e">
         <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_a414dc9c_54bf_4263_9748_5ccbf52f262b"/>
         <rdfs:label xml:lang="en">Filtering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc -->
+
+    <owl:Class rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc">
+        <rdfs:subClassOf rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO#BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0"/>
+        <rdfs:label xml:lang="en">NMCElectrode</rdfs:label>
     </owl:Class>
     
 
