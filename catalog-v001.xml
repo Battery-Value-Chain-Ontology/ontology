@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://emmo.info/emmo-inferred/1.0.0-beta" uri="https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred.ttl"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1611461801726" name="https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/BVCO" uri="BVCO.owl"/>
+    </group>
 </catalog>
