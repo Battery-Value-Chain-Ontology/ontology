@@ -10,6 +10,14 @@ Basically, this ontology aims to model processes along the Battery value chain. 
 
 ![Overview Graph](docs/overview.png)
 
+
+BattINFO and Battery Value Chain Ontology (BVCO) 
+
+While BattINFO focuses on the internal components and chemical processes, BVCO is dedicated to the higher-level process chains for material processing and manufacturing and is therefore complementary to the BattINFO. The basic definition of the battery as a system is also made there. The BVCO is being developed under the coordination of Fraunhofer ISC as part of both EU and national research projects. 
+
+![Battery Graph](docs/BatteryDefinition.png)
+
+
 With regard to EMMO, the following questions arise:
 Classes:
 - There seems to be no concept of energy. Could it be a subclass of Physicalistic/Field?
