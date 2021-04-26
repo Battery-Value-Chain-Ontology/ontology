@@ -1,6 +1,6 @@
 Ontology for the Battery Value Chain (BVC), work in progress
 
-Public repo: https://gitlab.cc-asp.fraunhofer.de/ISC/ISC-Digital/ontology/bvco
+Public repo: https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/bvco
 
 ## About
 
