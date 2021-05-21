@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO" uri="file:/C:/Users/Stier/Documents/Git/ISC-Digital/ontology/gpo/GPO.ttl"/>
-    <uri id="Imports Wizard Entry" name="http://emmo.info/emmo-inferred/1.0.0-beta" uri="https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO" uri="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/gpo/-/raw/master/GPO_inferred.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
         <uri id="Automatically generated entry, Timestamp=1621438986331" name="duplicate:https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO" uri="BVCO.owl"/>
         <uri id="Automatically generated entry, Timestamp=1621438986331" name="duplicate:https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO" uri="BVCO_inferred.owl"/>
