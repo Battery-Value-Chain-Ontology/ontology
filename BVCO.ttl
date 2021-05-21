@@ -52,14 +52,6 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                            skos:prefLabel "hasFunctionalPart"@en .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560
-:BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d ;
-                                           rdfs:domain emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-                                           rdfs:range emmo:EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
-                                           skos:prefLabel "hasSuccessor"@en .
-
-
 #################################################################
 #    Classes
 #################################################################

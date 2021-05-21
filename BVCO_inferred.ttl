@@ -636,14 +636,6 @@ owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
                                owl:ReflexiveProperty .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305
-:BVCO_0c25c011_9320_461f_bc23_6e9691827305 rdf:type owl:ObjectProperty .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_703ec528_ea40_486e_9924_b911782b1a75
-:BVCO_703ec528_ea40_486e_9924_b911782b1a75 rdf:type owl:ObjectProperty .
-
-
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6
 :BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf :BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87 ;
@@ -660,16 +652,6 @@ owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
 :BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "hasFunctionalPart"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560
-:BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 rdf:type owl:ObjectProperty ;
-                                           rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d> ,
-                                                              [ owl:inverseOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d>
-                                                              ] ;
-                                           rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                           rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
-                                           <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSuccessor"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0c25c011_9320_461f_bc23_6e9691827305
@@ -711,7 +693,10 @@ owl:topObjectProperty owl:inverseOf owl:topObjectProperty ;
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d52245e5_8dca_4a0f_bed8_0c7665da4560> rdf:type owl:ObjectProperty ;
                                                                                                                    rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d> ,
                                                                                                                                       [ owl:inverseOf <http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d>
-                                                                                                                                      ] .
+                                                                                                                                      ] ;
+                                                                                                                   rdfs:domain <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                                                                   rdfs:range <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSuccessor"@en .
 
 
 #################################################################
@@ -3516,7 +3501,10 @@ Here the class 'Field' refers to the quantum field of massless bosonic particles
 ###  http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
 <http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> rdf:type owl:Class ;
                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                  <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356>
+                                                                                  ] ;
                                                                   <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A manufacturing process whose product is the result of the combination of more substances."@en ;
                                                                   <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "Synthesis of materials, the preparation of a cake."@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "ContinuumManufacturing"@en .
@@ -3935,7 +3923,14 @@ calculate a resulting measured quantity property, such as an average or median, 
 ###  http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252
 <http://emmo.info/emmo#EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252> rdf:type owl:Class ;
                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                  <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                    owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                    owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8>
+                                                                                  ] ;
                                                                   <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A manufacturing process aimed to the production of a device made of specific components."@en ;
                                                                   <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "Assemblying a bicycle, building a car."@en ;
                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "DiscreteManufacturing"@en .
@@ -4532,11 +4527,18 @@ Symbols of a formal language must be capable of being specified without any refe
 
 ###  http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
 <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> rdf:type owl:Class ;
-                                                                  owl:equivalentClass <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                  <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_aa602472_ba16_4375_b8b3_868f84324ec7> ,
+                                                                                  <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty <http://emmo.info/emmo#EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1> ;
+                                                                                    owl:someValuesFrom <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                    owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
                                                                                   ] ;
                                                                   <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "The process of transforming raw materials into a product by the use of manual labor, machinery or chemical/biological processes."@en ;
@@ -6854,7 +6856,7 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                              owl:someValuesFrom :BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_0c25c011_9320_461f_bc23_6e9691827305 ;
+                                                             owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0c25c011_9320_461f_bc23_6e9691827305> ;
                                                              owl:someValuesFrom :BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16
                                                            ] ;
                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Electrode"@en .
@@ -7250,9 +7252,8 @@ It defines the Kelvin unit in the SI system."""@en ;
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc
 :BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc rdf:type owl:Class ;
                                            rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                           <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
                                                              owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0>
                                                            ] ;
                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryManufacturing"@en .
@@ -7335,11 +7336,11 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                                                                                    ] ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2>
+                                                                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
                                                                                                                                    ] ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
-                                                                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f>
                                                                                                                                    ] ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
@@ -7347,15 +7348,11 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                                                                                    ] ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2>
-                                                                                                                                   ] ,
-                                                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                                                                      owl:someValuesFrom <http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
                                                                                                                                    ] ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2c787420_067a_483a_b565_a9a55898210e>
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_1880a2e6_0c9f_425a_9615_d4bdf121215f>
                                                                                                                                    ] ;
                                                                                                                    rdfs:comment "a matter transformation process, e. g. chemical synthesis"@en ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalProcess"@en .
@@ -7367,10 +7364,26 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "PricePerUnit"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0658b91d_0b48_4302_9065_e3b5fad4815e
+<https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0658b91d_0b48_4302_9065_e3b5fad4815e> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> ,
+                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8> ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f> ;
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4>
+                                                                                                                                   ] ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentPart"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1
+<https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentEngineered"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_14953156_bec6_4935_a6c5_36920348d903
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_14953156_bec6_4935_a6c5_36920348d903> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
                                                                                                                    rdfs:comment "Process that transforms but does not necessarily assemble matter" ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "TransformationProcess"@en .
 
@@ -7430,8 +7443,11 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_3af46bf2_9857_4102_a183_ab08d7cd6523
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_3af46bf2_9857_4102_a183_ab08d7cd6523> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2c787420_067a_483a_b565_a9a55898210e>
+                                                                                                                                   ] ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
                                                                                                                                      owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f>
@@ -7460,14 +7476,24 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6167332b_8416_46c9_90d1_49ee7416ae24
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6167332b_8416_46c9_90d1_49ee7416ae24> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
                                                                                                                                    <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_aa602472_ba16_4375_b8b3_868f84324ec7> ,
                                                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                                                      owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
                                                                                                                                      owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f>
+                                                                                                                                   ] ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0>
                                                                                                                                    ] ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Refining"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4
+<https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_670f5aea_fc4e_4464_a978_f3edbd8ad8d4> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
+                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1> ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "SpentMaterial"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_6dff3494_5026_41ed_8247_cd1ce7e56b62
@@ -7496,7 +7522,7 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ;
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c85ad770_62d1_4fc8_9245_767cfa817252> ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "RefinedMaterial"@en .
 
 
@@ -7527,11 +7553,7 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_aa602472_ba16_4375_b8b3_868f84324ec7
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_aa602472_ba16_4375_b8b3_868f84324ec7> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ,
-                                                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
-                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0>
-                                                                                                                                   ] ;
+                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
                                                                                                                    rdfs:comment "Often refered as Cathode"@en ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalProcess"@en .
 
@@ -7568,6 +7590,13 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "MagneticFieldTreatment"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c85ad770_62d1_4fc8_9245_767cfa817252
+<https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c85ad770_62d1_4fc8_9245_767cfa817252> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> ,
+                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentMaterial"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_c879a010_1232_4d80_99f4_c53b7cbc6f4c> rdf:type owl:Class ;
                                                                                                                    rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_a414dc9c_54bf_4263_9748_5ccbf52f262b> ;
@@ -7576,9 +7605,23 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1>
+                                                                                                                                   ] ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a>
+                                                                                                                                   ] ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Recycling"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54
+<https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_cfb09cee_db2b_4507_a9b0_4e9e23f65f54> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8> ,
+                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentPart"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_d24a9939_582b_40e7_8f8e_0d64cb54bc42
@@ -7615,6 +7658,12 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "InformationalProcess"@en .
 
 
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a
+<https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f01f7920_d7e2_4d5a_8470_e4bf5c60565a> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "UnspentEngineered"@en .
+
+
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f352a440_5fbd_42c6_bff1_e70f0e652043
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f352a440_5fbd_42c6_bff1_e70f0e652043> rdf:type owl:Class ;
                                                                                                                    rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_bab79a61_029b_4d5f_9cb1_fe583bc17381> ;
@@ -7635,8 +7684,15 @@ It defines the Kelvin unit in the SI system."""@en ;
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9
 <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9> rdf:type owl:Class ;
-                                                                                                                   rdfs:subClassOf <http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ,
-                                                                                                                                   <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ;
+                                                                                                                   rdfs:subClassOf <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_01cd2578_8730_4ac9_a555_9112728ea939> ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75> ;
+                                                                                                                                     owl:someValuesFrom <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad>
+                                                                                                                                   ] ,
+                                                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                                                     owl:onProperty <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> ;
+                                                                                                                                     owl:someValuesFrom <https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0cbc43e8_d0d5_463f_97bb_c3d955f95ac1>
+                                                                                                                                   ] ;
                                                                                                                    rdfs:comment "The actual use of a product" ;
                                                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Application"@en .
 
@@ -7829,13 +7885,13 @@ It defines the Kelvin unit in the SI system."""@en ;
 [ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+[ owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
@@ -7844,22 +7900,22 @@ It defines the Kelvin unit in the SI system."""@en ;
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
-[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "3"^^xsd:nonNegativeInteger
  ] .
 
+[ owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
- ] .
-
-[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
  ] .
 
 [ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
@@ -7880,8 +7936,8 @@ It defines the Kelvin unit in the SI system."""@en ;
                                                                   owl:deprecated "Replaced by dcterms:license" .
 
 
-<http://emmo.info/emmo#EMMO_b306ae38_938e_48fe_83e9_6141e08b596f> rdfs:comment "URL to corresponding concept in the Basic Datatype Ontology (DBO)"@en ;
-                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "bdoMatch"@en ;
+<http://emmo.info/emmo#EMMO_b306ae38_938e_48fe_83e9_6141e08b596f> <http://www.w3.org/2004/02/skos/core#prefLabel> "bdoMatch"@en ;
+                                                                  rdfs:comment "URL to corresponding concept in the Basic Datatype Ontology (DBO)"@en ;
                                                                   rdfs:seeAlso "https://github.com/TechnicalBuildingSystems/Ontologies/blob/master/BasicDataTypeOntology/ontology.ttl"^^xsd:anyURI .
 
 
