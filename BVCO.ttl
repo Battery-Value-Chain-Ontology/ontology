@@ -34,14 +34,6 @@ emmo:EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d rdf:type owl:ObjectProperty .
 emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 
 
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305
-:BVCO_0c25c011_9320_461f_bc23_6e9691827305 rdf:type owl:ObjectProperty .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_703ec528_ea40_486e_9924_b911782b1a75
-:BVCO_703ec528_ea40_486e_9924_b911782b1a75 rdf:type owl:ObjectProperty .
-
-
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6
 :BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6 rdf:type owl:ObjectProperty ;
                                            rdfs:subPropertyOf :BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87 ;
@@ -253,7 +245,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:someValuesFrom :BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_0c25c011_9320_461f_bc23_6e9691827305 ;
+                                                             owl:onProperty gpo:GPO_0c25c011_9320_461f_bc23_6e9691827305 ;
                                                              owl:someValuesFrom :BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16
                                                            ] ;
                                            skos:prefLabel "Electrode"@en .
@@ -650,7 +642,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b ,
                                                            [ rdf:type owl:Restriction ;
-                                                             owl:onProperty :BVCO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
                                                              owl:someValuesFrom gpo:GPO_9471e306_144f_4310_82bf_1415d23326e0
                                                            ] ;
                                            skos:prefLabel "BatteryManufacturing"@en .
