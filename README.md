@@ -10,8 +10,9 @@ Basically, this ontology aims to model processes along the Battery value chain. 
 
 The BVCO is a cross-project development under the coordination of Fraunhofer ISC (both EU and national research projects).
 
-Based on EMMO: https://github.com/emmo-repo/EMMO
-using Protégé: https://github.com/emmo-repo/EMMO/blob/master/doc/protege-setup.md
+Based GPO: https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/gpo <br/>
+and EMMO: https://github.com/emmo-repo/EMMO <br/>
+using Protégé: https://github.com/emmo-repo/EMMO/blob/master/doc/protege-setup.md <br/>
 and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installing_factplusplus.md
 
 use cases: e. g. for the the eLi / eLi-PLUS project 
