@@ -50,18 +50,6 @@
     
 
 
-    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305 -->
-
-    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305"/>
-    
-
-
-    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_703ec528_ea40_486e_9924_b911782b1a75 -->
-
-    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_703ec528_ea40_486e_9924_b911782b1a75"/>
-    
-
-
     <!-- https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6 -->
 
     <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6">
@@ -85,17 +73,6 @@
     <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87">
         <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
         <skos:prefLabel xml:lang="en">hasFunctionalPart</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560 -->
-
-    <owl:ObjectProperty rdf:about="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_d52245e5_8dca_4a0f_bed8_0c7665da4560">
-        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d"/>
-        <rdfs:domain rdf:resource="http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
-        <rdfs:range rdf:resource="http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
-        <skos:prefLabel xml:lang="en">hasSuccessor</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -381,7 +358,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
                 <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -973,7 +950,7 @@
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:onProperty rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
                 <owl:someValuesFrom rdf:resource="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO#GPO_9471e306_144f_4310_82bf_1415d23326e0"/>
             </owl:Restriction>
         </rdfs:subClassOf>
