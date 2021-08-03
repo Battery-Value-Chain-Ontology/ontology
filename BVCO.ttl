@@ -409,6 +409,10 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4 rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9 ,
                                                            [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                             owl:someValuesFrom :ElectrolyteExtraction
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
                                                              owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
                                                              owl:someValuesFrom :BVCO_12664712_cdf1_43c9_b102_1691db16d37f
                                                            ] ,
@@ -619,6 +623,14 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b ,
                                                            [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                             owl:someValuesFrom :CellFilling
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                             owl:someValuesFrom :ElectrodeStacking
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
                                                              owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
                                                              owl:someValuesFrom :BVCO_a21be399_113f_40bf_8497_2d199785c5b3
                                                            ] ,
@@ -636,7 +648,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                                             owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                                             owl:someValuesFrom <http://emmo.info/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
                                                            ] ;
                                            skos:prefLabel "BatteryCellManufacturing"@en .
 
@@ -832,12 +844,6 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            rdfs:subClassOf :BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b ,
                                                            gpo:GPO_2c787420_067a_483a_b565_a9a55898210e ;
                                            skos:prefLabel "CobaltOre"@en .
-
-
-###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_b4f9cd47_3d29_4fdb_b00a_060625e34b69
-:BVCO_b4f9cd47_3d29_4fdb_b00a_060625e34b69 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           skos:prefLabel "FabricatedGalvanicCell"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09
@@ -1110,6 +1116,90 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:someValuesFrom :BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc
                                                            ] ;
                                            skos:prefLabel "BatteryValueChain"@en .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#CellFilling
+:CellFilling rdf:type owl:Class ;
+             rdfs:subClassOf :Filling ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                               owl:someValuesFrom :ElectrodeStacking
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                               owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                               owl:someValuesFrom <http://emmo.info/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
+                             ] .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#Discharging
+:Discharging rdf:type owl:Class ;
+             rdfs:subClassOf gpo:GPO_b28dc33d_0d96_4441_9686_7327becdcbc1 .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#ElectrodeStacking
+:ElectrodeStacking rdf:type owl:Class ;
+                   rdfs:subClassOf :Stacking ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                     owl:someValuesFrom :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                     owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                   ] .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#ElectrolyteExtraction
+:ElectrolyteExtraction rdf:type owl:Class ;
+                       rdfs:subClassOf :Extraction ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                         owl:someValuesFrom <http://emmo.info/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                         owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                       ] .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#Extraction
+:Extraction rdf:type owl:Class ;
+            rdfs:subClassOf :Separation .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#Filling
+:Filling rdf:type owl:Class ;
+         rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#Separation
+:Separation rdf:type owl:Class ;
+            rdfs:subClassOf gpo:GPO_14953156_bec6_4935_a6c5_36920348d903 .
+
+
+###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#Stacking
+:Stacking rdf:type owl:Class ;
+          rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
+                emmo:EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252
+                :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0
+                :BVCO_a21be399_113f_40bf_8497_2d199785c5b3
+                :BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc
+                :Filling
+                :Stacking
+              )
+] .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
