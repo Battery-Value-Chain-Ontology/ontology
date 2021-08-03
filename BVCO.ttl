@@ -57,6 +57,97 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
 #    Classes
 #################################################################
 
+###  http://emmo.info/BattINFO#EMMO_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17
+<http://emmo.info/BattINFO#EMMO_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                        owl:someValuesFrom :BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674
+                                                                                      ] .
+
+
+###  http://emmo.info/BattINFO#EMMO_d9ebf2cd_a020_46b4_b91a_9a6402736b9e
+<http://emmo.info/BattINFO#EMMO_d9ebf2cd_a020_46b4_b91a_9a6402736b9e> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                        owl:someValuesFrom :BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53
+                                                                                      ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_0508a114_544a_4f54_a7de_9b947fb4b618
+<http://emmo.info/electrochemistry#EMMO_0508a114_544a_4f54_a7de_9b947fb4b618> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_0f007072-a8dd-4798-b865-1bf9363be627
+<http://emmo.info/electrochemistry#EMMO_0f007072-a8dd-4798-b865-1bf9363be627> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0
+<http://emmo.info/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_3b0b0d6e_8b0e_4491_885e_8421d3eb3b69
+<http://emmo.info/electrochemistry#EMMO_3b0b0d6e_8b0e_4491_885e_8421d3eb3b69> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_609b340f_3450_4a10_95c2_c457e3eb8a89
+<http://emmo.info/electrochemistry#EMMO_609b340f_3450_4a10_95c2_c457e3eb8a89> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_670360fd_7cf9_4fe7_a9b5_c966f668ec88
+<http://emmo.info/electrochemistry#EMMO_670360fd_7cf9_4fe7_a9b5_c966f668ec88> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77
+<http://emmo.info/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c
+<http://emmo.info/electrochemistry#EMMO_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_330f8958_ad34_41e7_b119_25d03b1e0761
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_9da958fc_f76d_4654_8a78_99b5f98c118c
+<http://emmo.info/electrochemistry#EMMO_9da958fc_f76d_4654_8a78_99b5f98c118c> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_efc38420_ecbb_42e4_bb3f_208e7c417098
+<http://emmo.info/electrochemistry#EMMO_efc38420_ecbb_42e4_bb3f_208e7c417098> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18
+                                                                                              ] .
+
+
+###  http://emmo.info/electrochemistry#EMMO_fb0d9eef_92af_4628_8814_e065ca255d59
+<http://emmo.info/electrochemistry#EMMO_fb0d9eef_92af_4628_8814_e065ca255d59> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                                                                owl:someValuesFrom :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
+                                                                                              ] .
+
+
 ###  http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40
 emmo:EMMO_057e7d57_aff0_49de_911a_8861d85cef40 rdf:type owl:Class .
 
@@ -223,7 +314,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d
 :BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_b4f9cd47_3d29_4fdb_b00a_060625e34b69 ,
+                                           rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                              owl:someValuesFrom :BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689
@@ -564,7 +655,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0
 :BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 rdf:type owl:Class ;
-                                           rdfs:subClassOf :BVCO_b4f9cd47_3d29_4fdb_b00a_060625e34b69 ,
+                                           rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                              owl:someValuesFrom :BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d
