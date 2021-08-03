@@ -331,7 +331,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_0c25c011_9320_461f_bc23_6e9691827305 ;
                                                              owl:someValuesFrom <http://emmo.info/electrochemistry#EMMO_9da958fc_f76d_4654_8a78_99b5f98c118c>
                                                            ] ;
-                                           skos:prefLabel "FabricatedGalvanicHalfCell"@en .
+                                           skos:prefLabel "FabricatedElectrochemicalHalfCell"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
@@ -589,7 +589,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:someValuesFrom <http://emmo.info/electrochemistry#EMMO_efc38420_ecbb_42e4_bb3f_208e7c417098>
                                                            ] ;
                                            owl:disjointWith :BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303 ;
-                                           skos:prefLabel "FabricatedSecondaryGalvanicCell"@en .
+                                           skos:prefLabel "FabricatedSecondaryElectrochemicalCell"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_7551b995_40e6_42e7_8da5_83d18ab41453
@@ -664,7 +664,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
                                                              owl:someValuesFrom :BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f
                                                            ] ;
-                                           skos:prefLabel "FabricatedGalvanicFullCell"@en .
+                                           skos:prefLabel "FabricatedElectrochemicalFullCell"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c
@@ -953,7 +953,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_0c25c011_9320_461f_bc23_6e9691827305 ;
                                                              owl:someValuesFrom <http://emmo.info/electrochemistry#EMMO_3b0b0d6e_8b0e_4491_885e_8421d3eb3b69>
                                                            ] ;
-                                           skos:prefLabel "FabricatedPrimaryGalvanicCell"@en .
+                                           skos:prefLabel "FabricatedPrimaryElectrochemicalCell"@en .
 
 
 ###  https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO#BVCO_db4d4d99_4056_46a0_8339_476db375c4a6
