@@ -1,6 +1,6 @@
 Ontology for the Battery Value Chain (BVC), work in progress
 
-Public repo: https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/bvco
+Official public repo: https://github.com/Battery-Value-Chain-Ontology/ontology
 
 ## About
 
@@ -10,14 +10,16 @@ Basically, this ontology aims to model processes along the Battery value chain. 
 
 The BVCO is a cross-project development under the coordination of Fraunhofer ISC (both EU and national research projects).
 
-Based GPO: https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/gpo <br/>
+Based on GPO: https://github.com/General-Process-Ontology/ontology <br/>
 and EMMO: https://github.com/emmo-repo/EMMO <br/>
 using Protégé: https://github.com/emmo-repo/EMMO/blob/master/doc/protege-setup.md <br/>
 and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installing_factplusplus.md
 
-use cases: e. g. for the the eLi / eLi-PLUS project 
-see https://database.lithium-institute.eu
-and https://www.lithium-institute.eu/
+use cases: e. g. for the the eLi / eLi-PLUS and KiProBatt-Project, see: <br/>
+- https://database.lithium-institute.eu <br/>
+- https://www.lithium-institute.eu/ <br/>
+- https://kiprobatt.de <br/>
+- https://onto-wiki.eu <br/>
 
 ## EMMO and Battery Value Chain Ontology (BVCO) 
 
