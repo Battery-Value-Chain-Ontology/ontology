@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://emmo.info/BattINFO" uri="https://raw.githubusercontent.com/BIG-MAP/BattINFO/bvco-alignment/battinfo_inferred.ttl"/>
-    <uri id="Imports Wizard Entry" name="http://emmo.info/BattINFO" uri="file:/C:/Users/Stier/Documents/Git/ISC-Digital/ontology/BattINFO/battinfo_inferred.ttl"/>
-    <uri id="Imports Wizard Entry" name="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO" uri="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/gpo/-/raw/master/GPO_inferred.ttl"/>
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1627820635967" name="duplicate:https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO" uri="BVCO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1627820635967" name="duplicate:https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/BVCO" uri="BVCO_inferred.owl"/>
-    </group>
+    <uri id="Imports Wizard Entry" name="https://big-map.github.io/BattINFO/ontology/BattINFO" uri="https://raw.githubusercontent.com/BIG-MAP/BattINFO/bvco-alignment/battinfo_inferred.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://gitlab.cc-asp.fraunhofer.de/ISC-Public/ISC-Digital/ontology/GPO" uri="https://raw.githubusercontent.com/General-Process-Ontology/ontology/master/GPO.ttl"/>
 </catalog>
