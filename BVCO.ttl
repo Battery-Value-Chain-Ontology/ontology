@@ -16,7 +16,8 @@
                               owl:imports <https://gpo.ontology.link> ,
                                           <https://big-map.github.io/BattINFO/ontology/BattINFO> ;
                               terms:abstract "Ontology  to model processes along the Battery value chain"@en ;
-                              terms:creator "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ;
+                              terms:creator "Simon Stier <simon.stier@isc.fraunhofer.de>"@en ,
+                                            "Lukas Gold <lukas.gold@isc.fraunhofer.de>"@en ;
                               terms:license "https://creativecommons.org/licenses/by/4.0/legalcode"@en .
 
 #################################################################
@@ -225,24 +226,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                                                          ] .
 
 
-###  https://bvco.ontology.link#GPO_7ea8dd89_4576_4ce4_b045_8b2d0c2e0b2d
-:GPO_7ea8dd89_4576_4ce4_b045_8b2d0c2e0b2d rdf:type owl:Class ;
-                                          rdfs:subClassOf :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                            owl:someValuesFrom :ElectrodeStacking
-                                                          ] ;
-                                          rdfs:label "PouchCellManufacturing"@en .
+###  https://bvco.ontology.link#BVCO_6034399e_63ab_41c2_9101_1d5883b384b3
+:BVCO_6034399e_63ab_41c2_9101_1d5883b384b3 rdf:type owl:Class ;
+                                           rdfs:subClassOf gpo:GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9 ;
+                                           rdfs:label "ChargingTreatment"@en .
 
 
-###  https://bvco.ontology.link#GPO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93
-:GPO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93 rdf:type owl:Class ;
-                                          rdfs:subClassOf :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 ,
-                                                          [ rdf:type owl:Restriction ;
-                                                            owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                            owl:someValuesFrom :CellFilling
-                                                          ] ;
-                                          rdfs:label "LiquidElectrolyteCellManufacturing"@en .
+###  https://bvco.ontology.link#BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4
+:BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4 rdf:type owl:Class ;
+                                           rdfs:subClassOf gpo:GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9 ;
+                                           rdfs:label "DischargingTreatment"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6
@@ -443,7 +436,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            rdfs:subClassOf gpo:GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
-                                                             owl:someValuesFrom :ElectrolyteExtraction
+                                                             owl:someValuesFrom :BVCO_95e958ca_b2f4_4a5a_a6ba_9491e7b97c8a
                                                            ] ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
@@ -652,6 +645,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            skos:prefLabel "ElectrolyteRole"@en .
 
 
+###  https://bvco.ontology.link/BVCO_7ea8dd89_4576_4ce4_b045_8b2d0c2e0b2d
+:BVCO_7ea8dd89_4576_4ce4_b045_8b2d0c2e0b2d rdf:type owl:Class ;
+                                           rdfs:subClassOf :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                             owl:someValuesFrom :BVCO_fad51013_990b_411a_abfc_577e4ed9ab93
+                                                           ] ;
+                                           rdfs:label "PouchCellManufacturing"@en .
+
+
 ###  https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0
 :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b ,
@@ -690,6 +693,12 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            skos:prefLabel "Cathode"@en .
 
 
+###  https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810
+:BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810 rdf:type owl:Class ;
+                                           rdfs:subClassOf gpo:GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9 ;
+                                           rdfs:label "ElectrochemicalCycling"@en .
+
+
 ###  https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0
 :BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ,
@@ -723,6 +732,24 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:someValuesFrom <https://big-map.github.io/BattINFO/ontology/BattINFO#EMMO_d9ebf2cd_a020_46b4_b91a_9a6402736b9e>
                                                            ] ;
                                            skos:prefLabel "FabricatedEnclosure"@en .
+
+
+###  https://bvco.ontology.link/BVCO_95e958ca_b2f4_4a5a_a6ba_9491e7b97c8a
+:BVCO_95e958ca_b2f4_4a5a_a6ba_9491e7b97c8a rdf:type owl:Class ;
+                                           rdfs:subClassOf gpo:GPO_b10580a1_fb72_4151_a573_bbef22bae02b ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:someValuesFrom :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                                           ] ;
+                                           skos:prefLabel "ElectrolyteExtraction"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_962e42e6_099d_4ae7_8a95_7ad5cf25bf4a
@@ -946,6 +973,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            skos:prefLabel "LTO"@en .
 
 
+###  https://bvco.ontology.link/BVCO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93
+:BVCO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93 rdf:type owl:Class ;
+                                           rdfs:subClassOf :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f ;
+                                                             owl:someValuesFrom :BVCO_e17ca59d_f674_472b_88c7_2aeef210a038
+                                                           ] ;
+                                           rdfs:label "LiquidElectrolyteCellManufacturing"@en .
+
+
 ###  https://bvco.ontology.link/BVCO_d69137ff_e9b5_4d75_8949_26a7e0a854cf
 :BVCO_d69137ff_e9b5_4d75_8949_26a7e0a854cf rdf:type owl:Class ;
                                            owl:equivalentClass :BVCO_df812b11_dac3_4483_a288_0ad49ad56a34 ;
@@ -1015,6 +1052,28 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_df812b11_dac3_4483_a288_0ad49ad56a34 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 ;
                                            skos:prefLabel "NMC111"@en .
+
+
+###  https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038
+:BVCO_e17ca59d_f674_472b_88c7_2aeef210a038 rdf:type owl:Class ;
+                                           rdfs:subClassOf gpo:GPO_680078b4_e669_407d_a9a5_902c1f55031a ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                             owl:someValuesFrom :BVCO_fad51013_990b_411a_abfc_577e4ed9ab93
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:someValuesFrom <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
+                                                           ] ;
+                                           skos:prefLabel "CellFilling"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc
@@ -1143,96 +1202,18 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            skos:prefLabel "BatteryValueChain"@en .
 
 
-###  https://bvco.ontology.link/CellFilling
-:CellFilling rdf:type owl:Class ;
-             rdfs:subClassOf :Filling ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
-                               owl:someValuesFrom :ElectrodeStacking
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                               owl:someValuesFrom :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                               owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                               owl:someValuesFrom <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
-                             ] .
-
-
-###  https://bvco.ontology.link/Discharging
-:Discharging rdf:type owl:Class ;
-             rdfs:subClassOf gpo:GPO_b28dc33d_0d96_4441_9686_7327becdcbc1 .
-
-
-###  https://bvco.ontology.link/ElectrodeStacking
-:ElectrodeStacking rdf:type owl:Class ;
-                   rdfs:subClassOf :Stacking ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                     owl:someValuesFrom :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                     owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
-                                   ] .
-
-
-###  https://bvco.ontology.link/ElectrolyteExtraction
-:ElectrolyteExtraction rdf:type owl:Class ;
-                       rdfs:subClassOf :Extraction ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
-                                         owl:someValuesFrom <https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77>
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                         owl:someValuesFrom :BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe
-                                       ] ,
-                                       [ rdf:type owl:Restriction ;
-                                         owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
-                                         owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
-                                       ] .
-
-
-###  https://bvco.ontology.link/Extraction
-:Extraction rdf:type owl:Class ;
-            rdfs:subClassOf :Separation .
-
-
-###  https://bvco.ontology.link/Filling
-:Filling rdf:type owl:Class ;
-         rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
-
-
-###  https://bvco.ontology.link/Separation
-:Separation rdf:type owl:Class ;
-            rdfs:subClassOf gpo:GPO_14953156_bec6_4935_a6c5_36920348d903 .
-
-
-###  https://bvco.ontology.link/Stacking
-:Stacking rdf:type owl:Class ;
-          rdfs:subClassOf emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
-
-
-#################################################################
-#    General axioms
-#################################################################
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
-                emmo:EMMO_8786cb47_8e1f_4968_9b15_f6d41fc51252
-                :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0
-                :BVCO_a21be399_113f_40bf_8497_2d199785c5b3
-                :BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc
-                :Filling
-                :Stacking
-              )
-] .
+###  https://bvco.ontology.link/BVCO_fad51013_990b_411a_abfc_577e4ed9ab93
+:BVCO_fad51013_990b_411a_abfc_577e4ed9ab93 rdf:type owl:Class ;
+                                           rdfs:subClassOf gpo:GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_703ec528_ea40_486e_9924_b911782b1a75 ;
+                                                             owl:someValuesFrom :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
+                                                             owl:someValuesFrom :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32
+                                                           ] ;
+                                           skos:prefLabel "ElectrodeStacking"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
