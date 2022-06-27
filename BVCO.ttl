@@ -226,6 +226,24 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                                                          ] .
 
 
+###  https://bvco.ontology.link#BVCO_58431cb6_463b_4924_af05_97de2af5f415
+:BVCO_58431cb6_463b_4924_af05_97de2af5f415 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2565210a_bbcc_4c00_a122_6a608faa355b ;
+                                           rdfs:label "ZFolder"@en .
+
+
+###  https://bvco.ontology.link#BVCO_9c8c538f_f67a_4e01_9bd4_1448935a7f46
+:BVCO_9c8c538f_f67a_4e01_9bd4_1448935a7f46 rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_2565210a_bbcc_4c00_a122_6a608faa355b ;
+                                           rdfs:label "SingleSheetStacker"@en .
+
+
+###  https://bvco.ontology.link#BVCO_a1703e95_4fc4_4b92_a615_0c4ebb95de8f
+:BVCO_a1703e95_4fc4_4b92_a615_0c4ebb95de8f rdf:type owl:Class ;
+                                           rdfs:subClassOf emmo:EMMO_3967de47_343f_4bab_aada_b4bec73d11da ;
+                                           rdfs:label "BatteryTester"@en .
+
+
 ###  https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6
 :BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960 ,
