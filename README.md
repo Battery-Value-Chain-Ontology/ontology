@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/444367033.svg)](https://zenodo.org/badge/latestdoi/444367033)
+
 Ontology for the Battery Value Chain (BVC), work in progress
 
 Official public repo: https://github.com/Battery-Value-Chain-Ontology/ontology
