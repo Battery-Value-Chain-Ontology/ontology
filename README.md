@@ -17,7 +17,7 @@ The BVCO is a cross-project development under the coordination of Fraunhofer ISC
 Based on GPO: https://github.com/General-Process-Ontology/ontology <br/>
 and EMMO: https://github.com/emmo-repo/EMMO <br/>
 using Protégé: https://github.com/emmo-repo/EMMO/blob/master/doc/protege-setup.md <br/>
-and FaCT++-Reasoner: https://github.com/emmo-repo/EMMO/blob/master/doc/installing_factplusplus.md
+and HermiT Reasoner
 
 use cases: e. g. for the the eLi / eLi-PLUS and KiProBatt-Project, see: <br/>
 - https://database.lithium-institute.eu <br/>
@@ -51,16 +51,21 @@ The Battery Value Chain Ontology is released under the [Creative Commons Attribu
 ## Contribute
 ### Preparation
 Peform the following steps to contribute to this ontology
-- Clone BattINFO
 - Clone BVCO (this ontology)
-- Open BVCO from .ttl file
-- Remove BattINFO from the list of direct imports by clicking the (X)
-- Open BattINFO from .ttl file (Make sure to choose to open it in the existing window)
-- Click on the (+) next to direct imports
-- Select the third option (Import an ontology that is already loaded in the workspace)
-- Select all items listed in the pane after clicking [next]
-- Import those items
-- Check [Entities], if no cryptic Items with a BattINFO IRI appear in the tree, you are set
+- Open BVCO from .ttl file with protegé
+- Check [Entities], if no cryptic Items with a blank IRI appear in the tree, you are set
+- else check the error log
+
+Error messages like 
+```
+Imported ontology document http://emmo.info/electrochemistry/0.5.0/electrochemistry was not resolved to any documents defined in the ontology catalog.
+Failed to load imported ontology at http://emmo.info/electrochemistry/0.5.0/electrochemistry
+```
+can be solved by checking mapping of the import ontology name in `catalog-v001.xml`:
+An import element with the name must exist and should point to an existing web resource, e. g.:
+```xml
+<uri id="Imports Wizard Entry" name="http://emmo.info/electrochemistry/0.5.0/electrochemistry" uri="https://raw.githubusercontent.com/emmo-repo/domain-electrochemistry/master/electrochemistry.ttl"/>
+```
 
 ### Adding new Terms
 - We distinghuish between "Fabricated" and active battery cell components. Fabricated components are not yet electrochemically active, in that sense that they are not yet wetted with electrolyte nor present in an electrochemical cell that can accept charge
