@@ -13,7 +13,9 @@
 @base <https://bvco.ontology.link/> .
 
 <https://bvco.ontology.link> rdf:type owl:Ontology ;
-                              owl:imports <https://gpo.ontology.link> ,
+                              owl:versionIRI <https://bvco.ontology.link/0.4.0> ;
+                              owl:imports <http://emmo.info/emmo/1.0.0-beta4> ,
+                                          <https://gpo.ontology.link> ,
                                           <https://big-map.github.io/BattINFO/ontology/BattINFO> ;
                               terms:abstract "Ontology  to model processes along the Battery value chain"@en ;
                               terms:creator "Lukas Gold <lukas.gold@isc.fraunhofer.de>"@en ,
@@ -180,10 +182,6 @@ emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d
 emmo:EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d rdf:type owl:Class .
-
-
-###  http://emmo.info/emmo#EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2
-emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 rdf:type owl:Class .
 
 
 ###  http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
