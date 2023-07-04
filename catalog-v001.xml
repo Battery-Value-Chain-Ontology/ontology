@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://big-map.github.io/BattINFO/ontology/BattINFO/0.5.0/battinfo" uri="https://raw.githubusercontent.com/BIG-MAP/BattINFO/master/battinfo.ttl"/>
     <uri id="Imports Wizard Entry" name="http://emmo.info/emmo/reference/1.0.0-beta3" uri="https://raw.githubusercontent.com/emmo-repo/emmo-repo.github.io/master/versions/1.0.0-beta3/emmo-reference-inferred.ttl"/>
     <uri id="Imports Wizard Entry" name="https://gpo.ontology.link" uri="https://raw.githubusercontent.com/General-Process-Ontology/ontology/master/GPO.ttl"/>
     <uri id="Imports Wizard Entry" name="https://big-map.github.io/BattINFO/ontology/BattINFO" uri="https://raw.githubusercontent.com/BIG-MAP/BattINFO/master/battinfo.ttl"/>
