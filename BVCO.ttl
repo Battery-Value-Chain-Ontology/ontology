@@ -13,7 +13,9 @@
 @base <https://bvco.ontology.link> .
 
 <https://bvco.ontology.link> rdf:type owl:Ontology ;
-                              owl:imports <https://gpo.ontology.link> ,
+                              owl:versionIRI <https://bvco.ontology.link/0.4.0> ;
+                              owl:imports <http://emmo.info/emmo/1.0.0-beta4> ,
+                                          <https://gpo.ontology.link> ,
                                           <https://big-map.github.io/BattINFO/ontology/BattINFO> ;
                               terms:abstract "Ontology  to model processes along the Battery value chain"@en ;
                               terms:creator "Lukas Gold <lukas.gold@isc.fraunhofer.de>"@en ,
@@ -178,10 +180,6 @@ emmo:EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 rdf:type owl:Class .
 emmo:EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d rdf:type owl:Class .
 
 
-###  http://emmo.info/emmo#EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2
-emmo:EMMO_70dac51e_bddd_48c2_8a98_7d8395e91fc2 rdf:type owl:Class .
-
-
 ###  http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
 emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a rdf:type owl:Class .
 
@@ -216,16 +214,6 @@ emmo:EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 rdf:type owl:Class .
 
 ###  http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
 emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
-
-
-###  https://bvco.ontology.link#BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156
-:BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156 rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ,
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
-                                                             owl:someValuesFrom :BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53
-                                                           ] ;
-                                           skos:prefLabel "ConversionElectrode"@de .
 
 
 ###  https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6
@@ -945,6 +933,16 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:someValuesFrom :BVCO_63bfada0_9872_4d1c_a005_34adfed849c3
                                                            ] ;
                                            skos:prefLabel "NegativeElectrode"@en .
+
+
+###  https://bvco.ontology.link/BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156
+:BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156 rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
+                                                             owl:someValuesFrom :BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53
+                                                           ] ;
+                                           skos:prefLabel "ConversionElectrode"@de .
 
 
 ###  https://bvco.ontology.link/BVCO_a1703e95_4fc4_4b92_a615_0c4ebb95de8f
