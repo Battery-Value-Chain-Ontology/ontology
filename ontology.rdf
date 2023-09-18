@@ -1,0 +1,4240 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://bvco.ontology.link#"
+     xml:base="https://bvco.ontology.link"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:emmo="http://emmo.info/emmo#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:emmo1="http://emmo.info/emmo#157"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://bvco.ontology.link">
+        <owl:versionIRI rdf:resource="https://bvco.ontology.link/0.4.0"/>
+        <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-beta4"/>
+        <owl:imports rdf:resource="https://gpo.ontology.link"/>
+        <owl:imports rdf:resource="https://big-map.github.io/BattINFO/ontology/BattINFO"/>
+        <terms:abstract xml:lang="en">Ontology  to model processes along the Battery value chain</terms:abstract>
+        <terms:creator xml:lang="en">Lukas Gold &lt;lukas.gold@isc.fraunhofer.de&gt;</terms:creator>
+        <terms:creator xml:lang="en">Simon Stier &lt;simon.stier@isc.fraunhofer.de&gt;</terms:creator>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#EMMO_4d6504f1_c470_4ce9_b941_bbbebc9ab05d"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6 -->
+
+
+    <owl:ObjectProperty rdf:about="https://bvco.ontology.link/BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6">
+        <rdfs:subPropertyOf rdf:resource="https://bvco.ontology.link/BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87"/>
+        <skos:prefLabel xml:lang="en">hasPositiveElectrode</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_cdc65ff3_07e6_4995_911d_e945d8945f15 -->
+
+
+    <owl:ObjectProperty rdf:about="https://bvco.ontology.link/BVCO_cdc65ff3_07e6_4995_911d_e945d8945f15">
+        <rdfs:subPropertyOf rdf:resource="https://bvco.ontology.link/BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87"/>
+        <skos:prefLabel xml:lang="en">hasNegativeElectrode</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87 -->
+
+
+    <owl:ObjectProperty rdf:about="https://bvco.ontology.link/BVCO_d25fb133_7160_4265_9655_4a2a8ae0ae87">
+        <rdfs:subPropertyOf rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+        <skos:prefLabel xml:lang="en">hasFunctionalPart</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305 -->
+
+
+    <owl:ObjectProperty rdf:about="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 -->
+
+
+    <owl:ObjectProperty rdf:about="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75 -->
+
+
+    <owl:ObjectProperty rdf:about="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb -->
+
+
+    <owl:ObjectProperty rdf:about="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://emmo.info/battery#battery_3b0b0d6e_8b0e_4491_885e_8421d3eb3b69 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/battery#battery_3b0b0d6e_8b0e_4491_885e_8421d3eb3b69">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/battery#battery_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/battery#battery_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e -->
+
+
+    <owl:Class rdf:about="http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/battery#battery_efc38420_ecbb_42e4_bb3f_208e7c417098 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/battery#battery_efc38420_ecbb_42e4_bb3f_208e7c417098">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_0508a114_544a_4f54_a7de_9b947fb4b618 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_0508a114_544a_4f54_a7de_9b947fb4b618">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_609b340f_3450_4a10_95c2_c457e3eb8a89 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_609b340f_3450_4a10_95c2_c457e3eb8a89">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_330f8958_ad34_41e7_b119_25d03b1e0761"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594"/>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_9da958fc_f76d_4654_8a78_99b5f98c118c -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_9da958fc_f76d_4654_8a78_99b5f98c118c">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/electrochemistry#electrochemistry_fb0d9eef_92af_4628_8814_e065ca255d59 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/electrochemistry#electrochemistry_fb0d9eef_92af_4628_8814_e065ca255d59">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_77e2e601_5ecb_450b_b563_92f096997832 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_77e2e601_5ecb_450b_b563_92f096997832"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_b21a56ed_f969_4612_a6ec_cb7766f7f31d"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_c46f091c_0420_4c1a_af30_0a2c8ebcf7d7"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"/>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"/>
+        <rdfs:label xml:lang="en">Inserting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <rdfs:label xml:lang="en">FabricatedElectrodeSeparatorSequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">DriedSeparatedFabricatedElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284"/>
+        <rdfs:label xml:lang="en">FabricatedElectrodeJellyRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_6adf6955_529b_4ac4_889d_e2aaf56a49a1"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_f68030be_94b8_4c61_a161_886468558054"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c325086_be16_4556_9d2d_222cccf6a4b7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">PositiveElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_77e2e601_5ecb_450b_b563_92f096997832"/>
+        <rdfs:label xml:lang="en">DrySlurryComponentMixture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PouchCellWetting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_0effce43_6179_49f6_903f_b3e27091b6d0 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_0effce43_6179_49f6_903f_b3e27091b6d0">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_dcd25690_db51_4280_a94d_49737ab415b7"/>
+        <skos:prefLabel xml:lang="en">LithiumConversionElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5">
+        <owl:equivalentClass rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <rdfs:label xml:lang="en">WettedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+        <rdfs:label xml:lang="en">DryFabricatedPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_0658b91d_0b48_4302_9065_e3b5fad4815e"/>
+        <skos:prefLabel xml:lang="en">SpentElectricBattery</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c"/>
+        <rdfs:label xml:lang="en">PartiallyFilledPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_14f7394f_0474_44fe_96eb_426e9b94a279 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_14f7394f_0474_44fe_96eb_426e9b94a279">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3"/>
+        <skos:prefLabel xml:lang="en">Graphite</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_159d475f_97dc_4010_91b5_fcc94d243ae0 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_159d475f_97dc_4010_91b5_fcc94d243ae0">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrismaticCellFormation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+        <rdfs:label xml:lang="en">DryFabricatedCylindricalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd"/>
+        <skos:prefLabel xml:lang="en">NMCCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793"/>
+        <rdfs:label xml:lang="en">DriedSlittedFabricatedElectrodeRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PouchCellSealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_3f685553_cf80_4b4f_ba3b_c2552c570a81"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeSeparation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_198e1caf_0784_4ecb_a671_75915272b686 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_198e1caf_0784_4ecb_a671_75915272b686">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_b0d50501_459a_4207_99e6_7590c576668b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrismaticCellInserting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0"/>
+        <skos:prefLabel xml:lang="en">RefinedBatteryMaterial</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1a46d865_0eae_45e9_bc45_379c0aec5af6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1a46d865_0eae_45e9_bc45_379c0aec5af6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_83388326_362e_407a_92db_3235b35844f1"/>
+        <skos:prefLabel xml:lang="en">GalvanicCellChargingCathode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a"/>
+        <rdfs:label xml:lang="en">Wetting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1ba6fc78_d12b_475d_b3ff_0220fe614ed9 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1ba6fc78_d12b_475d_b3ff_0220fe614ed9">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_962e42e6_099d_4ae7_8a95_7ad5cf25bf4a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryModuleManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1c325086_be16_4556_9d2d_222cccf6a4b7 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1c325086_be16_4556_9d2d_222cccf6a4b7">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+        <skos:prefLabel xml:lang="en">PositiveActiveMaterial</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:label xml:lang="en">DryFabricatedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1d7cc67a_a753_4242_ac87_de846b4132b8 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1d7cc67a_a753_4242_ac87_de846b4132b8">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+        <skos:prefLabel xml:lang="en">ManganeseOre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedConversionElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <skos:prefLabel xml:lang="en">FabricatedCurrentCollector</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_9da958fc_f76d_4654_8a78_99b5f98c118c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrochemicalHalfCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_fb0d9eef_92af_4628_8814_e065ca255d59"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrolyte</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_1fb417ef_3f78_4c72_a51e_c0657b2a870e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1fb417ef_3f78_4c72_a51e_c0657b2a870e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"/>
+        <skos:prefLabel xml:lang="en">CurrentSource</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_23545956_695c_41f5_9923_16472f9a299f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_23545956_695c_41f5_9923_16472f9a299f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PouchCellFormation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_2748579f_0cb7_42b5_988b_3b8719856a20 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_2748579f_0cb7_42b5_988b_3b8719856a20">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+        <skos:prefLabel xml:lang="en">SiliciumOreDeposit</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+        <rdfs:label xml:lang="en">FormedPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+        <rdfs:label xml:lang="en">CylindricalCase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_28f1502b_14d2_436d_a294_bf372a13a39f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_28f1502b_14d2_436d_a294_bf372a13a39f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+        <skos:prefLabel xml:lang="en">IronOre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f"/>
+        <skos:prefLabel xml:lang="en">BatteryRawMaterial</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_2ba21032_cd96_4cb1_9b7e_c009532ccd37 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_2ba21032_cd96_4cb1_9b7e_c009532ccd37">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a7741503_f235_459e_954b_2c8317567bd4"/>
+        <skos:prefLabel xml:lang="en">GalvanicCellDischargingAnode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_330f8958_ad34_41e7_b119_25d03b1e0761 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_330f8958_ad34_41e7_b119_25d03b1e0761">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedIntercalationElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331"/>
+        <rdfs:label xml:lang="en">SlotDieCoating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:label xml:lang="en">PartiallyWettedFabricatedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CylindricalCellElectrolyteFilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_f68030be_94b8_4c61_a161_886468558054"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_38eda6ec_6e3d_4a7e_91fc_54c8beb57374 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_38eda6ec_6e3d_4a7e_91fc_54c8beb57374">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_dbda1d6a_b1f5_4c5a_9f8d_8c44011b5648"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodeZFolding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3a7bf591_548a_42d3_bcae_59a6a672b9c8 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3a7bf591_548a_42d3_bcae_59a6a672b9c8">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3"/>
+        <skos:prefLabel xml:lang="en">Silicon</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
+        <rdfs:label xml:lang="en">SealedCylindricalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_95e958ca_b2f4_4a5a_a6ba_9491e7b97c8a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryRecycling</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrochemicalCellSealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179">
+        <owl:equivalentClass rdf:resource="https://bvco.ontology.link/BVCO_d8492642_3761_4d84_b4d9_cb34ad7d368f"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <skos:prefLabel xml:lang="en">NMC333Cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3f685553_cf80_4b4f_ba3b_c2552c570a81 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3f685553_cf80_4b4f_ba3b_c2552c570a81">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodeCalendering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0"/>
+        <skos:prefLabel xml:lang="en">LithiumMetalElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <skos:prefLabel xml:lang="en">DegassedElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+        <rdfs:label xml:lang="en">FabricatedSeparatorRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
+        <rdfs:label xml:lang="en">Binder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
+        <rdfs:label xml:lang="en">WettedPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_dd4dec74_28b4_4929_b442_ee4d962a3d01"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PouchCellDegassing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0"/>
+        <rdfs:label xml:lang="de">LiquidElectrolyteCellProduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_454eb9d2_d541_4bbe_932f_27a77dc7c370 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_454eb9d2_d541_4bbe_932f_27a77dc7c370">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+        <skos:prefLabel xml:lang="en">LithiumOreDeposit</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/battery#battery_74ed2670_657d_4f0b_b0a6_3f13bc2e9c17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:altLabel>FabricatedElectricBattery</skos:altLabel>
+        <skos:prefLabel xml:lang="en">FabricatedBattery</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_460ffa05_c39d_4059_98b6_babf112f152b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_460ffa05_c39d_4059_98b6_babf112f152b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_4d1fb581_9d54_4014_891f_9f10d8a24475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">NMC611Cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_4a2286b3_d823_4705_b9e4_302b85ab6657 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_4a2286b3_d823_4705_b9e4_302b85ab6657">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_4c35ddd6_9ec7_463a_be42_e734b496fd9a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:prefLabel xml:lang="en">PouchCellFillingOld</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_4c35ddd6_9ec7_463a_be42_e734b496fd9a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_4c35ddd6_9ec7_463a_be42_e734b496fd9a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_643f0b32_2aca_4efa_9f1c_8f802cbc7228"/>
+        <skos:prefLabel xml:lang="en">SealedDryFabricatedElectrodeStack</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_4d1fb581_9d54_4014_891f_9f10d8a24475 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_4d1fb581_9d54_4014_891f_9f10d8a24475">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <skos:prefLabel xml:lang="en">NMC611</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_52ab68fa_78e8_4947_92d9_106eff49940b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_52ab68fa_78e8_4947_92d9_106eff49940b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">PunchingFabricatedElectrodeSeparation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1"/>
+        <emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Extruders are used for mixing of powders, followed by an extrusion onto a substrate, e.g. dry processing of lithium-ion battery active materials to coat current collectors</emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">DryExtruderMixing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodeStackPackaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <skos:prefLabel xml:lang="en">CompletedElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_56eaa4c7_8d17_4215_9e93_ac3f7da036de -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_56eaa4c7_8d17_4215_9e93_ac3f7da036de">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryApplication</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a">
+        <owl:equivalentClass rdf:resource="https://bvco.ontology.link/BVCO_787f689a_f40e_40cf_b368_49cab6f0a69f"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:label xml:lang="en">FilledFabricatedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
+        <rdfs:label xml:lang="en">BatteryPositiveElectrodeSlurry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c325086_be16_4556_9d2d_222cccf6a4b7"/>
+        <skos:prefLabel xml:lang="en">NMC</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_58431cb6_463b_4924_af05_97de2af5f415 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_58431cb6_463b_4924_af05_97de2af5f415">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_2565210a_bbcc_4c00_a122_6a608faa355b"/>
+        <skos:prefLabel xml:lang="en">ZFolder</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_5c7a41ee_0947_4210_9994_17fc9695b3d1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5c7a41ee_0947_4210_9994_17fc9695b3d1">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c3403541_0fb7_4a2b_b432_3860bc89848a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatterySystem</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"/>
+        <rdfs:label xml:lang="en">Solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9"/>
+        <rdfs:label xml:lang="en">FabricatedElectrodeStackWrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a7741503_f235_459e_954b_2c8317567bd4"/>
+        <skos:prefLabel xml:lang="en">GalvanicCellChargingAnode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6034399e_63ab_41c2_9101_1d5883b384b3 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6034399e_63ab_41c2_9101_1d5883b384b3">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9"/>
+        <skos:prefLabel xml:lang="en">ChargingTreatment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_60aef9bf_772f_4355_9f2f_d58c296efe03 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_60aef9bf_772f_4355_9f2f_d58c296efe03">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_bcd30e45_3d75_43b1_a119_6a4828555523"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SlurryComponentMixing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_60bee84b_4501_4c3e_ad19_692f52080a46 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_60bee84b_4501_4c3e_ad19_692f52080a46">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">NMC622Cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d"/>
+        <emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Extruders are used for mixing of powders and solvents, followed by an extrusion onto a substrate, e.g., processing of lithium-ion battery active materials to coat current collectors</emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">LiquidSolidExtruderMixing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232"/>
+        <rdfs:label xml:lang="en">DryMixing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">SeparatedFabricatedElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+        <skos:prefLabel xml:lang="en">NegativeActiveMaterial</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_643f0b32_2aca_4efa_9f1c_8f802cbc7228 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_643f0b32_2aca_4efa_9f1c_8f802cbc7228">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b"/>
+        <skos:prefLabel xml:lang="en">DriedFabricatedElectrodeStack</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786"/>
+        <rdfs:label xml:lang="en">PartiallyWettedCylindricalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_67c6a44c_7f7c_4000_a0e4_6cfc9a857b0c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_67c6a44c_7f7c_4000_a0e4_6cfc9a857b0c">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+        <skos:prefLabel xml:lang="en">ManganeseOreDeposit</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_68d629c8_6da0_4ac3_b5b5_bffb827ec8ae -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_68d629c8_6da0_4ac3_b5b5_bffb827ec8ae">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">LiFePO4Cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_695d9aec_02ee_4fcc_b665_5d80e6219a05 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_695d9aec_02ee_4fcc_b665_5d80e6219a05">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_dbda1d6a_b1f5_4c5a_9f8d_8c44011b5648"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeSheetDrying</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6adf6955_529b_4ac4_889d_e2aaf56a49a1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6adf6955_529b_4ac4_889d_e2aaf56a49a1">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_83388326_362e_407a_92db_3235b35844f1"/>
+        <skos:prefLabel xml:lang="en">GalvanicCellDischargingCathode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6afe6cee_8b5e_4f25_84c6_705428e04054 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6afe6cee_8b5e_4f25_84c6_705428e04054">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_643f0b32_2aca_4efa_9f1c_8f802cbc7228"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_4c35ddd6_9ec7_463a_be42_e734b496fd9a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeStackSealing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6da7b3e9_7240_4806_a698_ba29594b1b08 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6da7b3e9_7240_4806_a698_ba29594b1b08">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_b0d50501_459a_4207_99e6_7590c576668b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CylindricalCellInserting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
+        <rdfs:label xml:lang="en">FilledCylindricalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SlittedFabricatedElectrodeRoleDrying</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6f1f861d_5b6f_46a6_b4e7_b8a213cd1a6f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6f1f861d_5b6f_46a6_b4e7_b8a213cd1a6f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_ae621373_d7f6_4d65_85e2_62c1052c4207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_2ba21032_cd96_4cb1_9b7e_c009532ccd37"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_6adf6955_529b_4ac4_889d_e2aaf56a49a1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_bc4de725_c820_458d_99d2_8dbee3378152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">GalvanicCellDischarging</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:label xml:lang="en">PartiallyFilledFabricatedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">FabricatedElectrodeSeparatorSequenceAssebmly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">LaserCuttingFabricatedElectrodeSeparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/battery#battery_efc38420_ecbb_42e4_bb3f_208e7c417098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://bvco.ontology.link/BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303"/>
+        <skos:prefLabel xml:lang="en">FabricatedSecondaryElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
+        <rdfs:label xml:lang="en">FilledPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_b10580a1_fb72_4151_a573_bbef22bae02b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodePostDrying</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3"/>
+        <rdfs:label xml:lang="en">DegassedPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+        <skos:prefLabel xml:lang="en">Pouch</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7551b995_40e6_42e7_8da5_83d18ab41453 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7551b995_40e6_42e7_8da5_83d18ab41453">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_14f7394f_0474_44fe_96eb_426e9b94a279"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">GraphiteElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+        <rdfs:label xml:lang="en">PrismaticCase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6"/>
+        <rdfs:label xml:lang="en">Slitting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9"/>
+        <skos:prefLabel xml:lang="en">DischargingTreatment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_787f689a_f40e_40cf_b368_49cab6f0a69f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_787f689a_f40e_40cf_b368_49cab6f0a69f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <skos:prefLabel xml:lang="en">FilledElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40"/>
+        <rdfs:label xml:lang="en">DryFabricatedElectrodeJellyRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+        <rdfs:label xml:lang="en">DryFabricatedPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PouchCellElectrolyteFilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7a42039d_b485_4476_a543_f8c75c25fbd9 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7a42039d_b485_4476_a543_f8c75c25fbd9">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+        <skos:prefLabel xml:lang="en">PhosphateOre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7b304320_e7b0_420b_8b98_5b2d0f546e59 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7b304320_e7b0_420b_8b98_5b2d0f546e59">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrismaticCellSealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrismaticCellElectrolyteFilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933"/>
+        <skos:prefLabel xml:lang="en">ElectrolyteRole</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_7ea8dd89_4576_4ce4_b045_8b2d0c2e0b2d -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7ea8dd89_4576_4ce4_b045_8b2d0c2e0b2d">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_fad51013_990b_411a_abfc_577e4ed9ab93"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">PouchCellManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc"/>
+        <rdfs:label xml:lang="en">CalenderedFabricatedElectrodeRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
+        <rdfs:label xml:lang="en">WettedPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a21be399_113f_40bf_8497_2d199785c5b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryCellManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_81ac30cc_b8b9_4cd6_9f41_4d32d1d9097e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_81ac30cc_b8b9_4cd6_9f41_4d32d1d9097e">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <skos:prefLabel xml:lang="en">AgedElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <skos:prefLabel xml:lang="en">FormedElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+        <skos:prefLabel xml:lang="en">BatteryComponent</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_83388326_362e_407a_92db_3235b35844f1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_83388326_362e_407a_92db_3235b35844f1">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
+        <skos:prefLabel xml:lang="en">Cathode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+        <rdfs:label xml:lang="en">FormedPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodeSeparatorSequenceInserting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:label xml:lang="en">SealedFabricatedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9"/>
+        <skos:prefLabel xml:lang="en">ElectrochemicalCycling</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f5c3335_565a_4feb_b0aa_024962850b5d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrochemicalFullCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_8f81a6c8_532d_459d_ba5a_969d02face9c">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_609b340f_3450_4a10_95c2_c457e3eb8a89"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedLiquidElectrolyte</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_8fedf35c_c351_4283_b29e_949d548c9612 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_8fedf35c_c351_4283_b29e_949d548c9612">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CylindricalCellSealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+        <rdfs:label xml:lang="en">FabricatedSeparatorSheet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedEnclosure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_95e958ca_b2f4_4a5a_a6ba_9491e7b97c8a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_95e958ca_b2f4_4a5a_a6ba_9491e7b97c8a">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ElectrolyteExtraction</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_962e42e6_099d_4ae7_8a95_7ad5cf25bf4a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_962e42e6_099d_4ae7_8a95_7ad5cf25bf4a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryModule</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786"/>
+        <rdfs:label xml:lang="en">PartiallyWettedPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_97409fc6_e62e_4c4f_a1ca_67c41e5dd263 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_97409fc6_e62e_4c4f_a1ca_67c41e5dd263">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryRawMaterialRefining</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_985acc14_e274_42c4_99e0_5dc74f9c4ca6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_985acc14_e274_42c4_99e0_5dc74f9c4ca6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CylindricalCellFormation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6"/>
+        <rdfs:label xml:lang="en">LaserCutting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_99397341_1db2_48f1_9288_04cbbce1de25 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_99397341_1db2_48f1_9288_04cbbce1de25">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+        <skos:prefLabel xml:lang="en">SiliciumOre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
+        <rdfs:label xml:lang="en">WettedFabricatedElectrochemicalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284"/>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeStack</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_9c8c538f_f67a_4e01_9bd4_1448935a7f46 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9c8c538f_f67a_4e01_9bd4_1448935a7f46">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_2565210a_bbcc_4c00_a122_6a608faa355b"/>
+        <skos:prefLabel xml:lang="en">SingleSheetStacker</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_9c9de930_4395_44f5_bba5_8f46cfaa1c2e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9c9de930_4395_44f5_bba5_8f46cfaa1c2e">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_81ac30cc_b8b9_4cd6_9f41_4d32d1d9097e"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ElectrochemicalCellTesting</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_9d2ab44d_d3b5_4481_8eee_3097150e1cb4 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9d2ab44d_d3b5_4481_8eee_3097150e1cb4">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1a46d865_0eae_45e9_bc45_379c0aec5af6"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_2ba21032_cd96_4cb1_9b7e_c009532ccd37"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_f68030be_94b8_4c61_a161_886468558054"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">NegativeElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a146e146_517a_4fa6_be3b_dfa2cf285156">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1ebe8a18_c6bb_43ff_a7e5_776901907a53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ConversionElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a1703e95_4fc4_4b92_a615_0c4ebb95de8f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a1703e95_4fc4_4b92_a615_0c4ebb95de8f">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_3967de47_343f_4bab_aada_b4bec73d11da"/>
+        <skos:prefLabel xml:lang="en">BatteryTester</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a21be399_113f_40bf_8497_2d199785c5b3 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a21be399_113f_40bf_8497_2d199785c5b3">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryComponentManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedSeparator</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a4495da3_5a64_47d3_9979_d7beda4500cd">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+        <skos:prefLabel xml:lang="en">LithiumCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a44d7752_c6db_4271_9dcd_882c0ef4c988 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a44d7752_c6db_4271_9dcd_882c0ef4c988">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_db4d4d99_4056_46a0_8339_476db375c4a6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c3403541_0fb7_4a2b_b432_3860bc89848a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_5c7a41ee_0947_4210_9994_17fc9695b3d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatterySystemManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1"/>
+        <rdfs:label xml:lang="en">DriedFabricatedElectrodeRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090"/>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeSheet</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a6a786aa_0cf9_4748_ab36_825044cec043 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a6a786aa_0cf9_4748_ab36_825044cec043">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+        <skos:prefLabel xml:lang="en">IronOreDeposite</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a7741503_f235_459e_954b_2c8317567bd4 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a7741503_f235_459e_954b_2c8317567bd4">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16"/>
+        <skos:prefLabel xml:lang="en">Anode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_e9e02156_651f_41c8_9efb_d5da0d4ce5e2"/>
+        <rdfs:label xml:lang="en">BatteryElectrodeSlurry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a79ee6cc_24a3_4cc3_a0d2_097022ba5952 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a79ee6cc_24a3_4cc3_a0d2_097022ba5952">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+        <skos:prefLabel xml:lang="en">CobaltOreDeposit</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
+        <rdfs:label xml:lang="en">WettedCylindricalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrochemicalCellWetting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_abf969da_21b3_4aeb_9a91_77f316c0aeec -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_abf969da_21b3_4aeb_9a91_77f316c0aeec">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c"/>
+        <skos:prefLabel xml:lang="en">CoatedFabricatedElectrodeRole</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">CoatedFabricatedElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ad24cf92_0975_45bb_b259_f55c66586be2 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ad24cf92_0975_45bb_b259_f55c66586be2">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <skos:prefLabel xml:lang="en">CycledElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_6f2c88c9_5c04_4953_a298_032cc3ab9b77"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ae621373_d7f6_4d65_85e2_62c1052c4207 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ae621373_d7f6_4d65_85e2_62c1052c4207">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7"/>
+        <skos:prefLabel xml:lang="en">RedoxReaction</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ae6e7bc6_4da3_4e01_9828_6b58d7b3b14d">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c325086_be16_4556_9d2d_222cccf6a4b7"/>
+        <skos:prefLabel xml:lang="en">LiFePO4</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b0ac1214_0351_47fe_8da2_c058fffd3238 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_b0ac1214_0351_47fe_8da2_c058fffd3238">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9c9de930_4395_44f5_bba5_8f46cfaa1c2e"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_dd4dec74_28b4_4929_b442_ee4d962a3d01"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_81ac30cc_b8b9_4cd6_9f41_4d32d1d9097e"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ElectrochemicalCellEolTesting</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b0d50501_459a_4207_99e6_7590c576668b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_b0d50501_459a_4207_99e6_7590c576668b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodeJellyRolePackaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CylindricalCellWetting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b14a9d69_d2a3_4d76_94b5_4f0225b557fc -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_b14a9d69_d2a3_4d76_94b5_4f0225b557fc">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+        <skos:prefLabel xml:lang="en">CobaltOre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b5540155_6bab_4d81_bf3d_41c171d63a0f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_b5540155_6bab_4d81_bf3d_41c171d63a0f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PrismaticCellWetting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
+        <skos:prefLabel xml:lang="en">BatteryManagementSystem</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
+        <rdfs:label xml:lang="en">SealedPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_bc4de725_c820_458d_99d2_8dbee3378152 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_bc4de725_c820_458d_99d2_8dbee3378152">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"/>
+        <skos:prefLabel xml:lang="en">CurrentSink</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_bcd30e45_3d75_43b1_a119_6a4828555523 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_bcd30e45_3d75_43b1_a119_6a4828555523">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SlurryComponentPreMixing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_330f8958_ad34_41e7_b119_25d03b1e0761"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_dcd25690_db51_4280_a94d_49737ab415b7"/>
+        <skos:prefLabel xml:lang="en">LithiumIntercalationElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c109aceb_4104_41ab_b2bc_8a8438f9dbd9 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c109aceb_4104_41ab_b2bc_8a8438f9dbd9">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_7551b995_40e6_42e7_8da5_83d18ab41453"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://bvco.ontology.link/BVCO_b0cbf530_bc47_454a_a76e_a79dd23838d6"/>
+                <owl:allValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://bvco.ontology.link/BVCO_cdc65ff3_07e6_4995_911d_e945d8945f15"/>
+                <owl:allValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_7551b995_40e6_42e7_8da5_83d18ab41453"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">NMCGraphiteCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <skos:prefLabel xml:lang="en">LithiumElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c3403541_0fb7_4a2b_b432_3860bc89848a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c3403541_0fb7_4a2b_b432_3860bc89848a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_962e42e6_099d_4ae7_8a95_7ad5cf25bf4a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryPack</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">CalenderedFabricatedElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_c531bf8b_27fe_43c5_8b12_f12f73545b8a"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">FabricatedElectrodeWinding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270"/>
+        <skos:prefLabel xml:lang="en">ElectroChemistryRole</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
+        <rdfs:label xml:lang="en">SealedPouchCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+        <rdfs:label xml:lang="en">FormedCylindricalCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">PouchCellInserting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803"/>
+        <skos:prefLabel xml:lang="en">BatteryRawMaterialDeposit</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d3b247b2_cfe8_4c99_bf18_117e57c7b84b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d3b247b2_cfe8_4c99_bf18_117e57c7b84b">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
+        <skos:prefLabel xml:lang="en">EolTestedElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d5b065df_dae3_4416_beb8_c9eaa6a97a9a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d5b065df_dae3_4416_beb8_c9eaa6a97a9a">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3"/>
+        <skos:prefLabel xml:lang="en">LTO</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d63c8f09_2b26_4e4e_9ee1_3a30ec5a8c93">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">LiquidElectrolyteCellManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d69137ff_e9b5_4d75_8949_26a7e0a854cf -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d69137ff_e9b5_4d75_8949_26a7e0a854cf">
+        <owl:equivalentClass rdf:resource="https://bvco.ontology.link/BVCO_df812b11_dac3_4483_a288_0ad49ad56a34"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <skos:prefLabel xml:lang="en">NMC333</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d7f05f2d_a352_4a60_bc80_5e9624b28b43 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d7f05f2d_a352_4a60_bc80_5e9624b28b43">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_3af46bf2_9857_4102_a183_ab08d7cd6523"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryRawMaterialMining</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d8492642_3761_4d84_b4d9_cb34ad7d368f -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d8492642_3761_4d84_b4d9_cb34ad7d368f">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_df812b11_dac3_4483_a288_0ad49ad56a34"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">NMC111Cell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_d8dbd8a5_cb8e_455a_ad78_720dd9713303">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/battery#battery_3b0b0d6e_8b0e_4491_885e_8421d3eb3b69"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedPrimaryElectrochemicalCell</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_db4d4d99_4056_46a0_8339_476db375c4a6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_db4d4d99_4056_46a0_8339_476db375c4a6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1ba6fc78_d12b_475d_b3ff_0220fe614ed9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_962e42e6_099d_4ae7_8a95_7ad5cf25bf4a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c3403541_0fb7_4a2b_b432_3860bc89848a"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryPackManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_dbda1d6a_b1f5_4c5a_9f8d_8c44011b5648 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_dbda1d6a_b1f5_4c5a_9f8d_8c44011b5648">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793"/>
+        <skos:prefLabel xml:lang="en">DriedFabricatedElectrodeSheet</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_dcd25690_db51_4280_a94d_49737ab415b7 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_dcd25690_db51_4280_a94d_49737ab415b7">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0"/>
+        <skos:prefLabel xml:lang="en">LithiumIonElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_dd4dec74_28b4_4929_b442_ee4d962a3d01 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_dd4dec74_28b4_4929_b442_ee4d962a3d01">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_a32722d5_42c1_446f_a071_05071047831f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ElectrochemicalCellDegassing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_df812b11_dac3_4483_a288_0ad49ad56a34 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_df812b11_dac3_4483_a288_0ad49ad56a34">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <skos:prefLabel xml:lang="en">NMC111</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b"/>
+        <rdfs:label xml:lang="en">DryFabricatedElectrodeStack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
+        <rdfs:label xml:lang="en">BatteryNegativeElectrodeSlurry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_b10580a1_fb72_4151_a573_bbef22bae02b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CoatedFabricatedElectrodeDrying</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">CellElectrolyteFilling</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a21be399_113f_40bf_8497_2d199785c5b3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_45ddffbd_d4fa_496d_a4d8_5521194b5674"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e19c619b_a6df_4c77_8bbc_574f51682280 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e19c619b_a6df_4c77_8bbc_574f51682280">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_29fd86b7_3977_4fd2_ae8a_9a9208578e0b"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+        <skos:prefLabel xml:lang="en">LithiumOre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786"/>
+        <rdfs:label xml:lang="en">PartiallyWettedPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e549077e_68db_4da3_9c2d_3875efaa8291 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e549077e_68db_4da3_9c2d_3875efaa8291">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933"/>
+        <skos:prefLabel xml:lang="en">SeparatorRole</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e9d98522_9bf2_41dc_bc4c_6f10348b6a6e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_a2b006f2_bbfd_4dba_bcaa_3fca20cd6be1"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1f9ffbd0_9c82_4a65_9f57_bc88712fa0fe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/electrochemistry#electrochemistry_0508a114_544a_4f54_a7de_9b947fb4b618"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedSolidElectrolyte</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090"/>
+        <rdfs:label xml:lang="en">SlittedFabricatedElectrodeRole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b">
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_60aef9bf_772f_4355_9f2f_d58c296efe03"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1f4d6016_890f_4e51_a2d0_1a2d0978f689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">BatteryElectrodeCoating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ElectrochemicalCellFormation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f1660730_8c38_42b9_b9e3_348691a5b4b7 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f1660730_8c38_42b9_b9e3_348691a5b4b7">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_ae621373_d7f6_4d65_85e2_62c1052c4207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1a46d865_0eae_45e9_bc45_379c0aec5af6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1fb417ef_3f78_4c72_a51e_c0657b2a870e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_8d754c83_be62_49d0_9e11_51a9d16b93a0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">GalvanicCellCharging</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f1b9383c_d427_4f34_8121_e0dc7ee766bc -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f1b9383c_d427_4f34_8121_e0dc7ee766bc">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419"/>
+        <skos:prefLabel xml:lang="en">PhosphateOreDeposit</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f25eeb2f_54b0_4c4a_ada8_c7e53b11d49e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_68390bfb_e307_479d_8f78_d66d8773cb1d"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356"/>
+        <rdfs:comment xml:lang="en">active material of a battery electrode (e. g. NMC, LFP, Graphit)</rdfs:comment>
+        <skos:prefLabel xml:lang="en">ActiveMaterial</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f4334e05_4b43_4aa5_a01e_f829c32aca16">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933"/>
+        <skos:prefLabel xml:lang="en">ElectrodeRole</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
+        <rdfs:label xml:lang="en">DriedFabricatedElectrode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49"/>
+        <skos:prefLabel xml:lang="en">NMC622</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f986191d_8d5b_4313_97e1_b8c9bcea1aa9">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_dd4dec74_28b4_4929_b442_ee4d962a3d01"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3"/>
+                            <rdf:Description rdf:about="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_81ac30cc_b8b9_4cd6_9f41_4d32d1d9097e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">ElectrochemicalCellAging</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f9b18c3c_2eae_4f73_bc12_64acd1d927dc">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c30690e7_35fe_4b4f_a0d2_02a2f1eac6f0"/>
+        <skos:prefLabel xml:lang="en">NMCElectrode</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_fa85bf30_d342_45a7_b662_975d58c4f35a -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_fa85bf30_d342_45a7_b662_975d58c4f35a">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_56eaa4c7_8d17_4215_9e93_ac3f7da036de"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_97409fc6_e62e_4c4f_a1ca_67c41e5dd263"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_d7f05f2d_a352_4a60_bc80_5e9624b28b43"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_e180eaa0_f66f_4b49_8370_ef574d5a77dc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">BatteryValueChain</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_fad51013_990b_411a_abfc_577e4ed9ab93 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_fad51013_990b_411a_abfc_577e4ed9ab93">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583"/>
+        <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_dbda1d6a_b1f5_4c5a_9f8d_8c44011b5648"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeStacking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764 -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
+        <rdfs:label xml:lang="en">FilledPrismaticCell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea -->
+
+
+    <owl:Class rdf:about="https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea">
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda"/>
+        <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SlittingFabricatedElectrodeSeparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_0658b91d_0b48_4302_9065_e3b5fad4815e -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_0658b91d_0b48_4302_9065_e3b5fad4815e"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_13cf7fc2_c0d4_4060_97c8_93e929870f5b"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_23f6e14f_b0fa_4140_b915_767131ac9b7f"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_2680e8c9_b5d0_4d50_9a33_52e4270669d8"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_2c787420_067a_483a_b565_a9a55898210e"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_39cf2373_f414_4295_92b8_7d60a91d7803"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_3af46bf2_9857_4102_a183_ab08d7cd6523 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_3af46bf2_9857_4102_a183_ab08d7cd6523"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_703ec528_ea40_486e_9924_b911782b1a75"/>
+                <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_6167332b_8416_46c9_90d1_49ee7416ae24"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_65e00d30_9d66_4018_a7b9_a671729a1794"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_680078b4_e669_407d_a9a5_902c1f55031a"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_70b20870_3beb_414a_b91f_2b6d234fda1a"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_9471e306_144f_4310_82bf_1415d23326e0"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_995475ba_f196_4b19_a7c7_38d032c59270"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_a1839bf6_9b67_48ca_a5a4_069b6e7fc0e9"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_a32722d5_42c1_446f_a071_05071047831f -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_a32722d5_42c1_446f_a071_05071047831f"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_a7003b69_ce78_48fe_a717_e04e1266c6cd"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_aa217fba_9840_4176_98a6_e247cf0181c8"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_aa602472_ba16_4375_b8b3_868f84324ec7"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_b10580a1_fb72_4151_a573_bbef22bae02b -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_b10580a1_fb72_4151_a573_bbef22bae02b"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_c531bf8b_27fe_43c5_8b12_f12f73545b8a -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_c531bf8b_27fe_43c5_8b12_f12f73545b8a"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_c7c1e32d_025b_4e30_8e8f_5b16e14a8190"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_cc903d23_0d06_49f8_81e4_b7511d2587e9"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_e4ba15be_8fe4_4f9e_9189_c9e762f86492"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f846eaba_e75a_49df_b71a_5f769e6a7e7e"/>
+    
+
+
+    <!-- https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9 -->
+
+
+    <owl:Class rdf:about="https://gpo.ontology.link/GPO_f97d2d4d_86db_4fd5_9e35_5bb363cd91c9"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
