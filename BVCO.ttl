@@ -13,7 +13,7 @@
 @base <https://bvco.ontology.link/> .
 
 <https://bvco.ontology.link> rdf:type owl:Ontology ;
-                              owl:versionIRI <https://bvco.ontology.link/0.4.0> ;
+                              owl:versionIRI <https://bvco.ontology.link/0.4.1> ;
                               owl:imports <http://emmo.info/emmo/1.0.0-beta4> ,
                                           <https://gpo.ontology.link> ,
                                           <https://big-map.github.io/BattINFO/ontology/BattINFO> ;
