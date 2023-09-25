@@ -12,7 +12,7 @@
      xmlns:emmo1="http://emmo.info/emmo#157"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://bvco.ontology.link">
-        <owl:versionIRI rdf:resource="https://bvco.ontology.link/0.4.0"/>
+        <owl:versionIRI rdf:resource="https://bvco.ontology.link/0.4.1"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-beta4"/>
         <owl:imports rdf:resource="https://gpo.ontology.link"/>
         <owl:imports rdf:resource="https://big-map.github.io/BattINFO/ontology/BattINFO"/>

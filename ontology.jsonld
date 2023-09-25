@@ -2283,7 +2283,7 @@
     "@id" : "https://big-map.github.io/BattINFO/ontology/BattINFO"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://bvco.ontology.link/0.4.0"
+    "@id" : "https://bvco.ontology.link/0.4.1"
   } ]
 }, {
   "@id" : "https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851",

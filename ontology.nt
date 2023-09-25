@@ -1,5 +1,5 @@
 <https://bvco.ontology.link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://bvco.ontology.link> <http://www.w3.org/2002/07/owl#versionIRI> <https://bvco.ontology.link/0.4.0> .
+<https://bvco.ontology.link> <http://www.w3.org/2002/07/owl#versionIRI> <https://bvco.ontology.link/0.4.1> .
 <https://bvco.ontology.link> <http://www.w3.org/2002/07/owl#imports> <http://emmo.info/emmo/1.0.0-beta4> .
 <https://bvco.ontology.link> <http://www.w3.org/2002/07/owl#imports> <https://gpo.ontology.link> .
 <https://bvco.ontology.link> <http://www.w3.org/2002/07/owl#imports> <https://big-map.github.io/BattINFO/ontology/BattINFO> .
