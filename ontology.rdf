@@ -419,7 +419,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212"/>
-        <rdfs:label xml:lang="en">Inserting</rdfs:label>
+        <skos:prefLabel xml:lang="en">Inserting</skos:prefLabel>
     </owl:Class>
     
 
@@ -429,7 +429,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836"/>
-        <rdfs:label xml:lang="en">FabricatedElectrodeSeparatorSequence</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeSeparatorSequence</skos:prefLabel>
     </owl:Class>
     
 
@@ -439,7 +439,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:label xml:lang="en">DriedSeparatedFabricatedElectrode</rdfs:label>
+        <skos:prefLabel xml:lang="en">DriedSeparatedFabricatedElectrode</skos:prefLabel>
     </owl:Class>
     
 
@@ -449,7 +449,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284"/>
-        <rdfs:label xml:lang="en">FabricatedElectrodeJellyRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeJellyRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -477,7 +477,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_77e2e601_5ecb_450b_b563_92f096997832"/>
-        <rdfs:label xml:lang="en">DrySlurryComponentMixture</rdfs:label>
+        <skos:prefLabel xml:lang="en">DrySlurryComponentMixture</skos:prefLabel>
     </owl:Class>
     
 
@@ -506,7 +506,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PouchCellWetting</rdfs:label>
+        <skos:prefLabel xml:lang="en">PouchCellWetting</skos:prefLabel>
     </owl:Class>
     
 
@@ -528,7 +528,7 @@
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5">
         <owl:equivalentClass rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7"/>
-        <rdfs:label xml:lang="en">WettedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">WettedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -538,7 +538,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
-        <rdfs:label xml:lang="en">DryFabricatedPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryFabricatedPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -558,7 +558,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c"/>
-        <rdfs:label xml:lang="en">PartiallyFilledPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartiallyFilledPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -590,7 +590,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PrismaticCellFormation</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrismaticCellFormation</skos:prefLabel>
     </owl:Class>
     
 
@@ -600,7 +600,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
-        <rdfs:label xml:lang="en">DryFabricatedCylindricalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryFabricatedCylindricalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -620,7 +620,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793"/>
-        <rdfs:label xml:lang="en">DriedSlittedFabricatedElectrodeRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">DriedSlittedFabricatedElectrodeRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -642,7 +642,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PouchCellSealing</rdfs:label>
+        <skos:prefLabel xml:lang="en">PouchCellSealing</skos:prefLabel>
     </owl:Class>
     
 
@@ -698,7 +698,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PrismaticCellInserting</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrismaticCellInserting</skos:prefLabel>
     </owl:Class>
     
 
@@ -728,7 +728,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a"/>
-        <rdfs:label xml:lang="en">Wetting</rdfs:label>
+        <skos:prefLabel xml:lang="en">Wetting</skos:prefLabel>
     </owl:Class>
     
 
@@ -782,7 +782,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
-        <rdfs:label xml:lang="en">DryFabricatedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryFabricatedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -901,7 +901,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PouchCellFormation</rdfs:label>
+        <skos:prefLabel xml:lang="en">PouchCellFormation</skos:prefLabel>
     </owl:Class>
     
 
@@ -921,7 +921,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
-        <rdfs:label xml:lang="en">FormedPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormedPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -931,7 +931,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
-        <rdfs:label xml:lang="en">CylindricalCase</rdfs:label>
+        <skos:prefLabel xml:lang="en">CylindricalCase</skos:prefLabel>
     </owl:Class>
     
 
@@ -988,7 +988,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331"/>
-        <rdfs:label xml:lang="en">SlotDieCoating</rdfs:label>
+        <skos:prefLabel xml:lang="en">SlotDieCoating</skos:prefLabel>
     </owl:Class>
     
 
@@ -998,7 +998,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
-        <rdfs:label xml:lang="en">PartiallyWettedFabricatedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartiallyWettedFabricatedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1026,7 +1026,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CylindricalCellElectrolyteFilling</rdfs:label>
+        <skos:prefLabel xml:lang="en">CylindricalCellElectrolyteFilling</skos:prefLabel>
     </owl:Class>
     
 
@@ -1077,7 +1077,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodeZFolding</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeZFolding</skos:prefLabel>
     </owl:Class>
     
 
@@ -1097,7 +1097,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
-        <rdfs:label xml:lang="en">SealedCylindricalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">SealedCylindricalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1159,7 +1159,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrochemicalCellSealing</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrochemicalCellSealing</skos:prefLabel>
     </owl:Class>
     
 
@@ -1198,7 +1198,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodeCalendering</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeCalendering</skos:prefLabel>
     </owl:Class>
     
 
@@ -1228,7 +1228,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
-        <rdfs:label xml:lang="en">FabricatedSeparatorRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedSeparatorRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -1238,7 +1238,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
-        <rdfs:label xml:lang="en">Binder</rdfs:label>
+        <skos:prefLabel xml:lang="en">Binder</skos:prefLabel>
     </owl:Class>
     
 
@@ -1248,7 +1248,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
-        <rdfs:label xml:lang="en">WettedPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">WettedPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1270,7 +1270,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PouchCellDegassing</rdfs:label>
+        <skos:prefLabel xml:lang="en">PouchCellDegassing</skos:prefLabel>
     </owl:Class>
     
 
@@ -1280,7 +1280,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0"/>
-        <rdfs:label xml:lang="de">LiquidElectrolyteCellProduction</rdfs:label>
+        <skos:prefLabel xml:lang="de">LiquidElectrolyteCellProduction</skos:prefLabel>
     </owl:Class>
     
 
@@ -1406,7 +1406,7 @@
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1"/>
         <emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Extruders are used for mixing of powders, followed by an extrusion onto a substrate, e.g. dry processing of lithium-ion battery active materials to coat current collectors</emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
-        <rdfs:label xml:lang="en">DryExtruderMixing</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryExtruderMixing</skos:prefLabel>
     </owl:Class>
     
 
@@ -1434,7 +1434,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodeStackPackaging</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeStackPackaging</skos:prefLabel>
     </owl:Class>
     
 
@@ -1484,7 +1484,7 @@
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a">
         <owl:equivalentClass rdf:resource="https://bvco.ontology.link/BVCO_787f689a_f40e_40cf_b368_49cab6f0a69f"/>
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
-        <rdfs:label xml:lang="en">FilledFabricatedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FilledFabricatedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1494,7 +1494,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
-        <rdfs:label xml:lang="en">BatteryPositiveElectrodeSlurry</rdfs:label>
+        <skos:prefLabel xml:lang="en">BatteryPositiveElectrodeSlurry</skos:prefLabel>
     </owl:Class>
     
 
@@ -1546,7 +1546,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba"/>
-        <rdfs:label xml:lang="en">Solvent</rdfs:label>
+        <skos:prefLabel xml:lang="en">Solvent</skos:prefLabel>
     </owl:Class>
     
 
@@ -1556,7 +1556,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9"/>
-        <rdfs:label xml:lang="en">FabricatedElectrodeStackWrapping</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeStackWrapping</skos:prefLabel>
     </owl:Class>
     
 
@@ -1610,7 +1610,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">SlurryComponentMixing</rdfs:label>
+        <skos:prefLabel xml:lang="en">SlurryComponentMixing</skos:prefLabel>
     </owl:Class>
     
 
@@ -1637,7 +1637,7 @@
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d"/>
         <emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Extruders are used for mixing of powders and solvents, followed by an extrusion onto a substrate, e.g., processing of lithium-ion battery active materials to coat current collectors</emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
-        <rdfs:label xml:lang="en">LiquidSolidExtruderMixing</rdfs:label>
+        <skos:prefLabel xml:lang="en">LiquidSolidExtruderMixing</skos:prefLabel>
     </owl:Class>
     
 
@@ -1647,7 +1647,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232"/>
-        <rdfs:label xml:lang="en">DryMixing</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryMixing</skos:prefLabel>
     </owl:Class>
     
 
@@ -1657,7 +1657,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:label xml:lang="en">SeparatedFabricatedElectrode</rdfs:label>
+        <skos:prefLabel xml:lang="en">SeparatedFabricatedElectrode</skos:prefLabel>
     </owl:Class>
     
 
@@ -1687,7 +1687,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786"/>
-        <rdfs:label xml:lang="en">PartiallyWettedCylindricalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartiallyWettedCylindricalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1803,7 +1803,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CylindricalCellInserting</rdfs:label>
+        <skos:prefLabel xml:lang="en">CylindricalCellInserting</skos:prefLabel>
     </owl:Class>
     
 
@@ -1813,7 +1813,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
-        <rdfs:label xml:lang="en">FilledCylindricalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FilledCylindricalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1836,7 +1836,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">SlittedFabricatedElectrodeRoleDrying</rdfs:label>
+        <skos:prefLabel xml:lang="en">SlittedFabricatedElectrodeRoleDrying</skos:prefLabel>
     </owl:Class>
     
 
@@ -1880,7 +1880,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
-        <rdfs:label xml:lang="en">PartiallyFilledFabricatedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartiallyFilledFabricatedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1896,7 +1896,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">FabricatedElectrodeSeparatorSequenceAssebmly</rdfs:label>
+        <skos:prefLabel xml:lang="de">FabricatedElectrodeSeparatorSequenceAssebmly</skos:prefLabel>
     </owl:Class>
     
 
@@ -1926,7 +1926,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">LaserCuttingFabricatedElectrodeSeparation</rdfs:label>
+        <skos:prefLabel xml:lang="en">LaserCuttingFabricatedElectrodeSeparation</skos:prefLabel>
     </owl:Class>
     
 
@@ -1953,7 +1953,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
-        <rdfs:label xml:lang="en">FilledPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FilledPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -1981,7 +1981,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodePostDrying</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodePostDrying</skos:prefLabel>
     </owl:Class>
     
 
@@ -1991,7 +1991,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3"/>
-        <rdfs:label xml:lang="en">DegassedPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">DegassedPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2027,7 +2027,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53"/>
-        <rdfs:label xml:lang="en">PrismaticCase</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrismaticCase</skos:prefLabel>
     </owl:Class>
     
 
@@ -2037,7 +2037,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6"/>
-        <rdfs:label xml:lang="en">Slitting</rdfs:label>
+        <skos:prefLabel xml:lang="en">Slitting</skos:prefLabel>
     </owl:Class>
     
 
@@ -2068,7 +2068,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40"/>
-        <rdfs:label xml:lang="en">DryFabricatedElectrodeJellyRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryFabricatedElectrodeJellyRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -2078,7 +2078,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
-        <rdfs:label xml:lang="en">DryFabricatedPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryFabricatedPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2106,7 +2106,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PouchCellElectrolyteFilling</rdfs:label>
+        <skos:prefLabel xml:lang="en">PouchCellElectrolyteFilling</skos:prefLabel>
     </owl:Class>
     
 
@@ -2139,7 +2139,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PrismaticCellSealing</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrismaticCellSealing</skos:prefLabel>
     </owl:Class>
     
 
@@ -2181,7 +2181,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PrismaticCellElectrolyteFilling</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrismaticCellElectrolyteFilling</skos:prefLabel>
     </owl:Class>
     
 
@@ -2217,7 +2217,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc"/>
-        <rdfs:label xml:lang="en">CalenderedFabricatedElectrodeRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">CalenderedFabricatedElectrodeRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -2227,7 +2227,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
-        <rdfs:label xml:lang="en">WettedPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">WettedPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2317,7 +2317,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
-        <rdfs:label xml:lang="en">FormedPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormedPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2351,7 +2351,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodeSeparatorSequenceInserting</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeSeparatorSequenceInserting</skos:prefLabel>
     </owl:Class>
     
 
@@ -2361,7 +2361,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
-        <rdfs:label xml:lang="en">SealedFabricatedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">SealedFabricatedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2432,7 +2432,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CylindricalCellSealing</rdfs:label>
+        <skos:prefLabel xml:lang="en">CylindricalCellSealing</skos:prefLabel>
     </owl:Class>
     
 
@@ -2442,7 +2442,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f"/>
-        <rdfs:label xml:lang="en">FabricatedSeparatorSheet</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedSeparatorSheet</skos:prefLabel>
     </owl:Class>
     
 
@@ -2518,7 +2518,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786"/>
-        <rdfs:label xml:lang="en">PartiallyWettedPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartiallyWettedPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2562,7 +2562,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CylindricalCellFormation</rdfs:label>
+        <skos:prefLabel xml:lang="en">CylindricalCellFormation</skos:prefLabel>
     </owl:Class>
     
 
@@ -2572,7 +2572,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1">
         <rdfs:subClassOf rdf:resource="https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6"/>
-        <rdfs:label xml:lang="en">LaserCutting</rdfs:label>
+        <skos:prefLabel xml:lang="en">LaserCutting</skos:prefLabel>
     </owl:Class>
     
 
@@ -2593,7 +2593,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32"/>
-        <rdfs:label xml:lang="en">WettedFabricatedElectrochemicalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">WettedFabricatedElectrochemicalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2781,7 +2781,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1"/>
-        <rdfs:label xml:lang="en">DriedFabricatedElectrodeRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">DriedFabricatedElectrodeRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -2821,7 +2821,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_e9e02156_651f_41c8_9efb_d5da0d4ce5e2"/>
-        <rdfs:label xml:lang="en">BatteryElectrodeSlurry</rdfs:label>
+        <skos:prefLabel xml:lang="en">BatteryElectrodeSlurry</skos:prefLabel>
     </owl:Class>
     
 
@@ -2841,7 +2841,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
-        <rdfs:label xml:lang="en">WettedCylindricalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">WettedCylindricalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -2869,7 +2869,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrochemicalCellWetting</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrochemicalCellWetting</skos:prefLabel>
     </owl:Class>
     
 
@@ -2889,7 +2889,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:label xml:lang="en">CoatedFabricatedElectrode</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoatedFabricatedElectrode</skos:prefLabel>
     </owl:Class>
     
 
@@ -3002,7 +3002,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodeJellyRolePackaging</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeJellyRolePackaging</skos:prefLabel>
     </owl:Class>
     
 
@@ -3031,7 +3031,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CylindricalCellWetting</rdfs:label>
+        <skos:prefLabel xml:lang="en">CylindricalCellWetting</skos:prefLabel>
     </owl:Class>
     
 
@@ -3078,7 +3078,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PrismaticCellWetting</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrismaticCellWetting</skos:prefLabel>
     </owl:Class>
     
 
@@ -3098,7 +3098,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
-        <rdfs:label xml:lang="en">SealedPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">SealedPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -3142,7 +3142,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">SlurryComponentPreMixing</rdfs:label>
+        <skos:prefLabel xml:lang="en">SlurryComponentPreMixing</skos:prefLabel>
     </owl:Class>
     
 
@@ -3223,7 +3223,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:label xml:lang="en">CalenderedFabricatedElectrode</rdfs:label>
+        <skos:prefLabel xml:lang="en">CalenderedFabricatedElectrode</skos:prefLabel>
     </owl:Class>
     
 
@@ -3252,7 +3252,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">FabricatedElectrodeWinding</rdfs:label>
+        <skos:prefLabel xml:lang="en">FabricatedElectrodeWinding</skos:prefLabel>
     </owl:Class>
     
 
@@ -3272,7 +3272,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320"/>
-        <rdfs:label xml:lang="en">SealedPouchCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">SealedPouchCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -3282,7 +3282,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d"/>
-        <rdfs:label xml:lang="en">FormedCylindricalCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormedCylindricalCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -3310,7 +3310,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">PouchCellInserting</rdfs:label>
+        <skos:prefLabel xml:lang="en">PouchCellInserting</skos:prefLabel>
     </owl:Class>
     
 
@@ -3517,7 +3517,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b"/>
-        <rdfs:label xml:lang="en">DryFabricatedElectrodeStack</rdfs:label>
+        <skos:prefLabel xml:lang="en">DryFabricatedElectrodeStack</skos:prefLabel>
     </owl:Class>
     
 
@@ -3527,7 +3527,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c"/>
-        <rdfs:label xml:lang="en">BatteryNegativeElectrodeSlurry</rdfs:label>
+        <skos:prefLabel xml:lang="en">BatteryNegativeElectrodeSlurry</skos:prefLabel>
     </owl:Class>
     
 
@@ -3556,7 +3556,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">CoatedFabricatedElectrodeDrying</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoatedFabricatedElectrodeDrying</skos:prefLabel>
     </owl:Class>
     
 
@@ -3652,7 +3652,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786"/>
-        <rdfs:label xml:lang="en">PartiallyWettedPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartiallyWettedPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -3689,7 +3689,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090"/>
-        <rdfs:label xml:lang="en">SlittedFabricatedElectrodeRole</rdfs:label>
+        <skos:prefLabel xml:lang="en">SlittedFabricatedElectrodeRole</skos:prefLabel>
     </owl:Class>
     
 
@@ -3723,7 +3723,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">BatteryElectrodeCoating</rdfs:label>
+        <skos:prefLabel xml:lang="en">BatteryElectrodeCoating</skos:prefLabel>
     </owl:Class>
     
 
@@ -3827,7 +3827,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"/>
-        <rdfs:label xml:lang="en">DriedFabricatedElectrode</rdfs:label>
+        <skos:prefLabel xml:lang="en">DriedFabricatedElectrode</skos:prefLabel>
     </owl:Class>
     
 
@@ -3968,7 +3968,7 @@
 
     <owl:Class rdf:about="https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764">
         <rdfs:subClassOf rdf:resource="https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a"/>
-        <rdfs:label xml:lang="en">FilledPrismaticCell</rdfs:label>
+        <skos:prefLabel xml:lang="en">FilledPrismaticCell</skos:prefLabel>
     </owl:Class>
     
 
@@ -3985,7 +3985,7 @@
                 <owl:someValuesFrom rdf:resource="https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">SlittingFabricatedElectrodeSeparation</rdfs:label>
+        <skos:prefLabel xml:lang="en">SlittingFabricatedElectrodeSeparation</skos:prefLabel>
     </owl:Class>
     
 

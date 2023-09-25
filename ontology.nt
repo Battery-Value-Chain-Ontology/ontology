@@ -200,22 +200,22 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> .
 <https://gpo.ontology.link/GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851> <http://www.w3.org/2000/01/rdf-schema#label> "Inserting"@en .
+<https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851> <http://www.w3.org/2004/02/skos/core#prefLabel> "Inserting"@en .
 # 
 # https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284
 <https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836> .
-<https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeSeparatorSequence"@en .
+<https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeSeparatorSequence"@en .
 # 
 # https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793
 <https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c> .
-<https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793> <http://www.w3.org/2000/01/rdf-schema#label> "DriedSeparatedFabricatedElectrode"@en .
+<https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793> <http://www.w3.org/2004/02/skos/core#prefLabel> "DriedSeparatedFabricatedElectrode"@en .
 # 
 # https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40
 <https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284> .
-<https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeJellyRole"@en .
+<https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeJellyRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6
 <https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -231,7 +231,7 @@ _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab
 <https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_77e2e601_5ecb_450b_b563_92f096997832> .
-<https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab> <http://www.w3.org/2000/01/rdf-schema#label> "DrySlurryComponentMixture"@en .
+<https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab> <http://www.w3.org/2004/02/skos/core#prefLabel> "DrySlurryComponentMixture"@en .
 # 
 # https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514
 <https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -252,7 +252,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514> <http://www.w3.org/2000/01/rdf-schema#label> "PouchCellWetting"@en .
+<https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514> <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellWetting"@en .
 # 
 # https://bvco.ontology.link/BVCO_0effce43_6179_49f6_903f_b3e27091b6d0
 <https://bvco.ontology.link/BVCO_0effce43_6179_49f6_903f_b3e27091b6d0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -264,12 +264,12 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5> <http://www.w3.org/2002/07/owl#equivalentClass> <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> .
 <https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7> .
-<https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5> <http://www.w3.org/2000/01/rdf-schema#label> "WettedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5> <http://www.w3.org/2004/02/skos/core#prefLabel> "WettedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b
 <https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> .
-<https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b> <http://www.w3.org/2000/01/rdf-schema#label> "DryFabricatedPouchCell"@en .
+<https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryFabricatedPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f
 <https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -280,7 +280,7 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378
 <https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c> .
-<https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378> <http://www.w3.org/2000/01/rdf-schema#label> "PartiallyFilledPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartiallyFilledPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_14f7394f_0474_44fe_96eb_426e9b94a279
 <https://bvco.ontology.link/BVCO_14f7394f_0474_44fe_96eb_426e9b94a279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -298,12 +298,12 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b> .
 _:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_159d475f_97dc_4010_91b5_fcc94d243ae0> <http://www.w3.org/2000/01/rdf-schema#label> "PrismaticCellFormation"@en .
+<https://bvco.ontology.link/BVCO_159d475f_97dc_4010_91b5_fcc94d243ae0> <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCellFormation"@en .
 # 
 # https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09
 <https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> .
-<https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09> <http://www.w3.org/2000/01/rdf-schema#label> "DryFabricatedCylindricalCell"@en .
+<https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryFabricatedCylindricalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766
 <https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -313,7 +313,7 @@ _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393
 <https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793> .
-<https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393> <http://www.w3.org/2000/01/rdf-schema#label> "DriedSlittedFabricatedElectrodeRole"@en .
+<https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393> <http://www.w3.org/2004/02/skos/core#prefLabel> "DriedSlittedFabricatedElectrodeRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937
 <https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -326,7 +326,7 @@ _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300> .
 _:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937> <http://www.w3.org/2000/01/rdf-schema#label> "PouchCellSealing"@en .
+<https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937> <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellSealing"@en .
 # 
 # https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda
 <https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -361,7 +361,7 @@ _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e> .
 _:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_198e1caf_0784_4ecb_a671_75915272b686> <http://www.w3.org/2000/01/rdf-schema#label> "PrismaticCellInserting"@en .
+<https://bvco.ontology.link/BVCO_198e1caf_0784_4ecb_a671_75915272b686> <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCellInserting"@en .
 # 
 # https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6
 <https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -377,7 +377,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78
 <https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> .
-<https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78> <http://www.w3.org/2000/01/rdf-schema#label> "Wetting"@en .
+<https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wetting"@en .
 # 
 # https://bvco.ontology.link/BVCO_1ba6fc78_d12b_475d_b3ff_0220fe614ed9
 <https://bvco.ontology.link/BVCO_1ba6fc78_d12b_475d_b3ff_0220fe614ed9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -408,7 +408,7 @@ _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae
 <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32> .
-<https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> <http://www.w3.org/2000/01/rdf-schema#label> "DryFabricatedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryFabricatedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_1d7cc67a_a753_4242_ac87_de846b4132b8
 <https://bvco.ontology.link/BVCO_1d7cc67a_a753_4242_ac87_de846b4132b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -477,7 +477,7 @@ _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1> .
 _:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_23545956_695c_41f5_9923_16472f9a299f> <http://www.w3.org/2000/01/rdf-schema#label> "PouchCellFormation"@en .
+<https://bvco.ontology.link/BVCO_23545956_695c_41f5_9923_16472f9a299f> <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellFormation"@en .
 # 
 # https://bvco.ontology.link/BVCO_2748579f_0cb7_42b5_988b_3b8719856a20
 <https://bvco.ontology.link/BVCO_2748579f_0cb7_42b5_988b_3b8719856a20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -487,12 +487,12 @@ _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b
 <https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d> .
-<https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b> <http://www.w3.org/2000/01/rdf-schema#label> "FormedPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b> <http://www.w3.org/2004/02/skos/core#prefLabel> "FormedPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51
 <https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53> .
-<https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51> <http://www.w3.org/2000/01/rdf-schema#label> "CylindricalCase"@en .
+<https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51> <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCase"@en .
 # 
 # https://bvco.ontology.link/BVCO_28f1502b_14d2_436d_a294_bf372a13a39f
 <https://bvco.ontology.link/BVCO_28f1502b_14d2_436d_a294_bf372a13a39f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -524,12 +524,12 @@ _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331> .
 <https://gpo.ontology.link/GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1> <http://www.w3.org/2000/01/rdf-schema#label> "SlotDieCoating"@en .
+<https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1> <http://www.w3.org/2004/02/skos/core#prefLabel> "SlotDieCoating"@en .
 # 
 # https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786
 <https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32> .
-<https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> <http://www.w3.org/2000/01/rdf-schema#label> "PartiallyWettedFabricatedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartiallyWettedFabricatedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6
 <https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -546,7 +546,7 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba> .
 _:genid44 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6> <http://www.w3.org/2000/01/rdf-schema#label> "CylindricalCellElectrolyteFilling"@en .
+<https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6> <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCellElectrolyteFilling"@en .
 # 
 # https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
 <https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -578,7 +578,7 @@ _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid49 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6> .
 _:genid49 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_38eda6ec_6e3d_4a7e_91fc_54c8beb57374> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeZFolding"@en .
+<https://bvco.ontology.link/BVCO_38eda6ec_6e3d_4a7e_91fc_54c8beb57374> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeZFolding"@en .
 # 
 # https://bvco.ontology.link/BVCO_3a7bf591_548a_42d3_bcae_59a6a672b9c8
 <https://bvco.ontology.link/BVCO_3a7bf591_548a_42d3_bcae_59a6a672b9c8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -588,7 +588,7 @@ _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14
 <https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> .
-<https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14> <http://www.w3.org/2000/01/rdf-schema#label> "SealedCylindricalCell"@en .
+<https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14> <http://www.w3.org/2004/02/skos/core#prefLabel> "SealedCylindricalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4
 <https://bvco.ontology.link/BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -628,7 +628,7 @@ _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid56 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> .
 _:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrochemicalCellSealing"@en .
+<https://bvco.ontology.link/BVCO_3cf2ce1c_b1d5_46a4_8363_bc2f595f228e> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrochemicalCellSealing"@en .
 # 
 # https://bvco.ontology.link/BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179
 <https://bvco.ontology.link/BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -652,7 +652,7 @@ _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc> .
 _:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_3f685553_cf80_4b4f_ba3b_c2552c570a81> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeCalendering"@en .
+<https://bvco.ontology.link/BVCO_3f685553_cf80_4b4f_ba3b_c2552c570a81> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeCalendering"@en .
 # 
 # https://bvco.ontology.link/BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb
 <https://bvco.ontology.link/BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -667,17 +667,17 @@ _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d
 <https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f> .
-<https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedSeparatorRole"@en .
+<https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedSeparatorRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358
 <https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> .
-<https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358> <http://www.w3.org/2000/01/rdf-schema#label> "Binder"@en .
+<https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358> <http://www.w3.org/2004/02/skos/core#prefLabel> "Binder"@en .
 # 
 # https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499
 <https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> .
-<https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499> <http://www.w3.org/2000/01/rdf-schema#label> "WettedPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499> <http://www.w3.org/2004/02/skos/core#prefLabel> "WettedPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c
 <https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -690,12 +690,12 @@ _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd> .
 _:genid61 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c> <http://www.w3.org/2000/01/rdf-schema#label> "PouchCellDegassing"@en .
+<https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c> <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellDegassing"@en .
 # 
 # https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95
 <https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0> .
-<https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95> <http://www.w3.org/2000/01/rdf-schema#label> "LiquidElectrolyteCellProduction"@de .
+<https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95> <http://www.w3.org/2004/02/skos/core#prefLabel> "LiquidElectrolyteCellProduction"@de .
 # 
 # https://bvco.ontology.link/BVCO_454eb9d2_d541_4bbe_932f_27a77dc7c370
 <https://bvco.ontology.link/BVCO_454eb9d2_d541_4bbe_932f_27a77dc7c370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -769,7 +769,7 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1> .
 <https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Extruders are used for mixing of powders, followed by an extrusion onto a substrate, e.g. dry processing of lithium-ion battery active materials to coat current collectors"@en .
-<https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548> <http://www.w3.org/2000/01/rdf-schema#label> "DryExtruderMixing"@en .
+<https://bvco.ontology.link/BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryExtruderMixing"@en .
 # 
 # https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930
 <https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -786,7 +786,7 @@ _:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> .
 _:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeStackPackaging"@en .
+<https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeStackPackaging"@en .
 # 
 # https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7
 <https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -816,12 +816,12 @@ _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> <http://www.w3.org/2002/07/owl#equivalentClass> <https://bvco.ontology.link/BVCO_787f689a_f40e_40cf_b368_49cab6f0a69f> .
 <https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32> .
-<https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> <http://www.w3.org/2000/01/rdf-schema#label> "FilledFabricatedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> <http://www.w3.org/2004/02/skos/core#prefLabel> "FilledFabricatedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6
 <https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> .
-<https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6> <http://www.w3.org/2000/01/rdf-schema#label> "BatteryPositiveElectrodeSlurry"@en .
+<https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryPositiveElectrodeSlurry"@en .
 # 
 # https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49
 <https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -849,13 +849,13 @@ _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8
 <https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba> .
-<https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8> <http://www.w3.org/2000/01/rdf-schema#label> "Solvent"@en .
+<https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solvent"@en .
 # 
 # https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214
 <https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9> .
 <https://gpo.ontology.link/GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeStackWrapping"@en .
+<https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeStackWrapping"@en .
 # 
 # https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960
 <https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -888,7 +888,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid80 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> .
 _:genid80 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_60aef9bf_772f_4355_9f2f_d58c296efe03> <http://www.w3.org/2000/01/rdf-schema#label> "SlurryComponentMixing"@en .
+<https://bvco.ontology.link/BVCO_60aef9bf_772f_4355_9f2f_d58c296efe03> <http://www.w3.org/2004/02/skos/core#prefLabel> "SlurryComponentMixing"@en .
 # 
 # https://bvco.ontology.link/BVCO_60bee84b_4501_4c3e_ad19_692f52080a46
 <https://bvco.ontology.link/BVCO_60bee84b_4501_4c3e_ad19_692f52080a46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -903,18 +903,18 @@ _:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d> .
 <https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Extruders are used for mixing of powders and solvents, followed by an extrusion onto a substrate, e.g., processing of lithium-ion battery active materials to coat current collectors"@en .
-<https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af> <http://www.w3.org/2000/01/rdf-schema#label> "LiquidSolidExtruderMixing"@en .
+<https://bvco.ontology.link/BVCO_61535c53_3faf_43b6_a379_ebcced2392af> <http://www.w3.org/2004/02/skos/core#prefLabel> "LiquidSolidExtruderMixing"@en .
 # 
 # https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1
 <https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> .
 <https://gpo.ontology.link/GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1> <http://www.w3.org/2000/01/rdf-schema#label> "DryMixing"@en .
+<https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryMixing"@en .
 # 
 # https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090
 <https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c> .
-<https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090> <http://www.w3.org/2000/01/rdf-schema#label> "SeparatedFabricatedElectrode"@en .
+<https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090> <http://www.w3.org/2004/02/skos/core#prefLabel> "SeparatedFabricatedElectrode"@en .
 # 
 # https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3
 <https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -929,7 +929,7 @@ _:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd
 <https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> .
-<https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd> <http://www.w3.org/2000/01/rdf-schema#label> "PartiallyWettedCylindricalCell"@en .
+<https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartiallyWettedCylindricalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_67c6a44c_7f7c_4000_a0e4_6cfc9a857b0c
 <https://bvco.ontology.link/BVCO_67c6a44c_7f7c_4000_a0e4_6cfc9a857b0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -998,12 +998,12 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid90 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09> .
 _:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_6da7b3e9_7240_4806_a698_ba29594b1b08> <http://www.w3.org/2000/01/rdf-schema#label> "CylindricalCellInserting"@en .
+<https://bvco.ontology.link/BVCO_6da7b3e9_7240_4806_a698_ba29594b1b08> <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCellInserting"@en .
 # 
 # https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba
 <https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> .
-<https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba> <http://www.w3.org/2000/01/rdf-schema#label> "FilledCylindricalCell"@en .
+<https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba> <http://www.w3.org/2004/02/skos/core#prefLabel> "FilledCylindricalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace
 <https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1017,7 +1017,7 @@ _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid92 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393> .
 _:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace> <http://www.w3.org/2000/01/rdf-schema#label> "SlittedFabricatedElectrodeRoleDrying"@en .
+<https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace> <http://www.w3.org/2004/02/skos/core#prefLabel> "SlittedFabricatedElectrodeRoleDrying"@en .
 # 
 # https://bvco.ontology.link/BVCO_6f1f861d_5b6f_46a6_b4e7_b8a213cd1a6f
 <https://bvco.ontology.link/BVCO_6f1f861d_5b6f_46a6_b4e7_b8a213cd1a6f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1043,7 +1043,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c
 <https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32> .
-<https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c> <http://www.w3.org/2000/01/rdf-schema#label> "PartiallyFilledFabricatedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartiallyFilledFabricatedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583
 <https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1052,7 +1052,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid97 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda> .
 _:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38> .
 _:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeSeparatorSequenceAssebmly"@de .
+<https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeSeparatorSequenceAssebmly"@de .
 # 
 # https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255
 <https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1074,7 +1074,7 @@ _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid99 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255> <http://www.w3.org/2000/01/rdf-schema#label> "LaserCuttingFabricatedElectrodeSeparation"@en .
+<https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255> <http://www.w3.org/2004/02/skos/core#prefLabel> "LaserCuttingFabricatedElectrodeSeparation"@en .
 # 
 # https://bvco.ontology.link/BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18
 <https://bvco.ontology.link/BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1089,7 +1089,7 @@ _:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6
 <https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> .
-<https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6> <http://www.w3.org/2000/01/rdf-schema#label> "FilledPouchCell"@en .
+<https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6> <http://www.w3.org/2004/02/skos/core#prefLabel> "FilledPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659
 <https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1107,12 +1107,12 @@ _:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid106 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793> .
 _:genid106 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodePostDrying"@en .
+<https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodePostDrying"@en .
 # 
 # https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd
 <https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3> .
-<https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd> <http://www.w3.org/2000/01/rdf-schema#label> "DegassedPouchCell"@en .
+<https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd> <http://www.w3.org/2004/02/skos/core#prefLabel> "DegassedPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6
 <https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1131,13 +1131,13 @@ _:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896
 <https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53> .
-<https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896> <http://www.w3.org/2000/01/rdf-schema#label> "PrismaticCase"@en .
+<https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896> <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCase"@en .
 # 
 # https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b
 <https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6> .
 <https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b> <http://www.w3.org/2000/01/rdf-schema#label> "Slitting"@en .
+<https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slitting"@en .
 # 
 # https://bvco.ontology.link/BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4
 <https://bvco.ontology.link/BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1153,12 +1153,12 @@ _:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3
 <https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40> .
-<https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3> <http://www.w3.org/2000/01/rdf-schema#label> "DryFabricatedElectrodeJellyRole"@en .
+<https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryFabricatedElectrodeJellyRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e
 <https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> .
-<https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e> <http://www.w3.org/2000/01/rdf-schema#label> "DryFabricatedPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryFabricatedPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6
 <https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1175,7 +1175,7 @@ _:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid110 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6> .
 _:genid110 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6> <http://www.w3.org/2000/01/rdf-schema#label> "PouchCellElectrolyteFilling"@en .
+<https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6> <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellElectrolyteFilling"@en .
 # 
 # https://bvco.ontology.link/BVCO_7a42039d_b485_4476_a543_f8c75c25fbd9
 <https://bvco.ontology.link/BVCO_7a42039d_b485_4476_a543_f8c75c25fbd9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1194,7 +1194,7 @@ _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid112 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a> .
 _:genid112 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_7b304320_e7b0_420b_8b98_5b2d0f546e59> <http://www.w3.org/2000/01/rdf-schema#label> "PrismaticCellSealing"@en .
+<https://bvco.ontology.link/BVCO_7b304320_e7b0_420b_8b98_5b2d0f546e59> <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCellSealing"@en .
 # 
 # https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5
 <https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1227,7 +1227,7 @@ _:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid118 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5> <http://www.w3.org/2000/01/rdf-schema#label> "PrismaticCellElectrolyteFilling"@en .
+<https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5> <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCellElectrolyteFilling"@en .
 # 
 # https://bvco.ontology.link/BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292
 <https://bvco.ontology.link/BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1246,12 +1246,12 @@ _:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99
 <https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc> .
-<https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99> <http://www.w3.org/2000/01/rdf-schema#label> "CalenderedFabricatedElectrodeRole"@en .
+<https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99> <http://www.w3.org/2004/02/skos/core#prefLabel> "CalenderedFabricatedElectrodeRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359
 <https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> .
-<https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359> <http://www.w3.org/2000/01/rdf-schema#label> "WettedPouchCell"@en .
+<https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359> <http://www.w3.org/2004/02/skos/core#prefLabel> "WettedPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0
 <https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1301,7 +1301,7 @@ _:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1
 <https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d> .
-<https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1> <http://www.w3.org/2000/01/rdf-schema#label> "FormedPouchCell"@en .
+<https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1> <http://www.w3.org/2004/02/skos/core#prefLabel> "FormedPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82
 <https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1322,12 +1322,12 @@ _:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid131 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> .
 _:genid131 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeSeparatorSequenceInserting"@en .
+<https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeSeparatorSequenceInserting"@en .
 # 
 # https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320
 <https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32> .
-<https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> <http://www.w3.org/2000/01/rdf-schema#label> "SealedFabricatedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> <http://www.w3.org/2004/02/skos/core#prefLabel> "SealedFabricatedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810
 <https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1368,12 +1368,12 @@ _:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid136 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14> .
 _:genid136 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_8fedf35c_c351_4283_b29e_949d548c9612> <http://www.w3.org/2000/01/rdf-schema#label> "CylindricalCellSealing"@en .
+<https://bvco.ontology.link/BVCO_8fedf35c_c351_4283_b29e_949d548c9612> <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCellSealing"@en .
 # 
 # https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2
 <https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f> .
-<https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedSeparatorSheet"@en .
+<https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedSeparatorSheet"@en .
 # 
 # https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53
 <https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1418,7 +1418,7 @@ _:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627
 <https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> .
-<https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627> <http://www.w3.org/2000/01/rdf-schema#label> "PartiallyWettedPouchCell"@en .
+<https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartiallyWettedPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_97409fc6_e62e_4c4f_a1ca_67c41e5dd263
 <https://bvco.ontology.link/BVCO_97409fc6_e62e_4c4f_a1ca_67c41e5dd263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1445,12 +1445,12 @@ _:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid146 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399> .
 _:genid146 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_985acc14_e274_42c4_99e0_5dc74f9c4ca6> <http://www.w3.org/2000/01/rdf-schema#label> "CylindricalCellFormation"@en .
+<https://bvco.ontology.link/BVCO_985acc14_e274_42c4_99e0_5dc74f9c4ca6> <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCellFormation"@en .
 # 
 # https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1
 <https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gpo.ontology.link/GPO_275452d1_abaa_4c59_b4af_2f14332209c6> .
-<https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1> <http://www.w3.org/2000/01/rdf-schema#label> "LaserCutting"@en .
+<https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1> <http://www.w3.org/2004/02/skos/core#prefLabel> "LaserCutting"@en .
 # 
 # https://bvco.ontology.link/BVCO_99397341_1db2_48f1_9288_04cbbce1de25
 <https://bvco.ontology.link/BVCO_99397341_1db2_48f1_9288_04cbbce1de25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1461,7 +1461,7 @@ _:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98
 <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32> .
-<https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> <http://www.w3.org/2000/01/rdf-schema#label> "WettedFabricatedElectrochemicalCell"@en .
+<https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> <http://www.w3.org/2004/02/skos/core#prefLabel> "WettedFabricatedElectrochemicalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b
 <https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1579,7 +1579,7 @@ _:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b
 <https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1> .
-<https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b> <http://www.w3.org/2000/01/rdf-schema#label> "DriedFabricatedElectrodeRole"@en .
+<https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b> <http://www.w3.org/2004/02/skos/core#prefLabel> "DriedFabricatedElectrodeRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2
 <https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1599,7 +1599,7 @@ _:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c
 <https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_e9e02156_651f_41c8_9efb_d5da0d4ce5e2> .
-<https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> <http://www.w3.org/2000/01/rdf-schema#label> "BatteryElectrodeSlurry"@en .
+<https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryElectrodeSlurry"@en .
 # 
 # https://bvco.ontology.link/BVCO_a79ee6cc_24a3_4cc3_a0d2_097022ba5952
 <https://bvco.ontology.link/BVCO_a79ee6cc_24a3_4cc3_a0d2_097022ba5952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1609,7 +1609,7 @@ _:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb
 <https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> .
-<https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb> <http://www.w3.org/2000/01/rdf-schema#label> "WettedCylindricalCell"@en .
+<https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb> <http://www.w3.org/2004/02/skos/core#prefLabel> "WettedCylindricalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f
 <https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1626,7 +1626,7 @@ _:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid165 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98> .
 _:genid165 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrochemicalCellWetting"@en .
+<https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrochemicalCellWetting"@en .
 # 
 # https://bvco.ontology.link/BVCO_abf969da_21b3_4aeb_9a91_77f316c0aeec
 <https://bvco.ontology.link/BVCO_abf969da_21b3_4aeb_9a91_77f316c0aeec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1636,7 +1636,7 @@ _:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c
 <https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c> .
-<https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c> <http://www.w3.org/2000/01/rdf-schema#label> "CoatedFabricatedElectrode"@en .
+<https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c> <http://www.w3.org/2004/02/skos/core#prefLabel> "CoatedFabricatedElectrode"@en .
 # 
 # https://bvco.ontology.link/BVCO_ad24cf92_0975_45bb_b259_f55c66586be2
 <https://bvco.ontology.link/BVCO_ad24cf92_0975_45bb_b259_f55c66586be2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1715,7 +1715,7 @@ _:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid179 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae> .
 _:genid179 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_b0d50501_459a_4207_99e6_7590c576668b> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeJellyRolePackaging"@en .
+<https://bvco.ontology.link/BVCO_b0d50501_459a_4207_99e6_7590c576668b> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeJellyRolePackaging"@en .
 # 
 # https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a
 <https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1736,7 +1736,7 @@ _:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid181 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a> <http://www.w3.org/2000/01/rdf-schema#label> "CylindricalCellWetting"@en .
+<https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a> <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCellWetting"@en .
 # 
 # https://bvco.ontology.link/BVCO_b14a9d69_d2a3_4d76_94b5_4f0225b557fc
 <https://bvco.ontology.link/BVCO_b14a9d69_d2a3_4d76_94b5_4f0225b557fc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1771,7 +1771,7 @@ _:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid189 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_b5540155_6bab_4d81_bf3d_41c171d63a0f> <http://www.w3.org/2000/01/rdf-schema#label> "PrismaticCellWetting"@en .
+<https://bvco.ontology.link/BVCO_b5540155_6bab_4d81_bf3d_41c171d63a0f> <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCellWetting"@en .
 # 
 # https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09
 <https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1781,7 +1781,7 @@ _:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a
 <https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> .
-<https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a> <http://www.w3.org/2000/01/rdf-schema#label> "SealedPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a> <http://www.w3.org/2004/02/skos/core#prefLabel> "SealedPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_bc4de725_c820_458d_99d2_8dbee3378152
 <https://bvco.ontology.link/BVCO_bc4de725_c820_458d_99d2_8dbee3378152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1807,7 +1807,7 @@ _:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid196 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab> .
 _:genid196 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_bcd30e45_3d75_43b1_a119_6a4828555523> <http://www.w3.org/2000/01/rdf-schema#label> "SlurryComponentPreMixing"@en .
+<https://bvco.ontology.link/BVCO_bcd30e45_3d75_43b1_a119_6a4828555523> <http://www.w3.org/2004/02/skos/core#prefLabel> "SlurryComponentPreMixing"@en .
 # 
 # https://bvco.ontology.link/BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37
 <https://bvco.ontology.link/BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1853,7 +1853,7 @@ _:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc
 <https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c> .
-<https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc> <http://www.w3.org/2000/01/rdf-schema#label> "CalenderedFabricatedElectrode"@en .
+<https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc> <http://www.w3.org/2004/02/skos/core#prefLabel> "CalenderedFabricatedElectrode"@en .
 # 
 # https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9
 <https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1872,7 +1872,7 @@ _:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid204 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3> .
 _:genid204 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9> <http://www.w3.org/2000/01/rdf-schema#label> "FabricatedElectrodeWinding"@en .
+<https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9> <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricatedElectrodeWinding"@en .
 # 
 # https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933
 <https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1883,12 +1883,12 @@ _:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300
 <https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320> .
-<https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300> <http://www.w3.org/2000/01/rdf-schema#label> "SealedPouchCell"@en .
+<https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300> <http://www.w3.org/2004/02/skos/core#prefLabel> "SealedPouchCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399
 <https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d> .
-<https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399> <http://www.w3.org/2000/01/rdf-schema#label> "FormedCylindricalCell"@en .
+<https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399> <http://www.w3.org/2004/02/skos/core#prefLabel> "FormedCylindricalCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a
 <https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1905,7 +1905,7 @@ _:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid207 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b> .
 _:genid207 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a> <http://www.w3.org/2000/01/rdf-schema#label> "PouchCellInserting"@en .
+<https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a> <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellInserting"@en .
 # 
 # https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419
 <https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2023,12 +2023,12 @@ _:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6
 <https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b> .
-<https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6> <http://www.w3.org/2000/01/rdf-schema#label> "DryFabricatedElectrodeStack"@en .
+<https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6> <http://www.w3.org/2004/02/skos/core#prefLabel> "DryFabricatedElectrodeStack"@en .
 # 
 # https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6
 <https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c> .
-<https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6> <http://www.w3.org/2000/01/rdf-schema#label> "BatteryNegativeElectrodeSlurry"@en .
+<https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryNegativeElectrodeSlurry"@en .
 # 
 # https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7
 <https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2046,7 +2046,7 @@ _:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid221 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1> .
 _:genid221 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7> <http://www.w3.org/2000/01/rdf-schema#label> "CoatedFabricatedElectrodeDrying"@en .
+<https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7> <http://www.w3.org/2004/02/skos/core#prefLabel> "CoatedFabricatedElectrodeDrying"@en .
 # 
 # https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038
 <https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2108,7 +2108,7 @@ _:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9
 <https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786> .
-<https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9> <http://www.w3.org/2000/01/rdf-schema#label> "PartiallyWettedPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9> <http://www.w3.org/2004/02/skos/core#prefLabel> "PartiallyWettedPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_e549077e_68db_4da3_9c2d_3875efaa8291
 <https://bvco.ontology.link/BVCO_e549077e_68db_4da3_9c2d_3875efaa8291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2128,7 +2128,7 @@ _:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44
 <https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090> .
-<https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44> <http://www.w3.org/2000/01/rdf-schema#label> "SlittedFabricatedElectrodeRole"@en .
+<https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44> <http://www.w3.org/2004/02/skos/core#prefLabel> "SlittedFabricatedElectrodeRole"@en .
 # 
 # https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b
 <https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2149,7 +2149,7 @@ _:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid237 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c> .
 _:genid237 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b> <http://www.w3.org/2000/01/rdf-schema#label> "BatteryElectrodeCoating"@en .
+<https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryElectrodeCoating"@en .
 # 
 # https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c
 <https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2209,7 +2209,7 @@ _:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1
 <https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c> .
-<https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1> <http://www.w3.org/2000/01/rdf-schema#label> "DriedFabricatedElectrode"@en .
+<https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1> <http://www.w3.org/2004/02/skos/core#prefLabel> "DriedFabricatedElectrode"@en .
 # 
 # https://bvco.ontology.link/BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3
 <https://bvco.ontology.link/BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2300,7 +2300,7 @@ _:genid261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 # https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764
 <https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://bvco.ontology.link/BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a> .
-<https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764> <http://www.w3.org/2000/01/rdf-schema#label> "FilledPrismaticCell"@en .
+<https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764> <http://www.w3.org/2004/02/skos/core#prefLabel> "FilledPrismaticCell"@en .
 # 
 # https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea
 <https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -2310,7 +2310,7 @@ _:genid261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/
 _:genid262 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44> .
 _:genid262 <http://www.w3.org/2002/07/owl#onProperty> <https://gpo.ontology.link/GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb> .
 _:genid262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea> <http://www.w3.org/2000/01/rdf-schema#label> "SlittingFabricatedElectrodeSeparation"@en .
+<https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea> <http://www.w3.org/2004/02/skos/core#prefLabel> "SlittingFabricatedElectrodeSeparation"@en .
 # 
 # https://gpo.ontology.link/GPO_033b9632_cfc2_40fe_97c4_4e0587ab4ec8
 # 
