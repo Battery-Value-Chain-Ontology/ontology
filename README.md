@@ -12,7 +12,9 @@ Basically, this ontology aims to model processes along the Battery value chain. 
 
 ![Overview Graph](docs/overview.png)
 
-The BVCO is a cross-project development under the coordination of Fraunhofer ISC (both EU and national research projects).
+The BVCO is a cross-project development under the coordination of Fraunhofer ISC (both EU and national research 
+projects). A presentation about its content, context, structure and plans for extension can be found under the docs 
+[BVCO presentation](docs/BVCO%20-%20Ontologies%20for%20the%20Battery%20Value%20Chain%20-%20LiPlanet%20Working%20Group%20Presentation.pdf)
 
 Based on GPO: https://github.com/General-Process-Ontology/ontology <br/>
 and EMMO: https://github.com/emmo-repo/EMMO <br/>
