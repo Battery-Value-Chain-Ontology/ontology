@@ -13,7 +13,7 @@
 @base <https://bvco.ontology.link/> .
 
 <https://bvco.ontology.link> rdf:type owl:Ontology ;
-                              owl:versionIRI <https://bvco.ontology.link/0.4.0> ;
+                              owl:versionIRI <https://bvco.ontology.link/0.4.1> ;
                               owl:imports <http://emmo.info/emmo/1.0.0-beta4> ,
                                           <https://gpo.ontology.link> ,
                                           <https://big-map.github.io/BattINFO/ontology/BattINFO> ;
@@ -227,25 +227,25 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851
 :BVCO_029dc42b_7b6e_4cd5_9543_d58078123851 rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_49fc895e_d6cf_4f12_bcc6_2ad94b75c212 ;
-                                           rdfs:label "Inserting"@en .
+                                           skos:prefLabel "Inserting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284
 :BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836 ;
-                                           rdfs:label "FabricatedElectrodeSeparatorSequence"@en .
+                                           skos:prefLabel "FabricatedElectrodeSeparatorSequence"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_08b57e25_bc61_436e_80d7_65214836a793
 :BVCO_08b57e25_bc61_436e_80d7_65214836a793 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
-                                           rdfs:label "DriedSeparatedFabricatedElectrode"@en .
+                                           skos:prefLabel "DriedSeparatedFabricatedElectrode"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40
 :BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_06b0e68d_ca02_4aec_943e_4e8d8eebf284 ;
-                                           rdfs:label "FabricatedElectrodeJellyRole"@en .
+                                           skos:prefLabel "FabricatedElectrodeJellyRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_0a4c9fc1_e5c4_4e15_9d14_9e64092b2bb6
@@ -263,7 +263,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab
 :BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_77e2e601_5ecb_450b_b563_92f096997832 ;
-                                           rdfs:label "DrySlurryComponentMixture"@en .
+                                           skos:prefLabel "DrySlurryComponentMixture"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_0c42fa38_503b_4fe4_90a6_c27730627514
@@ -281,7 +281,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                               )
                                                                                 ]
                                                            ] ;
-                                           rdfs:label "PouchCellWetting"@en .
+                                           skos:prefLabel "PouchCellWetting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_0effce43_6179_49f6_903f_b3e27091b6d0
@@ -295,13 +295,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_10115efe_b5d5_4253_8b3e_aacb106681c5 rdf:type owl:Class ;
                                            owl:equivalentClass :BVCO_9ad306d7_71da_48ec_861d_6399b5912e98 ;
                                            rdfs:subClassOf :BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7 ;
-                                           rdfs:label "WettedElectrochemicalCell"@en .
+                                           skos:prefLabel "WettedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_115edbed_3858_426d_86c5_df8a6528b53b
 :BVCO_115edbed_3858_426d_86c5_df8a6528b53b rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae ;
-                                           rdfs:label "DryFabricatedPouchCell"@en .
+                                           skos:prefLabel "DryFabricatedPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_12664712_cdf1_43c9_b102_1691db16d37f
@@ -313,7 +313,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378
 :BVCO_147fdb7c_40f5_4cd9_a6dc_f9c6dc39b378 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c ;
-                                           rdfs:label "PartiallyFilledPrismaticCell"@en .
+                                           skos:prefLabel "PartiallyFilledPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_14f7394f_0474_44fe_96eb_426e9b94a279
@@ -333,13 +333,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b
                                                            ] ;
-                                           rdfs:label "PrismaticCellFormation"@en .
+                                           skos:prefLabel "PrismaticCellFormation"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_167eface_1002_4e14_ab77_c44829ea7e09
 :BVCO_167eface_1002_4e14_ab77_c44829ea7e09 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae ;
-                                           rdfs:label "DryFabricatedCylindricalCell"@en .
+                                           skos:prefLabel "DryFabricatedCylindricalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_17c60644_b415_4fad_b4da_ef68137e4766
@@ -351,7 +351,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393
 :BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_08b57e25_bc61_436e_80d7_65214836a793 ;
-                                           rdfs:label "DriedSlittedFabricatedElectrodeRole"@en .
+                                           skos:prefLabel "DriedSlittedFabricatedElectrodeRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_184130ab_c634_4136_b60a_3c118c7d1937
@@ -365,7 +365,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_c85544eb_811c_4a40_b41e_46c031c67300
                                                            ] ;
-                                           rdfs:label "PouchCellSealing"@en .
+                                           skos:prefLabel "PouchCellSealing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda
@@ -401,7 +401,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_79665944_da42_433b_9988_9b309b8f0f4e
                                                            ] ;
-                                           rdfs:label "PrismaticCellInserting"@en .
+                                           skos:prefLabel "PrismaticCellInserting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_1a0c38ce_2cc2_4245_898c_89df57e30fd6
@@ -419,7 +419,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78
 :BVCO_1b94c675_21bf_4c48_a042_a9fd2d379e78 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a ;
-                                           rdfs:label "Wetting"@en .
+                                           skos:prefLabel "Wetting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_1ba6fc78_d12b_475d_b3ff_0220fe614ed9
@@ -453,7 +453,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae
 :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           rdfs:label "DryFabricatedElectrochemicalCell"@en .
+                                           skos:prefLabel "DryFabricatedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_1d7cc67a_a753_4242_ac87_de846b4132b8
@@ -528,7 +528,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1
                                                            ] ;
-                                           rdfs:label "PouchCellFormation"@en .
+                                           skos:prefLabel "PouchCellFormation"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_2748579f_0cb7_42b5_988b_3b8719856a20
@@ -540,13 +540,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b
 :BVCO_27928bfa_8eb1_49e8_a892_607c5a5af58b rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d ;
-                                           rdfs:label "FormedPrismaticCell"@en .
+                                           skos:prefLabel "FormedPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51
 :BVCO_27ff9430_f45d_44fc_83fd_b9930bd2dd51 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53 ;
-                                           rdfs:label "CylindricalCase"@en .
+                                           skos:prefLabel "CylindricalCase"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_28f1502b_14d2_436d_a294_bf372a13a39f
@@ -581,13 +581,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1
 :BVCO_34c7d2be_7019_4133_afa5_c303a15b00f1 rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_ce7db854_9e14_4339_9e71_a8d4ab8f6331 ;
-                                           rdfs:label "SlotDieCoating"@en .
+                                           skos:prefLabel "SlotDieCoating"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_37c4d040_a448_44db_aef3_a21da971d786
 :BVCO_37c4d040_a448_44db_aef3_a21da971d786 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           rdfs:label "PartiallyWettedFabricatedElectrochemicalCell"@en .
+                                           skos:prefLabel "PartiallyWettedFabricatedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_37d28c26_8390_4569_a35f_3d9cc7f2e6a6
@@ -605,7 +605,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba
                                                            ] ;
-                                           rdfs:label "CylindricalCellElectrolyteFilling"@en .
+                                           skos:prefLabel "CylindricalCellElectrolyteFilling"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c
@@ -638,7 +638,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeZFolding"@en .
+                                           skos:prefLabel "FabricatedElectrodeZFolding"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_3a7bf591_548a_42d3_bcae_59a6a672b9c8
@@ -650,7 +650,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14
 :BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320 ;
-                                           rdfs:label "SealedCylindricalCell"@en .
+                                           skos:prefLabel "SealedCylindricalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_3cdb3b65_3628_4a7b_84ec_bec843612cf4
@@ -690,7 +690,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320
                                                            ] ;
-                                           rdfs:label "FabricatedElectrochemicalCellSealing"@en .
+                                           skos:prefLabel "FabricatedElectrochemicalCellSealing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_3dd86b1f_2c1d_4267_9d48_12d868497179
@@ -715,7 +715,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeCalendering"@en .
+                                           skos:prefLabel "FabricatedElectrodeCalendering"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_3f79367b_9fb5_4d39_887d_7a99667547bb
@@ -733,19 +733,19 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d
 :BVCO_42516123_e970_4fc5_b401_c0b46f4fcd0d rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f ;
-                                           rdfs:label "FabricatedSeparatorRole"@en .
+                                           skos:prefLabel "FabricatedSeparatorRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_432ec5aa_575a_403c_961d_65499fb65358
 :BVCO_432ec5aa_575a_403c_961d_65499fb65358 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
-                                           rdfs:label "Binder"@en .
+                                           skos:prefLabel "Binder"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_4355a450_19c9_4464_a06a_b2e57cb16499
 :BVCO_4355a450_19c9_4464_a06a_b2e57cb16499 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_9ad306d7_71da_48ec_861d_6399b5912e98 ;
-                                           rdfs:label "WettedPrismaticCell"@en .
+                                           skos:prefLabel "WettedPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_43b01f1f_f3fb_4fac_a69a_d9188fdad08c
@@ -759,13 +759,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd
                                                            ] ;
-                                           rdfs:label "PouchCellDegassing"@en .
+                                           skos:prefLabel "PouchCellDegassing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_44130436_88b5_45d1_bf19_a76cf94cee95
 :BVCO_44130436_88b5_45d1_bf19_a76cf94cee95 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0 ;
-                                           rdfs:label "LiquidElectrolyteCellProduction"@de .
+                                           skos:prefLabel "LiquidElectrolyteCellProduction"@de .
 
 
 ###  https://bvco.ontology.link/BVCO_454eb9d2_d541_4bbe_932f_27a77dc7c370
@@ -845,7 +845,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_52d429c7_bf86_451c_a4c9_6ed5eaf79548 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1 ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Extruders are used for mixing of powders, followed by an extrusion onto a substrate, e.g. dry processing of lithium-ion battery active materials to coat current collectors"@en ;
-                                           rdfs:label "DryExtruderMixing"@en .
+                                           skos:prefLabel "DryExtruderMixing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_5528bfb0_a7ad_48da_8417_9e43b0164930
@@ -863,7 +863,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeStackPackaging"@en .
+                                           skos:prefLabel "FabricatedElectrodeStackPackaging"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_55eb9c4b_3fe3_413c_bf18_3cf3b50281f7
@@ -895,13 +895,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a rdf:type owl:Class ;
                                            owl:equivalentClass :BVCO_787f689a_f40e_40cf_b368_49cab6f0a69f ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           rdfs:label "FilledFabricatedElectrochemicalCell"@en .
+                                           skos:prefLabel "FilledFabricatedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6
 :BVCO_57724041_c09d_4c39_ae0a_3f3ba594d8d6 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c ;
-                                           rdfs:label "BatteryPositiveElectrodeSlurry"@en .
+                                           skos:prefLabel "BatteryPositiveElectrodeSlurry"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_578186e7_4fd2_4c66_bf80_53146fa97f49
@@ -933,13 +933,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8
 :BVCO_5cc12216_ca48_4f47_9f49_ecedc79e91a8 rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_7509da43_56b1_4d7f_887a_65d1663df4ba ;
-                                           rdfs:label "Solvent"@en .
+                                           skos:prefLabel "Solvent"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214
 :BVCO_5ea5e237_f1f2_4051_b88c_05063e1b8214 rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_e6b5562d_14d5_4ad5_8079_7303b490e0c9 ;
-                                           rdfs:label "FabricatedElectrodeStackWrapping"@en .
+                                           skos:prefLabel "FabricatedElectrodeStackWrapping"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_5ef5f201_0347_47f5_af45_d3cace7dc960
@@ -973,7 +973,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c
                                                            ] ;
-                                           rdfs:label "SlurryComponentMixing"@en .
+                                           skos:prefLabel "SlurryComponentMixing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_60bee84b_4501_4c3e_ad19_692f52080a46
@@ -990,19 +990,19 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 :BVCO_61535c53_3faf_43b6_a379_ebcced2392af rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_ee89d1c9_bd1a_452d_bcf7_cd583af0369d ;
                                            emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Extruders are used for mixing of powders and solvents, followed by an extrusion onto a substrate, e.g., processing of lithium-ion battery active materials to coat current collectors"@en ;
-                                           rdfs:label "LiquidSolidExtruderMixing"@en .
+                                           skos:prefLabel "LiquidSolidExtruderMixing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1
 :BVCO_61f4fd10_c2d0_493d_91b9_4acee52535a1 rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_45b3677d_f436_4cfd_aa55_3ae5eab2e232 ;
-                                           rdfs:label "DryMixing"@en .
+                                           skos:prefLabel "DryMixing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090
 :BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
-                                           rdfs:label "SeparatedFabricatedElectrode"@en .
+                                           skos:prefLabel "SeparatedFabricatedElectrode"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_63bfada0_9872_4d1c_a005_34adfed849c3
@@ -1020,7 +1020,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd
 :BVCO_64699b2c_8596_4ad7_85ae_61dc33b924bd rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_37c4d040_a448_44db_aef3_a21da971d786 ;
-                                           rdfs:label "PartiallyWettedCylindricalCell"@en .
+                                           skos:prefLabel "PartiallyWettedCylindricalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_67c6a44c_7f7c_4000_a0e4_6cfc9a857b0c
@@ -1094,13 +1094,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_167eface_1002_4e14_ab77_c44829ea7e09
                                                            ] ;
-                                           rdfs:label "CylindricalCellInserting"@en .
+                                           skos:prefLabel "CylindricalCellInserting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba
 :BVCO_6e9f21a4_9e2c_4963_97a6_9b7bb8ccacba rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a ;
-                                           rdfs:label "FilledCylindricalCell"@en .
+                                           skos:prefLabel "FilledCylindricalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_6f0e2ece_8a08_4399_b381_2e06fe576ace
@@ -1115,7 +1115,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_17fa4ff1_d171_47de_9f34_9583e4aeb393
                                                            ] ;
-                                           rdfs:label "SlittedFabricatedElectrodeRoleDrying"@en .
+                                           skos:prefLabel "SlittedFabricatedElectrodeRoleDrying"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_6f1f861d_5b6f_46a6_b4e7_b8a213cd1a6f
@@ -1143,7 +1143,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c
 :BVCO_6f401a5b_1fff_4f68_9c63_9bbf536a545c rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           rdfs:label "PartiallyFilledFabricatedElectrochemicalCell"@en .
+                                           skos:prefLabel "PartiallyFilledFabricatedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_6fab2095_344d_4c40_b53e_c0725b587583
@@ -1153,7 +1153,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
                                                              owl:someValuesFrom :BVCO_18cd985e_49c4_4dd5_996a_73b730fcccda
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeSeparatorSequenceAssebmly"@de .
+                                           skos:prefLabel "FabricatedElectrodeSeparatorSequenceAssebmly"@de .
 
 
 ###  https://bvco.ontology.link/BVCO_724ee872_ed07_401e_9088_de58b6c84255
@@ -1172,7 +1172,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                               )
                                                                                 ]
                                                            ] ;
-                                           rdfs:label "LaserCuttingFabricatedElectrodeSeparation"@en .
+                                           skos:prefLabel "LaserCuttingFabricatedElectrodeSeparation"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_72f3c7f8_0747_46d8_a694_f9a757a12c18
@@ -1189,7 +1189,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6
 :BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a ;
-                                           rdfs:label "FilledPouchCell"@en .
+                                           skos:prefLabel "FilledPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_73d806fa_a775_4d1e_9497_7a9166d22659
@@ -1207,13 +1207,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_08b57e25_bc61_436e_80d7_65214836a793
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodePostDrying"@en .
+                                           skos:prefLabel "FabricatedElectrodePostDrying"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd
 :BVCO_7426f154_e1a2_4289_ae40_a7bc0ee89abd rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_40941813_6ae7_4e59_a18b_12ff6f3319c3 ;
-                                           rdfs:label "DegassedPouchCell"@en .
+                                           skos:prefLabel "DegassedPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_74f80b71_eb10_4e5d_a951_c90e0edbbad6
@@ -1235,13 +1235,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896
 :BVCO_758f4eb2_30c4_47ce_9b96_f3e4df7dc896 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53 ;
-                                           rdfs:label "PrismaticCase"@en .
+                                           skos:prefLabel "PrismaticCase"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_770afd63_53d3_4fcf_93da_03bce141996b
 :BVCO_770afd63_53d3_4fcf_93da_03bce141996b rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_275452d1_abaa_4c59_b4af_2f14332209c6 ;
-                                           rdfs:label "Slitting"@en .
+                                           skos:prefLabel "Slitting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_7811a6ff_e51c_4355_86d1_ba1f7abd35b4
@@ -1260,13 +1260,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_788207c8_d919_4333_ac93_54942377cec3
 :BVCO_788207c8_d919_4333_ac93_54942377cec3 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_099dabbe_c0d6_4695_ab15_996b68eb5d40 ;
-                                           rdfs:label "DryFabricatedElectrodeJellyRole"@en .
+                                           skos:prefLabel "DryFabricatedElectrodeJellyRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_79665944_da42_433b_9988_9b309b8f0f4e
 :BVCO_79665944_da42_433b_9988_9b309b8f0f4e rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae ;
-                                           rdfs:label "DryFabricatedPrismaticCell"@en .
+                                           skos:prefLabel "DryFabricatedPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_79a86655_67b3_40cd_b8fb_dcd28af62da6
@@ -1284,7 +1284,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_73c0acfa_1166_4fc0_acaf_0ec03d38f4b6
                                                            ] ;
-                                           rdfs:label "PouchCellElectrolyteFilling"@en .
+                                           skos:prefLabel "PouchCellElectrolyteFilling"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_7a42039d_b485_4476_a543_f8c75c25fbd9
@@ -1305,7 +1305,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a
                                                            ] ;
-                                           rdfs:label "PrismaticCellSealing"@en .
+                                           skos:prefLabel "PrismaticCellSealing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_7c5f4fa2_0fb6_47f7_8a92_fd6b06d430b5
@@ -1331,7 +1331,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                               )
                                                                                 ]
                                                            ] ;
-                                           rdfs:label "PrismaticCellElectrolyteFilling"@en .
+                                           skos:prefLabel "PrismaticCellElectrolyteFilling"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_7e3e13ab_617e_41f8_94bf_134f50d34292
@@ -1353,13 +1353,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_807a8411_ac66_45ee_80fc_3d873111cd99
 :BVCO_807a8411_ac66_45ee_80fc_3d873111cd99 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc ;
-                                           rdfs:label "CalenderedFabricatedElectrodeRole"@en .
+                                           skos:prefLabel "CalenderedFabricatedElectrodeRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_80fea7df_9935_46de_a679_e488508d2359
 :BVCO_80fea7df_9935_46de_a679_e488508d2359 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_9ad306d7_71da_48ec_861d_6399b5912e98 ;
-                                           rdfs:label "WettedPouchCell"@en .
+                                           skos:prefLabel "WettedPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_813609a2_35e3_4d85_b902_5f1aebb97ab0
@@ -1415,7 +1415,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1
 :BVCO_86a91ae4_95fd_45ae_97af_6af51f56b0d1 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d ;
-                                           rdfs:label "FormedPouchCell"@en .
+                                           skos:prefLabel "FormedPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_86f12718_7b8a_43a0_af61_47e10f80bc82
@@ -1437,13 +1437,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeSeparatorSequenceInserting"@en .
+                                           skos:prefLabel "FabricatedElectrodeSeparatorSequenceInserting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320
 :BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           rdfs:label "SealedFabricatedElectrochemicalCell"@en .
+                                           skos:prefLabel "SealedFabricatedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_8c53f4eb_7053_4e80_b5b3_dbca1e900810
@@ -1488,13 +1488,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_3c2c4024_1ca4_4507_8359_4856aec6eb14
                                                            ] ;
-                                           rdfs:label "CylindricalCellSealing"@en .
+                                           skos:prefLabel "CylindricalCellSealing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2
 :BVCO_9224c174_8d7a_40cc_ab1b_6136c107f0f2 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_a2b509d5_32a0_404b_80b6_3f5ec39b851f ;
-                                           rdfs:label "FabricatedSeparatorSheet"@en .
+                                           skos:prefLabel "FabricatedSeparatorSheet"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53
@@ -1542,7 +1542,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_97254f0b_3e71_4721_98f0_a898d0110627
 :BVCO_97254f0b_3e71_4721_98f0_a898d0110627 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_37c4d040_a448_44db_aef3_a21da971d786 ;
-                                           rdfs:label "PartiallyWettedPouchCell"@en .
+                                           skos:prefLabel "PartiallyWettedPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_97409fc6_e62e_4c4f_a1ca_67c41e5dd263
@@ -1570,13 +1570,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399
                                                            ] ;
-                                           rdfs:label "CylindricalCellFormation"@en .
+                                           skos:prefLabel "CylindricalCellFormation"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_98babfae_5dc2_4131_a596_70157c9e96d1
 :BVCO_98babfae_5dc2_4131_a596_70157c9e96d1 rdf:type owl:Class ;
                                            rdfs:subClassOf gpo:GPO_275452d1_abaa_4c59_b4af_2f14332209c6 ;
-                                           rdfs:label "LaserCutting"@en .
+                                           skos:prefLabel "LaserCutting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_99397341_1db2_48f1_9288_04cbbce1de25
@@ -1589,7 +1589,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_9ad306d7_71da_48ec_861d_6399b5912e98
 :BVCO_9ad306d7_71da_48ec_861d_6399b5912e98 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_adeeea10_13a2_48b1_93f5_e54290d73e32 ;
-                                           rdfs:label "WettedFabricatedElectrochemicalCell"@en .
+                                           skos:prefLabel "WettedFabricatedElectrochemicalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_9c661622_6258_46bd_8f53_85d531a39f0b
@@ -1708,7 +1708,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b
 :BVCO_a485a4dc_6406_4a3c_92d7_163da74ca80b rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1 ;
-                                           rdfs:label "DriedFabricatedElectrodeRole"@en .
+                                           skos:prefLabel "DriedFabricatedElectrodeRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_a4f4339f_a17c_4531_9c71_e3a4e0bdcdb2
@@ -1732,7 +1732,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c
 :BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c rdf:type owl:Class ;
                                            rdfs:subClassOf emmo:EMMO_e9e02156_651f_41c8_9efb_d5da0d4ce5e2 ;
-                                           rdfs:label "BatteryElectrodeSlurry"@en .
+                                           skos:prefLabel "BatteryElectrodeSlurry"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_a79ee6cc_24a3_4cc3_a0d2_097022ba5952
@@ -1744,7 +1744,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb
 :BVCO_a9dca581_b924_4c56_8258_b0b2df3a92bb rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_9ad306d7_71da_48ec_861d_6399b5912e98 ;
-                                           rdfs:label "WettedCylindricalCell"@en .
+                                           skos:prefLabel "WettedCylindricalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_ab9ef8ba_1f85_4a19_97e9_4993c9c8fb8f
@@ -1762,7 +1762,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_9ad306d7_71da_48ec_861d_6399b5912e98
                                                            ] ;
-                                           rdfs:label "FabricatedElectrochemicalCellWetting"@en .
+                                           skos:prefLabel "FabricatedElectrochemicalCellWetting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_abf969da_21b3_4aeb_9a91_77f316c0aeec
@@ -1774,7 +1774,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c
 :BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
-                                           rdfs:label "CoatedFabricatedElectrode"@en .
+                                           skos:prefLabel "CoatedFabricatedElectrode"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_ad24cf92_0975_45bb_b259_f55c66586be2
@@ -1845,7 +1845,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_1c38f515_5dfc_47f0_9862_5c10b3da67ae
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeJellyRolePackaging"@en .
+                                           skos:prefLabel "FabricatedElectrodeJellyRolePackaging"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_b1153b0b_1c2d_4890_aa1b_f9ed3ab0747a
@@ -1863,7 +1863,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                               )
                                                                                 ]
                                                            ] ;
-                                           rdfs:label "CylindricalCellWetting"@en .
+                                           skos:prefLabel "CylindricalCellWetting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_b14a9d69_d2a3_4d76_94b5_4f0225b557fc
@@ -1892,7 +1892,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                                                               )
                                                                                 ]
                                                            ] ;
-                                           rdfs:label "PrismaticCellWetting"@en .
+                                           skos:prefLabel "PrismaticCellWetting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_b8a4a9ea_b171_468d_8c91_fdd865610c09
@@ -1904,7 +1904,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a
 :BVCO_ba6063cf_4419_465b_bbcb_7631d70cbd2a rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320 ;
-                                           rdfs:label "SealedPrismaticCell"@en .
+                                           skos:prefLabel "SealedPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_bc4de725_c820_458d_99d2_8dbee3378152
@@ -1932,7 +1932,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_0acc27ab_efd2_4b05_aa4b_6a7182fb4bab
                                                            ] ;
-                                           rdfs:label "SlurryComponentPreMixing"@en .
+                                           skos:prefLabel "SlurryComponentPreMixing"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_c0688b2e_bc3d_4a4b_bf54_3779204f4c37
@@ -1983,7 +1983,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc
 :BVCO_c38fc347_09ff_45f5_8b0a_fbd6f3871bbc rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
-                                           rdfs:label "CalenderedFabricatedElectrode"@en .
+                                           skos:prefLabel "CalenderedFabricatedElectrode"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_c44bfddc_8157_46d0_80e6_ea54e71328c9
@@ -2002,7 +2002,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_788207c8_d919_4333_ac93_54942377cec3
                                                            ] ;
-                                           rdfs:label "FabricatedElectrodeWinding"@en .
+                                           skos:prefLabel "FabricatedElectrodeWinding"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_c53b0482_0153_4695_9cf4_741fe1685933
@@ -2014,13 +2014,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_c85544eb_811c_4a40_b41e_46c031c67300
 :BVCO_c85544eb_811c_4a40_b41e_46c031c67300 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_894e3b08_f6eb_47a5_a9da_1b3bebd24320 ;
-                                           rdfs:label "SealedPouchCell"@en .
+                                           skos:prefLabel "SealedPouchCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399
 :BVCO_cbec4960_5051_4c6f_b96a_dba6b4caa399 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_82e61ef5_13ce_4c7d_9e66_9bfe740eb82d ;
-                                           rdfs:label "FormedCylindricalCell"@en .
+                                           skos:prefLabel "FormedCylindricalCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_ce942d90_cf81_4f7b_ab86_33bf7996014a
@@ -2038,7 +2038,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_115edbed_3858_426d_86c5_df8a6528b53b
                                                            ] ;
-                                           rdfs:label "PouchCellInserting"@en .
+                                           skos:prefLabel "PouchCellInserting"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_d3462dc8_ec3c_4c60_b965_cb147b55a419
@@ -2167,13 +2167,13 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6
 :BVCO_df91638a_752b_4416_a8aa_62d0be66e4c6 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_9c661622_6258_46bd_8f53_85d531a39f0b ;
-                                           rdfs:label "DryFabricatedElectrodeStack"@en .
+                                           skos:prefLabel "DryFabricatedElectrodeStack"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6
 :BVCO_e07ede69_b66e_4c89_a977_8096d9367bc6 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_a796baaa_dffa_4c6d_8526_ae6e9114b30c ;
-                                           rdfs:label "BatteryNegativeElectrodeSlurry"@en .
+                                           skos:prefLabel "BatteryNegativeElectrodeSlurry"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_e15fd741_bb2f_4da4_9d81_1c54231fa9a7
@@ -2192,7 +2192,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1
                                                            ] ;
-                                           rdfs:label "CoatedFabricatedElectrodeDrying"@en .
+                                           skos:prefLabel "CoatedFabricatedElectrodeDrying"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_e17ca59d_f674_472b_88c7_2aeef210a038
@@ -2253,7 +2253,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9
 :BVCO_e3f4d299_8594_4081_9bb0_e46935daf7f9 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_37c4d040_a448_44db_aef3_a21da971d786 ;
-                                           rdfs:label "PartiallyWettedPrismaticCell"@en .
+                                           skos:prefLabel "PartiallyWettedPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_e549077e_68db_4da3_9c2d_3875efaa8291
@@ -2276,7 +2276,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44
 :BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_63303a9a_6f77_46d5_8dcc_84712e29c090 ;
-                                           rdfs:label "SlittedFabricatedElectrodeRole"@en .
+                                           skos:prefLabel "SlittedFabricatedElectrodeRole"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_efa6b935_262d_4f81_85d1_a855003ad30b
@@ -2298,7 +2298,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_ac094f13_f8d7_4c48_8904_d3b4ec6c4e7c
                                                            ] ;
-                                           rdfs:label "BatteryElectrodeCoating"@en .
+                                           skos:prefLabel "BatteryElectrodeCoating"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_f0e29a4f_d749_436c_9a89_ae0ca1cd305c
@@ -2364,7 +2364,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1
 :BVCO_f4b3d48a_90c3_4986_8b29_2c6e20b690d1 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c ;
-                                           rdfs:label "DriedFabricatedElectrode"@en .
+                                           skos:prefLabel "DriedFabricatedElectrode"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_f519aa12_2f6d_4d70_86ec_fb769f2a31e3
@@ -2453,7 +2453,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
 ###  https://bvco.ontology.link/BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764
 :BVCO_fdbc8f28_1e35_4620_8aa4_30bc38d4a764 rdf:type owl:Class ;
                                            rdfs:subClassOf :BVCO_576e90c7_c9d5_44e6_b72c_8ab4a5cf657a ;
-                                           rdfs:label "FilledPrismaticCell"@en .
+                                           skos:prefLabel "FilledPrismaticCell"@en .
 
 
 ###  https://bvco.ontology.link/BVCO_fe5a8c5d_38db_4e1f_87c7_df67312677ea
@@ -2464,7 +2464,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                                              owl:onProperty gpo:GPO_8c869b47_a258_43b9_9c75_4285a80a1dfb ;
                                                              owl:someValuesFrom :BVCO_ea06b8a6_12d5_4563_a075_8b3fdcd62e44
                                                            ] ;
-                                           rdfs:label "SlittingFabricatedElectrodeSeparation"@en .
+                                           skos:prefLabel "SlittingFabricatedElectrodeSeparation"@en .
 
 
 ###  https://gpo.ontology.link/GPO_5f02dbb0_2803_4aaa_9104_ba39f17a4c8d
