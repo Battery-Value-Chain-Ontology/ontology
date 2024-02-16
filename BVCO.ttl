@@ -13,7 +13,7 @@
 @base <https://bvco.ontology.link/> .
 
 <https://bvco.ontology.link> rdf:type owl:Ontology ;
-                              owl:versionIRI <https://bvco.ontology.link/0.4.1> ;
+                              owl:versionIRI <https://bvco.ontology.link/0.4.3> ;
                               owl:imports <http://emmo.info/emmo/1.0.0-beta4> ,
                                           <https://gpo.ontology.link> ,
                                           <https://big-map.github.io/BattINFO/ontology/BattINFO> ;
@@ -76,8 +76,8 @@ emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a rdf:type owl:ObjectProperty .
                                                                                         ] .
 
 
-###  http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e
-<http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e> rdf:type owl:Class ;
+###  http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f
+<http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f> rdf:type owl:Class ;
                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                                           owl:onProperty gpo:GPO_389686f5_86d8_4e97_ba71_0537bedf0f38 ;
                                                                                           owl:someValuesFrom :BVCO_925d92f8_5a11_4434_a9ab_a2541ca34d53
@@ -1502,7 +1502,7 @@ emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 rdf:type owl:Class .
                                            rdfs:subClassOf :BVCO_82f0ea86_5e2b_47c0_977a_d610c6f1f836 ,
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty gpo:GPO_0c25c011_9320_461f_bc23_6e9691827305 ;
-                                                             owl:someValuesFrom <http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e>
+                                                             owl:someValuesFrom <http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f>
                                                            ] ;
                                            skos:prefLabel "FabricatedEnclosure"@en .
 
