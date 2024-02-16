@@ -12,7 +12,7 @@
      xmlns:emmo1="http://emmo.info/emmo#157"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://bvco.ontology.link">
-        <owl:versionIRI rdf:resource="https://bvco.ontology.link/0.4.1"/>
+        <owl:versionIRI rdf:resource="https://bvco.ontology.link/0.4.3"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-beta4"/>
         <owl:imports rdf:resource="https://gpo.ontology.link"/>
         <owl:imports rdf:resource="https://big-map.github.io/BattINFO/ontology/BattINFO"/>
@@ -155,10 +155,10 @@
     
 
 
-    <!-- http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e -->
+    <!-- http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f -->
 
 
-    <owl:Class rdf:about="http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e">
+    <owl:Class rdf:about="http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_389686f5_86d8_4e97_ba71_0537bedf0f38"/>
@@ -2455,7 +2455,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">FabricatedEnclosure</skos:prefLabel>

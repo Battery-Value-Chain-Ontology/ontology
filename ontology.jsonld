@@ -332,7 +332,7 @@
     "@id" : "https://gpo.ontology.link/GPO_0c25c011_9320_461f_bc23_6e9691827305"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e"
+    "@id" : "http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f"
   } ]
 }, {
   "@id" : "_:genid138",
@@ -2138,7 +2138,7 @@
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "http://emmo.info/battery#battery_d9ebf2cd_a020_46b4_b91a_9a6402736b9e",
+  "@id" : "http://emmo.info/battery#battery_bcf8f9dd_f493_4547_a5a3_e14b1f4c0f5f",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid3"
@@ -2283,7 +2283,7 @@
     "@id" : "https://big-map.github.io/BattINFO/ontology/BattINFO"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://bvco.ontology.link/0.4.1"
+    "@id" : "https://bvco.ontology.link/0.4.3"
   } ]
 }, {
   "@id" : "https://bvco.ontology.link/BVCO_029dc42b_7b6e_4cd5_9543_d58078123851",
